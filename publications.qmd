@@ -3,16 +3,15 @@ title: "Publications"
 editor: visual
 ---
 
-
-::: {.callout-note}
+::: callout-note
 ## Links
 
->- **Google Scholar**: <https://scholar.google.com/citations?user=tlkDP2AAAAAJ>
->- **ORCID**: <https://orcid.org/0000-0002-2011-7535>
->- **ResearchGate:** <https://www.researchgate.net/profile/Yujun-Lian>
+> -   **Google Scholar**: <https://scholar.google.com/citations?user=tlkDP2AAAAAJ>
+> -   **ORCID**: <https://orcid.org/0000-0002-2011-7535>
+> -   **ResearchGate:** <https://www.researchgate.net/profile/Yujun-Lian>
 :::
 
-&emsp;
+ 
 
 ## 期刊论文
 
@@ -66,10 +65,6 @@ editor: visual
 -   彭方平, 连玉君. 2010, 我国货币政策的成本效应, **管理世界**, 12, 27-33. [-Link-](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFD2010&filename=GLSJ201012005&v=J6QKr7SMRzk6hv6UUkcCc275f4FnZSo5vYnLnTyf6ihjoshiuagz1yvXTF6oiFfx)
 -   连玉君, 苏治, 彭方平. 融资约束与流动性管理行为. **金融研究**, 2010 (10): 158-171. [-Link-](https://t.cnki.net/kcms/detail?v=X6oIUGaNdGlP4M0tsXPiU6wmWoPKCiNWl1JbNNWwXQBIcVBwCPyliLgTRfbuMIqK1EeqoxlUM72AX1vpn0OdGErQbDV9xvFMg6_gYJsSM_cbo61A1RPUZQ==&uniplatform=NZKPT)
 -   彭方平, 连玉君. 我国行业周期非同步效应——基于微观视角, **经济学(季刊)**, 2010, 9 (3): 1071-1082.\
--   连玉君, 苏治. 融资约束、不确定性与上市公司投资效率. **管理评论**, 2009 (01)：19-27. [-Link-](https://t.cnki.net/kcms/detail?v=X6oIUGaNdGmGV8tRJ4vGxdlHxknuoD_aDUi3zjKlMLZu-pVFXVfGUgSD0p-RZmf-Ae1Sb5ExvuIh0_BadtH5y8C_oGQYz4Y3iZDpx8Fh760TBTneXv7VrA==&uniplatform=NZKPT)
--   连玉君, 苏治, 丁志国. 现金-现金流敏感性能检验融资约束假说吗? **统计研究**, 2008 (10): 92-99. [-Link-](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFD2008&filename=TJYJ200810016&v=IdIBnwKGB4SD0iPVpnEzucO82oLDRPxt57XCjB5vLshcPO3ax%25mmd2BzwMmv3KIpthKlB)
--   连玉君, 苏治. 上市公司现金持有:静态权衡还是动态权衡？**世界经济**, 2008 (10): 84-96. [-Link-](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFD2008&filename=SJJJ200810010&v=8myfCWmARKYWlIKzZjg4IVqjoOfF5CQezmjy2%25mmd2BJQmkIgUM710iD5nCELC7uU%25mmd2FtOM)
--   连玉君, 程建. 投资-现金流敏感性：融资约束还是代理成本. **财经研究**, 2007 (2): 37-46. [-Link-](http://www.cnki.com.cn/Article/CJFDTotal-CJYJ200702003.htm)
 
 ## 科研项目
 

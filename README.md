@@ -29,12 +29,9 @@ lianyujun.github.io
 ├── images/                  # 文件夹：存放头像和网页 logo 等图片
 
 个人信息页面：
-├── blog.qmd                 # 博客文章列表页面
-├── books.qmd                # 阅读/推荐书籍页面
 ├── chinese.qmd              # 中文内容页面
 ├── codes.qmd                # 代码资源页面
 ├── publications.qmd         # 学术成果页面
-├── teaching.md              # 教学资源页面
 
 生成的网站：
 ├── docs/                    # 文件夹：渲染生成后的网页目录，用于部署到 GitHub Pages

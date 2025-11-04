@@ -12,16 +12,7 @@ about:
       href: mailto:jialeuuz@gmail.com
     - icon: github
       text: arlionn
-      href: https://github.com/lianyujun
-    - icon: book
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=tlkDP2AAAAAJ
-    - icon: fingerprint
-      text: ORCID
-      href: https://orcid.org/0000-0002-2011-7535
-    - icon: brands xing
-      text: 小红书
-      href: https://www.xiaohongshu.com/user/profile/682968d9000000000a03da1a
+      href: https://github.com/jialeuuz
     - icon: 📝
       text: CV
       href: CV.pdf  
