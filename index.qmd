@@ -1,6 +1,6 @@
 ---
 title: "Jiale Zhao"
-image: images/lianyujun_2025.png
+image: images/profile.png
 about:
   id: hero-heading
   template: trestles
@@ -11,7 +11,7 @@ about:
       text: jialeuuz@gmail.com
       href: mailto:jialeuuz@gmail.com
     - icon: github
-      text: arlionn
+      text: jialeuuz
       href: https://github.com/jialeuuz
     - icon: 📝
       text: CV
@@ -20,22 +20,15 @@ about:
 
 ::: {#hero-heading}
 
-Professor Lian's research interests lie in the field of causal inference methods and stochastic frontier analysis, with specific applications in investment, trade credit, and supply chain dynamics. He has been actively researching topics such as supply chain finance, leverage adjustment, trade credit, and innovation. He teaches courses in Financial Econometrics and Applied Econometrics. 
+Hi! I'm Jiale Zhao, a final-year computer science undergraduate at Chongqing University of Posts and Telecommunications. I am currently an algorithm intern at Li Auto, where I focus on large language model applications.
 
-His teaching abilities have been highly regarded, as evidenced by his consecutive perfect teaching evaluations in the MBA corporate finance course over a span of three years. He was was awarded the title of *My Favorite Teacher* in 2022 by Lignan College. 
-
-With his expertise in applied econometrics, he has made significant contributions to the [Stata](https://www.stata.com/) community by developing several popular packages, including `winsor2`, `xtbalance`, `bdiff`, and `sftt`, which have been widely used by researchers in various fields. He is one of the initiators of the Chinese Stata Users Group Meeting, which is one of the imporat meeting of Stata Corporation. He has been invited several times as a guest speaker to deliver keynote speeches ([2018th](https://www.stata.com/meeting/china18/), [2020th](https://www.stata.com/meeting/china20-Uone-Tech/), [2021th](https://www.stata.com/meeting/china21-Uone-Tech/), [2022th](https://www.stata.com/meeting/china22-Uone-Tech/), [2023th](https://www.stata.com/meeting/china23-Uone-Tech/)).
-
-He is also the founder of the website <https://www.lianxh.cn>, one of the largest academic websites in mainland China specializing in management and economics. Currently, it has published over 1300 articles introducing econometric and statistical methods. The WeChat official account lianxh_cn, established based on this website, has accumulated over 280,000 subscribers, with a total reading volume exceeding 20 million and a daily average reading volume exceeding 10,000.
+I plan to begin a PhD in Fall 2026 and am actively preparing my applications. My research interests span corporate finance topics—such as capital structure, corporate governance, and trade credit—and quantitative methods including financial econometrics and stochastic frontier analysis.
 
 
 ## Background
 
-- Jan 2024 - Aug 2024: Visiting Professor, DeGroote School of Business, McMaster Univeristy. 
-- Aug 2015 - Jan 2016: Visiting Scholar, MIT Sloan School of Management, Massachusetts Institute of Technology
-- 2011 - Present: Associate Professor, Lingnan College, Sun Yat-sen University, specializing in Quantitative Economics
-- 2007-2010: Lecturer, Department of Finance, Lingnan College, Sun Yat-sen University
-- 2001-2007: Ph.D. in Economics, Xi'an Jiaotong University, China, specializing in Econometrics
-- 1997-2001: Bachelor of Engineering, Xi'an Jiaotong University, China, majoring in Materials Science.
+- Sep 2023 – Present: Algorithm Intern, Li Auto, Large Language Model Group
+- Sep 2021 – Jun 2025: B.Eng. in Computer Science, Chongqing University of Posts and Telecommunications
+- Fall 2026 (planned): PhD studies (applications in progress)
 
 :::

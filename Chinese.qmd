@@ -11,7 +11,6 @@ editor:
 
 - 邮箱：jialeuuz@gmail.com;
 - 电话：+86 18256731893
-- 暂住地：北京市朝阳区
 - Github: <https://github.com/jialeuuz>
 - 个人主页：<https://jialeuuz.github.io>
 
@@ -25,13 +24,13 @@ editor:
 - 公司财务 (资本结构、公司治理、股权质押、现金持有)
 - 金融计量 (面板数据模型、随机边界分析)
 
-## 部分论文
-- **连玉君**, 李鑫. 完全刑责年龄法律对未成年人犯罪行为的威慑作用研究. **统计研究**, 2024, 已接受. [工作论文版](https://file-lianxh.oss-cn-shenzhen.aliyuncs.com/Refs/LianPub/%E8%BF%9E%E7%8E%89%E5%90%9B-%E6%9D%8E%E9%91%AB-2024-%E7%BB%9F%E8%AE%A1%E7%A0%94%E7%A9%B6-RDD-%E6%9C%AA%E6%88%90%E5%B9%B4%E4%BA%BA.pdf)
-- **连玉君**, 李鑫. 失去的十年:日本应对广场协议的政策效应研究. **中山大学学报** (社会科学版), 2025 (1): 185-196. [-Link-](https://link.cnki.net/doi/10.13471/j.cnki.jsysusse.2025.01.020), [-PDF-](https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvsPMJcfwHgIZAnUyOJG6Kdog%2BHL%2FGFrGhKahW4YGMC%2BS9rApGw1Kn1Osj2RxbQfKvjCe6SDJA%2FE4K5lDg6WoZeh7b5mY%2FmsIpB5E%2FKF94iQVwddxEU3rL3oTHoiWc6PitFK57xT%2B8LhM%2BfEqYWvBGm0igmLMld3nSvbU4a5%2BOkNaUlSU0HSLnl9m7MwOtW%2FIk9GlczRq40icS9q1bpEM6d9lgv7q8C%2BP7FPVW3hwYPcqveGzrp%2B41EH7caBaJ8FVkg%3D%3D)
+## 论文
 
-## 科研项目
-1. 广东省自然科学基金委员会，面上项目，2023A1515012307，科创板IP0 定价效率研究，2023.1.1-2025.12.31，资助额：10 万元. 负责人：连玉君
-2. 广东省自然科学基金委员会，面上项目，2020A1515011291，股权质押的风险传染与防范措施研究，2019.10.1-2022.9.30，资助额：10 万元. 已结项，主持
-3. 国家自然科学基金委员会，面上项目，71672206，中国上市公司财务决策中的同群效应研究，2017.01-2020.12, 资助额：48 万元，已结项，主持。[-Link-](https://kd.nsfc.cn/finalDetails?id=83544e95ca20f26ad457a1eb243297a4)
+- 待更新
 
-<!-- ![](https://fig-lianxh.oss-cn-shenzhen.aliyuncs.com/LianxhHome.PNG) -->
+## 项目
+
+1. **资本结构数据分析（进行中）**  
+   构建上市公司财报数据库，探索资本结构动态调整与股权质押的实证模型。
+2. **Prompt Studio（进行中）**  
+   针对大语言模型的提示词设计与评测基线，支持团队快速迭代与对比实验。

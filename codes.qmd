@@ -1,17 +1,18 @@
 ---
 title: "Codes"
-editor: 
-  markdown: 
+editor:
+  markdown:
     wrap: 72
 ---
 
-Many of the links below will take you to content on GitHub
-([my github](https://github.com/jialeuuz)).
+Many of my experiments live on GitHub ([@jialeuuz](https://github.com/jialeuuz)). I am gradually organizing them here so it is easier to follow the threads of my work.
 
-- `lianxh`：在 Stata 中快速搜索 [lianxh.cn](https://www.lianxh.cn) 推文并按指定格式输出
-  - 连享会, 2020, [ssc install lianxh：你想要的 Stata 都在这里](https://www.lianxh.cn/details/233.html)
-  - 连享会, 2023, [新版lianxh命令发布了！](https://www.lianxh.cn/details/1296.html)
+## Projects
 
-- `bdiff`：组间系数差异检验
-  - 李烨阳, 2023, [Stata：自己动手做组间系数差异检验-bootstrap-bdiff](https://www.lianxh.cn/details/1286.html).
-  - 连玉君, 2020, [Stata: 如何检验分组回归后的组间系数差异？](https://www.lianxh.cn/details/19.html).
+- *LLM applications at Li Auto* — internal prototyping focused on aligning large language models with product requirements. (Selected notes and sanitized demos coming soon.)
+- *Corporate finance analytics* — exploratory notebooks on capital structure and trade credit data.
+
+## Utilities
+
+- Reproducible data-processing templates for panel datasets.
+- Prompt engineering snippets for rapid evaluation of new model baselines.

@@ -17,7 +17,7 @@ website:
       Made with [Quarto](https://quarto.org/)<br>
     
   navbar: 
-    background: "#A9CCE3"
+    background: "#ffffff"
     search: true
     right: 
       - text: "Home"
@@ -33,7 +33,7 @@ website:
 
 format:
   html:
-    theme: styles.scss
+    theme: [cosmo, styles.scss]
     toc: true            # 启用目录
     toc-position: right  # 将目录放置在页面的右侧
     toc-depth: 3         # 设置目录的深度，数字越大，目录越详细
