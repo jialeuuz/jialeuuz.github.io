@@ -1,0 +1,63 @@
+.quarto-about-trestles .about-image {
+  width: 12em !important;
+  height: 12em !important;
+  /* 让整张 PNG（你的圆球）完整显示，不被裁剪 */
+  object-fit: contain !important;
+  object-position: center center !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  position: relative;
+  z-index: 2;
+}
+
+/* 不进行二次“圆形裁剪”，避免把你图片的外发光/阴影裁掉 */
+.quarto-about-trestles .about-image.round {
+  border-radius: 0 !important;
+  clip-path: none !important;
+  display: block;
+}
+
+/* 避免头像背后的灰色圆底（若主题有） */
+.quarto-about-trestles .about-entity .about-image-background,
+.quarto-about-trestles .about-entity .about-image::before,
+.quarto-about-trestles .about-entity .about-image::after {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* 如 trestles 模板在头像后渲染了装饰性圆形，彻底移除 */
+.quarto-about-trestles .about-entity::before,
+.quarto-about-trestles .about-entity::after {
+  content: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* 防止任何外层容器给头像区域加投影导致“灰色残缺” */
+.quarto-about-trestles .about-entity {
+  box-shadow: none !important;
+}
+
+/* 链接圆角按钮 hover 更明显（可选） */
+.quarto-about-trestles .about-links .about-link:hover {
+  transform: translateY(-1px);
+}
+
+/* Left-column extra content below about links */
+.about-left-extra {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+.about-left-extra h3 {
+  margin: 0.5rem 0 0.25rem 0;
+  font-size: 1.05rem;
+}
+.about-left-extra ul {
+  padding-left: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+.about-left-extra li {
+  margin-bottom: 0.35rem;
+}

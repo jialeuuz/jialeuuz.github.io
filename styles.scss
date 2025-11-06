@@ -145,6 +145,19 @@ h4 {
 }
 .quarto-about-trestles .about-image {
   border: 3px solid rgba(255,255,255,0.6);
+  /* 让头像铺满圆形区域并按中心裁剪 */
+  aspect-ratio: 1 / 1;
+  width: 12em;
+  height: 12em;
+  object-fit: cover;
+  background-color: transparent !important;
+}
+
+/* 强制真正“圆形”裁剪，避免仅仅是圆角矩形 */
+.quarto-about-trestles .about-image.round {
+  border-radius: 50% !important;
+  clip-path: circle(50% at 50% 50%);
+  display: block;
 }
 .quarto-about-trestles .about-links .about-link,
 .quarto-about-trestles .about-entity a {

@@ -26,8 +26,8 @@ website:
         href: publications.qmd
       - text: "Projects"
         href: codes.qmd
-      - text: "中文"
-        href: Chinese.qmd
+      - text: "Interests"
+        href: interests.html
       - text: "CV"
         href: CV_EN.pdf
 

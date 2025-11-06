@@ -1,18 +1,24 @@
 ---
-title: "Codes"
+title: "Projects"
 editor:
   markdown:
     wrap: 72
 ---
 
-Many of my experiments live on GitHub ([@jialeuuz](https://github.com/jialeuuz)). I am gradually organizing them here so it is easier to follow the threads of my work.
+This page highlights selected open-source projects and datasets aligned with my LLM research and engineering work. Many more live on GitHub ([@jialeuuz](https://github.com/jialeuuz)) and Hugging Face.
 
 ## Projects
 
-- *LLM applications at Li Auto* — internal prototyping focused on aligning large language models with product requirements. (Selected notes and sanitized demos coming soon.)
-- *Corporate finance analytics* — exploratory notebooks on capital structure and trade credit data.
+- Data Flywheel for Code LLM — iterative SFT/eval/data-generation/data-filtering loop to produce high-quality training and evaluation data at scale.
+- Multi-step Reasoning + Tool Invocation Agent — constructs SFT data for Q&A, integrates API function calls, and solves complex tasks via multi-step planning.
+- MindGPTo — an end-to-end multimodal application with paralinguistic features; modular architecture with front/back separation and data pipelines.
+
+## Datasets
+
+- ExpressiveSpeech — open bilingual (Chinese–English) expressive speech dataset (~51 hours, ~14k utterances) curated with the DeEAR expressiveness scoring toolkit. Links: Hugging Face <https://huggingface.co/datasets/FreedomIntelligence/ExpressiveSpeech>, project page <https://freedomintelligence.github.io/ExpressiveSpeech/>. I contributed to the dataset and am second author on the associated paper (under review).
 
 ## Utilities
 
-- Reproducible data-processing templates for panel datasets.
-- Prompt engineering snippets for rapid evaluation of new model baselines.
+- Prompting and evaluation snippets for rapid model baselines
+- Lightweight scripts for dataset curation and filtering
+- Experiment scaffolds for reproducible runs (Python/PyTorch, LangChain)

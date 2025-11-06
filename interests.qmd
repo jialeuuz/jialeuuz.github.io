@@ -1,0 +1,37 @@
+---
+title: "Research Interests"
+---
+
+My research centers on large language models (LLMs) and applied NLP. Below I expand on the potential research topics from my CV and the concrete questions/methods I’m pursuing.
+
+## Human–LLM Interaction under Underspecification
+
+- Goal: Make LLMs proactively surface missing constraints, ask clarifying questions, and avoid over-eager compliance when the task is ill-posed.
+- Methods: rubric-based/verifiable reward training (e.g., RL with verifiable rubrics), critique–refine loops, refusal calibration, and uncertainty-aware prompting.
+- Data & Evaluation: realistic, noisy user prompts; multi-turn workflows; verifiable checklists; human and automatic evaluators with clear datacards and bias/contamination checks.
+
+## Agent-based LLMs and Multi-step Reasoning
+
+- Goal: Improve reliability and sample efficiency of tool-using, planning, and self-verifying agents.
+- Methods: hierarchical plans, verifier/solver architectures, think-prefix optimization, selective self-reflection, and lightweight tree/graph-of-thought with early stopping.
+- Evaluation: grounded tasks with objective end states (QA+tools, coding with tests, retrieval with citations), latency–cost–quality trade-off analysis.
+
+## Data Flywheels and Self-improving Systems
+
+- Goal: Close the loop from SFT → eval → generation → filtering → retraining to continuously improve models and tests.
+- Methods: automatic curriculum building, difficulty-aware sampling, deduplication and contamination control, safety/PII gating, and feedback-driven rubric updates.
+- Tooling: reproducible eval harnesses, dataset versioning, and dashboards tracking quality, cost, and drift.
+
+## Interpretability, Safety, and Controllability
+
+- Goal: Better understand, steer, and safeguard LLM behavior in real deployments.
+- Methods: feature-level probing and sparse representations, policy shaping via refusal/critique heads, jailbreak/over-alignment audits, and guardrailed tool-use.
+- Interfaces: system prompt design, capability scoping, and safe fallback strategies when detectors/verifiers disagree.
+
+## Evaluation and Benchmarks (“Realistic, Even if ‘Dumb’”)
+
+- Goal: Build evaluations that reflect messy real-world tasks rather than only cherry-picked leaderboards.
+- Methods: coverage-driven test sets, prompt-variance robustness, out-of-distribution and adversarial stress tests, and verifiable pass/fail criteria.
+- Reporting: cost/latency alongside accuracy, provenance tracking, contamination checks, and transparent error taxonomies.
+
+If you’re interested in collaborating, feel free to reach out: jialeuuz@gmail.com.

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Codes – Jiale Zhao</title>
+<title>Projects – Jiale Zhao</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-933c14d29d5c578a38b5020fa70fc493.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-94f5315e196b82287c4e0fed405826f6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9ec771c5685b75b8a2b93664cf605896.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,6 +71,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="custom.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -102,14 +103,14 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./codes.html" aria-current="page"> 
-<span class="menu-text">Codes</span></a>
+<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Chinese.html"> 
-<span class="menu-text">中文</span></a>
+    <a class="nav-link" href="./interests.html"> 
+<span class="menu-text">Interests</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV.pdf"> 
+    <a class="nav-link" href="./CV_EN.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -129,6 +130,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#projects" id="toc-projects" class="nav-link active" data-scroll-target="#projects">Projects</a></li>
+  <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets">Datasets</a></li>
   <li><a href="#utilities" id="toc-utilities" class="nav-link" data-scroll-target="#utilities">Utilities</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/jialeuuz/jialeuuz.github.io/edit/main/codes.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jialeuuz/jialeuuz.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -138,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Codes</h1>
+<h1 class="title">Projects</h1>
 </div>
 
 
@@ -155,19 +157,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Many of my experiments live on GitHub (<a href="https://github.com/jialeuuz"><span class="citation" data-cites="jialeuuz">@jialeuuz</span></a>). I am gradually organizing them here so it is easier to follow the threads of my work.</p>
+<p>This page highlights selected open-source projects and datasets aligned with my LLM research and engineering work. Many more live on GitHub (<a href="https://github.com/jialeuuz"><span class="citation" data-cites="jialeuuz">@jialeuuz</span></a>) and Hugging Face.</p>
 <section id="projects" class="level2">
 <h2 class="anchored" data-anchor-id="projects">Projects</h2>
 <ul>
-<li><em>LLM applications at Li Auto</em> — internal prototyping focused on aligning large language models with product requirements. (Selected notes and sanitized demos coming soon.)</li>
-<li><em>Corporate finance analytics</em> — exploratory notebooks on capital structure and trade credit data.</li>
+<li>Data Flywheel for Code LLM — iterative SFT/eval/data-generation/data-filtering loop to produce high-quality training and evaluation data at scale.</li>
+<li>Multi-step Reasoning + Tool Invocation Agent — constructs SFT data for Q&amp;A, integrates API function calls, and solves complex tasks via multi-step planning.</li>
+<li>MindGPTo — an end-to-end multimodal application with paralinguistic features; modular architecture with front/back separation and data pipelines.</li>
+</ul>
+</section>
+<section id="datasets" class="level2">
+<h2 class="anchored" data-anchor-id="datasets">Datasets</h2>
+<ul>
+<li>ExpressiveSpeech — open bilingual (Chinese–English) expressive speech dataset (~51 hours, ~14k utterances) curated with the DeEAR expressiveness scoring toolkit. Links: Hugging Face <a href="https://huggingface.co/datasets/FreedomIntelligence/ExpressiveSpeech" class="uri">https://huggingface.co/datasets/FreedomIntelligence/ExpressiveSpeech</a>, project page <a href="https://freedomintelligence.github.io/ExpressiveSpeech/" class="uri">https://freedomintelligence.github.io/ExpressiveSpeech/</a>. I contributed to the dataset and am second author on the associated paper (under review).</li>
 </ul>
 </section>
 <section id="utilities" class="level2">
 <h2 class="anchored" data-anchor-id="utilities">Utilities</h2>
 <ul>
-<li>Reproducible data-processing templates for panel datasets.</li>
-<li>Prompt engineering snippets for rapid evaluation of new model baselines.</li>
+<li>Prompting and evaluation snippets for rapid model baselines</li>
+<li>Lightweight scripts for dataset curation and filtering</li>
+<li>Experiment scaffolds for reproducible runs (Python/PyTorch, LangChain)</li>
 </ul>
 
 

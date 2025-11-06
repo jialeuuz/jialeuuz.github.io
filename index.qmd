@@ -36,6 +36,7 @@ I plan to begin a PhD in Fall 2026. My interests center on large language models
 
 ## Publications
 
+- **[Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](https://arxiv.org/abs/2510.20513)** — second author; under review. Dataset: **ExpressiveSpeech** on Hugging Face (<https://huggingface.co/datasets/FreedomIntelligence/ExpressiveSpeech>). Project page: <https://freedomintelligence.github.io/ExpressiveSpeech/>.
 - **[ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization](https://www.arxiv.org/abs/2510.12063)** — co-first author (equal contribution; not first-listed). Under review via ARR for AACL 2025 (ARR average score: 3.5; planning resubmission to ACL 2025 after revisions).
 
 ## Selected Projects
@@ -46,3 +47,26 @@ I plan to begin a PhD in Fall 2026. My interests center on large language models
 - MindGPTo — an end-to-end multimodal app inspired by GPT‑4o with paralinguistic features; built from scratch with modular design and front/back separation — developed during my internship at Li Auto.
 
 :::
+
+<!-- Extra content for the left column under the links -->
+<div id="left-research" class="about-left-extra" style="display:none">
+  <h3>Research Experience</h3>
+  <ul>
+    <li><strong>Early stage:</strong> Self‑taught programming out of a strong passion for AI. In my first two weeks of college, I joined an NLP lab after selection and worked on traditional ML; limited advisor availability prompted me to seek a more hands‑on environment.</li>
+    <li><strong>After first year:</strong> Joined a CV lab with weekly group meetings and systematic research training. I deepened my understanding of deep learning, though compute limits kept me from transformer‑based work I was eager to pursue.</li>
+    <li><strong>2023 inflection:</strong> ChatGPT‑3.5 significantly accelerated my research and coding; I adopted it as a daily tool. I also helped build “digital humans,” deploying a 24/7 virtual‑avatar livestream on Bilibili.</li>
+    <li><strong>2023–2024 (Li Auto):</strong> Started an algorithm/LLM internship. First year focused on product/engineering with ample compute, delivering an SFT data flywheel, an agent for multi‑step reasoning and tool use, and MindGPTo (a GPT‑4o‑inspired multimodal app).</li>
+    <li><strong>2024–present:</strong> Gap year to focus on research. My role shifted to research‑driven; I explored multiple directions, contributed to several papers, and solidified a focus on rubric‑based RL/RLVR, agentic reasoning, and data‑centric improvement for LLMs.</li>
+  </ul>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const extra = document.getElementById('left-research');
+    const links = document.querySelector('.quarto-about-trestles .about-entity .about-links');
+    if (extra && links) {
+      extra.style.display = '';
+      links.insertAdjacentElement('afterend', extra);
+    }
+  });
+  </script>

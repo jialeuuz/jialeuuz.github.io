@@ -47,7 +47,7 @@ editor:
 
 ## 出版物与论文
 
-- *待更新* — 研究成果整理中，提交后将在此处展示。
+- 在投：**[Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](https://arxiv.org/abs/2510.20513)** — 第二作者。对应开源数据集 **ExpressiveSpeech**：<https://huggingface.co/datasets/FreedomIntelligence/ExpressiveSpeech>；项目页：<https://freedomintelligence.github.io/ExpressiveSpeech/>。
 
 ## 社区与服务
 
