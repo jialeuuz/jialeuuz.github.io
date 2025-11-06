@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Jiale Zhao",
     "section": "",
-    "text": "Hi! I'm Jiale Zhao, a final-year computer science undergraduate at Chongqing University of Posts and Telecommunications. I am currently an algorithm intern at Li Auto, focusing on large language model applications. My research interests cover corporate finance topics—capital structure, corporate governance, trade credit, and cash holdings—as well as quantitative methods including financial econometrics and stochastic frontier analysis."
+    "text": "Hi! I'm Jiale Zhao, a computer science graduate (B.Eng., 2025) from Chongqing University of Posts and Telecommunications. I currently work on rubrics-based reinforcement learning (RL) for large language models during my internship at Li Auto."
   },
   {
     "objectID": "index.html#background",
@@ -12,12 +12,6 @@
     "title": "Jiale Zhao",
     "section": "Background",
     "text": "Sep 2023 – Present: Algorithm Intern, Li Auto, Large Language Model Group. Sep 2021 – Jun 2025: B.Eng. in Computer Science, Chongqing University of Posts and Telecommunications. Fall 2026 (planned): PhD studies, applications in progress."
-  },
-  {
-    "objectID": "Chinese.html",
-    "href": "Chinese.html",
-    "title": "中文简历",
-    "section": "",
-    "text": "赵佳乐，重庆邮电大学计算机学院本科生，现于理想汽车大模型相关组实习，并计划申请 2026 Fall 博士项目。联系方式：jialeuuz@gmail.com，GitHub：jialeuuz。研究兴趣包括公司财务与金融计量。主要经历：2023.09 起在理想汽车担任算法实习生；2021.09-2025.06 于重庆邮电大学攻读学士学位。"
   }
+  
 ]

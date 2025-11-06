@@ -67,7 +67,7 @@
     "href": "publications.html#in-progress",
     "title": "Publications",
     "section": "In Progress",
-    "text": "In Progress\n\nRubrics-based RL / RLVR pipeline with Prof. Lu Cheng (UIC): a unified pipeline for data construction, evaluation, realistic benchmarking, and RLVR training."
+    "text": "In Progress\n\nEnabling LLM to Ask — an end-to-end pipeline to enable LLMs to ask clarifying questions; includes askBench benchmark, training‑data construction methodology and dataset; trained via RLVR; collaboration with Prof. Lu Cheng (UIC)."
   },
   {
     "objectID": "publications.html#working-notes-directions",
@@ -82,34 +82,6 @@
     "title": "Publications",
     "section": "Links",
     "text": "Links\n\nGitHub — code experiments and supporting materials.\nEmail — reach out if you’d like to collaborate."
-  },
-  {
-    "objectID": "codes.html",
-    "href": "codes.html",
-    "title": "Projects",
-    "section": "",
-    "text": "This page highlights selected open-source projects and datasets aligned with my LLM research and engineering work. Many more live on GitHub (@jialeuuz) and Hugging Face."
-  },
-  {
-    "objectID": "codes.html#projects",
-    "href": "codes.html#projects",
-    "title": "Projects",
-    "section": "Projects",
-    "text": "Projects\n\nData Flywheel for Code LLM — iterative SFT/eval/data-generation/data-filtering loop to produce high-quality training and evaluation data at scale.\nMulti-step Reasoning + Tool Invocation Agent — constructs SFT data for Q&A, integrates API function calls, and solves complex tasks via multi-step planning.\nMindGPTo — an end-to-end multimodal application with paralinguistic features; modular architecture with front/back separation and data pipelines."
-  },
-  {
-    "objectID": "codes.html#datasets",
-    "href": "codes.html#datasets",
-    "title": "Projects",
-    "section": "Datasets",
-    "text": "Datasets\n\nExpressiveSpeech — open bilingual (Chinese–English) expressive speech dataset (~51 hours, ~14k utterances) curated with the DeEAR expressiveness scoring toolkit. Links: Hugging Face https://huggingface.co/datasets/FreedomIntelligence/ExpressiveSpeech, project page https://freedomintelligence.github.io/ExpressiveSpeech/. I contributed to the dataset and am second author on the associated paper (under review)."
-  },
-  {
-    "objectID": "codes.html#utilities",
-    "href": "codes.html#utilities",
-    "title": "Projects",
-    "section": "Utilities",
-    "text": "Utilities\n\nPrompting and evaluation snippets for rapid model baselines\nLightweight scripts for dataset curation and filtering\nExperiment scaffolds for reproducible runs (Python/PyTorch, LangChain)"
   },
   {
     "objectID": "CV.html",
@@ -179,7 +151,7 @@
     "href": "index.html",
     "title": "Jiale Zhao",
     "section": "",
-    "text": "jialeuuz@gmail.com\n  \n  \n    \n     jialeuuz\n  \n  \n    \n     CV\n  \n\n  \n  \nHi! I’m Jiale Zhao, a final-year computer science undergraduate at Chongqing University of Posts and Telecommunications. I currently work on rubrics-based reinforcement learning (RL) for large language models during my internship at Li Auto.\nI plan to begin a PhD in Fall 2026. My interests center on large language models and applied NLP, including:\n\nHuman–LLM interaction under underspecification: a practical pipeline for data construction, evaluation, realistic benchmarking, and RLVR training; ongoing collaboration with Prof. Lu Cheng (UIC)\nAgent-based LLMs and multi-step reasoning\nData flywheels and self-improving systems\nInterpretability, safety, and controllability\n\n\n\n\nFall 2026 (planned): PhD studies (applications in progress)\nSep 2021 – Jun 2025: B.Eng., Computer Science, Chongqing University of Posts and Telecommunications\n\n\n\n\n\nDecoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment — second author; under review. Dataset: ExpressiveSpeech on Hugging Face (https://huggingface.co/datasets/FreedomIntelligence/ExpressiveSpeech). Project page: https://freedomintelligence.github.io/ExpressiveSpeech/.\nThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization — co-first author (equal contribution; not first-listed). Under review via ARR for AACL 2025 (ARR average score: 3.5; planning resubmission to ACL 2025 after revisions).\n\n\n\n\n\nRubrics-based RL / RLVR Pipeline — a practical end-to-end pipeline spanning data construction, evaluation, realistic benchmarking, and RLVR training; ongoing collaboration with Prof. Lu Cheng (UIC).\nData Flywheel for Code LLM — an iterative framework centered on evaluation to mass-produce high-quality training and test data (SFT → eval → data generation → filtering → back to SFT) — developed during my internship at Li Auto.\nMulti-step Reasoning + Tool Invocation Agent — constructs SFT data for LLM Q&A, integrates API function calls, and solves complex tasks via multi-step planning — developed during my internship at Li Auto.\nMindGPTo — an end-to-end multimodal app inspired by GPT‑4o with paralinguistic features; built from scratch with modular design and front/back separation — developed during my internship at Li Auto."
+    "text": "jialeuuz@gmail.com\n  \n  \n    \n     jialeuuz\n  \n  \n    \n     CV\n  \n\n  \n  \nHi! I’m Jiale Zhao, a computer science graduate (B.Eng., 2025) from Chongqing University of Posts and Telecommunications. I currently work on rubrics-based reinforcement learning (RL) for large language models during my internship at Li Auto.\nI plan to begin a PhD in Fall 2026. My interests center on large language models and applied NLP, including:\n\nEnabling LLM to Ask — an end-to-end pipeline to enable LLMs to ask clarifying questions; includes askBench benchmark, training‑data construction methodology and dataset; trained via RLVR; ongoing collaboration with Prof. Lu Cheng (UIC)\nAgent-based LLMs and multi-step reasoning\nData flywheels and self-improving systems\nInterpretability, safety, and controllability\n\n\n\n\nFall 2026 (planned): PhD studies (applications in progress)\nSep 2021 – Jun 2025: B.Eng., Computer Science, Chongqing University of Posts and Telecommunications\n\n\n\n\n\nDecoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment — second author; under review. Dataset: ExpressiveSpeech on Hugging Face (https://huggingface.co/datasets/FreedomIntelligence/ExpressiveSpeech). Project page: https://freedomintelligence.github.io/ExpressiveSpeech/.\nThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization — co-first author (equal contribution; not first-listed). Under review via ARR for AACL 2025 (ARR average score: 3.5; planning resubmission to ACL 2025 after revisions).\n\n\n\n\n\nEnabling LLM to Ask — an end-to-end pipeline to enable LLMs to ask clarifying questions; includes askBench benchmark, training‑data construction methodology and dataset; trained via RLVR; ongoing collaboration with Prof. Lu Cheng (UIC).\n\n\n\n\n\nData Flywheel for Code LLM — an iterative framework centered on evaluation to mass-produce high-quality training and test data (SFT → eval → data generation → filtering → back to SFT) — developed during my internship at Li Auto.\nMulti-step Reasoning + Tool Invocation Agent — constructs SFT data for LLM Q&A, integrates API function calls, and solves complex tasks via multi-step planning — developed during my internship at Li Auto.\nMindGPTo — an end-to-end multimodal app inspired by GPT‑4o with paralinguistic features; built from scratch with modular design and front/back separation — developed during my internship at Li Auto."
   },
   {
     "objectID": "index.html#background",
@@ -196,11 +168,18 @@
     "text": "Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment — second author; under review. Dataset: ExpressiveSpeech on Hugging Face (https://huggingface.co/datasets/FreedomIntelligence/ExpressiveSpeech). Project page: https://freedomintelligence.github.io/ExpressiveSpeech/.\nThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization — co-first author (equal contribution; not first-listed). Under review via ARR for AACL 2025 (ARR average score: 3.5; planning resubmission to ACL 2025 after revisions)."
   },
   {
+    "objectID": "index.html#ongoing-work",
+    "href": "index.html#ongoing-work",
+    "title": "Jiale Zhao",
+    "section": "",
+    "text": "Enabling LLM to Ask — an end-to-end pipeline to enable LLMs to ask clarifying questions; includes askBench benchmark, training‑data construction methodology and dataset; trained via RLVR; ongoing collaboration with Prof. Lu Cheng (UIC)."
+  },
+  {
     "objectID": "index.html#selected-projects",
     "href": "index.html#selected-projects",
     "title": "Jiale Zhao",
     "section": "",
-    "text": "Rubrics-based RL / RLVR Pipeline — a practical end-to-end pipeline spanning data construction, evaluation, realistic benchmarking, and RLVR training; ongoing collaboration with Prof. Lu Cheng (UIC).\nData Flywheel for Code LLM — an iterative framework centered on evaluation to mass-produce high-quality training and test data (SFT → eval → data generation → filtering → back to SFT) — developed during my internship at Li Auto.\nMulti-step Reasoning + Tool Invocation Agent — constructs SFT data for LLM Q&A, integrates API function calls, and solves complex tasks via multi-step planning — developed during my internship at Li Auto.\nMindGPTo — an end-to-end multimodal app inspired by GPT‑4o with paralinguistic features; built from scratch with modular design and front/back separation — developed during my internship at Li Auto."
+    "text": "Data Flywheel for Code LLM — an iterative framework centered on evaluation to mass-produce high-quality training and test data (SFT → eval → data generation → filtering → back to SFT) — developed during my internship at Li Auto.\nMulti-step Reasoning + Tool Invocation Agent — constructs SFT data for LLM Q&A, integrates API function calls, and solves complex tasks via multi-step planning — developed during my internship at Li Auto.\nMindGPTo — an end-to-end multimodal app inspired by GPT‑4o with paralinguistic features; built from scratch with modular design and front/back separation — developed during my internship at Li Auto."
   },
   {
     "objectID": "about.html",

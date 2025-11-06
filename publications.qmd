@@ -17,7 +17,7 @@ I work on large language models and applied NLP, with a focus on agentic systems
 
 ## In Progress
 
-- Rubrics-based RL / RLVR pipeline with Prof. Lu Cheng (UIC): a unified pipeline for data construction, evaluation, realistic benchmarking, and RLVR training.
+- Enabling LLM to Ask — an end-to-end pipeline to enable LLMs to ask clarifying questions; includes askBench benchmark, training‑data construction methodology and dataset; trained via RLVR; collaboration with Prof. Lu Cheng (UIC).
 
 ## Working Notes & Directions
 

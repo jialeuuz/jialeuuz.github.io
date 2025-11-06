@@ -24,10 +24,8 @@ website:
         href: index.qmd
       - text: "Publications"
         href: publications.qmd
-      - text: "Projects"
-        href: codes.qmd
-      - text: "Interests"
-        href: interests.html
+      - text: "Research Interests"
+        href: interests.qmd
       - text: "CV"
         href: CV_EN.pdf
 
