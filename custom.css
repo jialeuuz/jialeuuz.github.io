@@ -61,3 +61,46 @@
 .about-left-extra li {
   margin-bottom: 0.35rem;
 }
+
+/* ===== CV page global adjustments ===== */
+body.page-cv main.content.page-columns {
+  display: block !important;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.25rem 3rem;
+}
+body.page-cv #quarto-content {
+  padding-top: 0.5rem;
+}
+body.page-cv .cv {
+  margin-top: 1rem !important;
+}
+
+/* ===== CV Layout (scoped, single column) ===== */
+.cv { display: block !important; margin-top: 0 !important; }
+.cv-content { padding-top: 6px; max-width: 900px; }
+
+/* Reduce space under the page title on CV page */
+body.page-cv .quarto-title-block { margin-bottom: 0.25rem !important; }
+.cv-section { margin-bottom: 28px; }
+.cv-section > h2 { margin-bottom: 10px; }
+
+.cv-timeline { position: relative; }
+.cv-timeline::before {
+  content: "";
+  position: absolute; left: 10px; top: 0; bottom: 0;
+  width: 2px; background: #e8ecff;
+}
+.cv-item { position: relative; padding-left: 28px; margin-bottom: 16px; }
+.cv-item::before {
+  content: ""; position: absolute; left: 4px; top: 8px; width: 12px; height: 12px;
+  background: #5B8DEF; border: 2px solid #fff; border-radius: 50%; box-shadow: 0 0 0 3px #e8ecff;
+}
+.cv-item-header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; }
+.cv-item-header h3 { margin: 0; font-size: 1.05rem; }
+.cv-item-meta { color: #6b7280; font-size: 0.9rem; }
+
+.cv-bullets { padding-left: 18px; }
+.cv-bullets li { margin: 6px 0; }
+
+.cv-note { color: #6b7280; font-size: 0.95rem; }

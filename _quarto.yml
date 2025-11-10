@@ -11,8 +11,6 @@ website:
   repo-actions: [edit, issue]
   
   page-footer:
-    left: |
-      [jialeuuz.cn](https://www.jialeuuz.com)<br>
     right: |
       Made with [Quarto](https://quarto.org/)<br>
     
@@ -27,7 +25,7 @@ website:
       - text: "Research Interests"
         href: interests.qmd
       - text: "CV"
-        href: CV_EN.pdf
+        href: cv.qmd
 
 format:
   html:

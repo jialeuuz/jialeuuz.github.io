@@ -15,7 +15,7 @@ about:
       href: https://github.com/jialeuuz
     - icon: file-earmark-pdf
       text: CV
-      href: CV_EN.pdf
+      href: cv.qmd
 ---
 
 ::: {#hero-heading}
@@ -59,11 +59,11 @@ I plan to begin a PhD in Fall 2026. My interests center on large language models
 <div id="left-research" class="about-left-extra" style="display:none">
   <h3>Research Experience</h3>
   <ul>
-    <li><strong>Pre‑college → Freshman:</strong> Self‑taught; joined NLP lab; traditional ML.</li>
-    <li><strong>Sophomore (CV lab):</strong> Weekly training; deep learning; compute limited transformer work.</li>
-    <li><strong>2023:</strong> Adopted ChatGPT‑3.5; faster iteration; 24/7 digital‑human livestream on Bilibili.</li>
-    <li><strong>2023–2024 (Li Auto, yr 1):</strong> Ample compute; shipped SFT data flywheel, reasoning+tools agent, MindGPTo.</li>
-    <li><strong>2024–present (Li Auto, yr 2):</strong> Gap year; research‑driven; papers; focus on rubric‑RL/RLVR, agentic reasoning, data‑centric LLMs.</li>
+    <li><strong>Early stage:</strong> Self‑taught programming out of a strong passion for AI. In my first two weeks of college, I joined an NLP lab after selection and worked on traditional ML; limited advisor availability prompted me to seek a more hands‑on environment.</li>
+    <li><strong>After first year:</strong> Joined a CV lab with weekly group meetings and systematic research training. I deepened my understanding of deep learning, though compute limits kept me from transformer‑based work I was eager to pursue.</li>
+    <li><strong>2023 inflection:</strong> ChatGPT‑3.5 significantly accelerated my research and coding; I adopted it as a daily tool. I also helped build “digital humans,” deploying a 24/7 virtual‑avatar livestream on Bilibili.</li>
+    <li><strong>2023–2024 (Li Auto):</strong> Started an algorithm/LLM internship. First year focused on product/engineering with ample compute, delivering an SFT data flywheel, an agent for multi‑step reasoning and tool use, and MindGPTo (a GPT‑4o‑inspired multimodal app).</li>
+    <li><strong>2024–present:</strong> Gap year to focus on research. My role shifted to research‑driven; I explored multiple directions, contributed to several papers, and solidified a focus on rubric‑based RL/RLVR, agentic reasoning, and data‑centric improvement for LLMs.</li>
   </ul>
 </div>
 

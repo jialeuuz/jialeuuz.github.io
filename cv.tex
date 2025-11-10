@@ -1,0 +1,319 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+% Sans-serif body, no page numbers, compact lists, tidy sections
+\renewcommand{\familydefault}{\sfdefault}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\usepackage{enumitem}
+\setlist{nosep, leftmargin=*}
+\RedeclareSectionCommand[
+  beforeskip=8pt plus 3pt minus 3pt,
+  afterskip=4pt plus 2pt minus 2pt,
+  font=\large\bfseries
+]{section}
+\RedeclareSectionCommand[
+  beforeskip=6pt plus 2pt minus 2pt,
+  afterskip=3pt plus 1pt minus 1pt,
+  font=\normalsize\bfseries
+]{subsection}
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Curriculum Vitae},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Curriculum Vitae}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+
+
+\section{Jiale Zhao}\label{jiale-zhao}
+
+\begin{itemize}
+\tightlist
+\item
+  Location: Beijing, China
+\item
+  Phone: +86 182-5673-1893
+\item
+  Email: jialeuuz@gmail.com
+\item
+  GitHub: github.com/jialeuuz
+\end{itemize}
+
+\subsection{Professional Summary}\label{professional-summary}
+
+I have two years of LLM algorithm internship experience, with strong
+coding and research skills in LLM and multimodal domains. Initiated ML
+research in a university lab (Freshman), conducted CV research
+(Sophomore Fall), transitioned to NLP research (Junior Spring), and
+gained industry experience as an LLM Algorithm Intern at Li Auto (Junior
+Year).
+
+Key interests: 1) Agent‑based LLMs; 2) Data \& self‑improving systems;
+3) Human--LLM interaction; 4) Interpretability \& analysis; 5)
+Benchmarks \& evaluation; 6) Bridging research and real applications.
+
+\subsection{Experience}\label{experience}
+
+\subsubsection{LLM Algorithm Intern --- Li Auto (Sep 2023 -- present ·
+Beijing)}\label{llm-algorithm-intern-li-auto-sep-2023-present-beijing}
+
+\begin{itemize}
+\tightlist
+\item
+  Data Flywheel for Code LLM: Iterative cycle centered on evaluation
+  (SFT → evaluation → data generation → filtering → back to SFT) to
+  mass‑produce high‑quality training and evaluation data.
+\item
+  Multi‑step Reasoning + Tool Use Agent: Constructed SFT data for LLM
+  Q\&A, implemented API function calls, and solved complex reasoning
+  problems through multi‑step processes.
+\item
+  MindGPTo: End‑to‑end multimodal app inspired by GPT‑4o with
+  paralinguistic features; built from scratch with modular FE/BE,
+  large‑scale audio data pipelines, and SFT to enhance conversational
+  capabilities.
+\end{itemize}
+
+\subsection{Education}\label{education}
+
+\subsubsection{Chongqing Univ. of Posts and Telecommunications ---
+B.Eng., Algorithm Engineering
+(2021--2025)}\label{chongqing-univ.-of-posts-and-telecommunications-b.eng.-algorithm-engineering-20212025}
+
+Initiated ML research in a university lab (Freshman), conducted CV
+research (Sophomore Fall), transitioned to NLP research (Junior Spring),
+and gained industry experience as an LLM Algorithm Intern at Li Auto
+(Junior Year).
+
+\subsection{Publications (Under
+Review)}\label{publications-under-review}
+
+\begin{itemize}
+\tightlist
+\item
+  ThinkPilot (under review): Submitted to AACL 2025 via ARR (plan to
+  resubmit to ACL 2025 after revision based on reviews). Contributions:
+  experiment design and implementation; explainability integration;
+  appendix and parts of main text.
+\item
+  Decoding the Ear (under review): arXiv:2510.20513.
+\item
+  ExpressiveSpeech Dataset: \textasciitilde51h bilingual expressive
+  speech (\textasciitilde14k utt.).
+\end{itemize}
+
+\subsection{Research Directions}\label{research-directions}
+
+\subsubsection{Agent‑based LLMs --- Efficient Complex Problem
+Solving}\label{agentbased-llms-efficient-complex-problem-solving}
+
+Many real‑world problems require multi‑source reasoning and dynamic user
+feedback. I focus on: 1) decomposing complex tasks; 2) time‑frame
+mechanisms for updates and reflection; 3) coordinating several parallel
+smaller models (e.g., multiple 7B LLMs) to improve efficiency/accuracy
+at the same compute.
+
+\subsubsection{Self‑Evaluation →
+Self‑Improvement}\label{selfevaluation-selfimprovement}
+
+Three failure modes in code tasks: (1) inconsistently solved problems;
+(2) problems rarely solved spontaneously but solvable with simple hints;
+(3) problems needing complex guidance. Address via sampling,
+heuristics/self‑guided strategies, and iterative evolution. Continuous
+improvement needs diverse fresh data and strong filtering; diverse,
+accurate test queries are critical.
+
+\subsubsection{Human--LLM Interaction --- Enabling LLMs to
+Ask}\label{humanllm-interaction-enabling-llms-to-ask}
+
+Enable models to challenge incorrect or contradictory information,
+detect and request missing conditions for underspecified problems, and
+proactively seek user assistance on hard tasks.
+
+\subsubsection{Interpretability \& Analysis --- Insight → Control →
+Safety}\label{interpretability-analysis-insight-control-safety}
+
+Use deeper interpretability to develop more effective control over
+reasoning. Explore lightweight control modules trained on large response
+corpora to steer reasoning without modifying LLM weights.
+
+\subsubsection{Benchmarks \& Evaluation --- Making Benchmarks
+``Dumber''}\label{benchmarks-evaluation-making-benchmarks-dumber}
+
+Transform single‑turn benchmarks into simulated multi‑turn interactions
+featuring omissions, errors, and colloquial phrasing; for knowledge
+tasks, intentionally vague queries requiring elicitation. Better matches
+real user inputs.
+
+\subsubsection{Bridging Research \&
+Application}\label{bridging-research-application}
+
+Keep academic research grounded in real‑world needs; pursue a PhD and
+future faculty path while collaborating with industry to overcome
+practical constraints like compute.
+
+
+
+
+\end{document}

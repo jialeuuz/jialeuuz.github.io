@@ -5,29 +5,16 @@ editor:
     wrap: 72
 ---
 
-## Overview
-
-I work on large language models and applied NLP, with a focus on agentic systems, self-improving pipelines, and realistic evaluation.
-
 ## Under Review
-
-- **[Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](https://arxiv.org/abs/2510.20513)** — second author. Under review. Released accompanying open dataset **ExpressiveSpeech** on Hugging Face: <https://huggingface.co/datasets/FreedomIntelligence/ExpressiveSpeech>. Project page: <https://freedomintelligence.github.io/ExpressiveSpeech/>.
 
 - **[ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization](https://www.arxiv.org/abs/2510.12063)** — co-first author (equal contribution; not first-listed). AACL 2025 via ARR (ARR average score: 3.5; plan to resubmit to ACL 2025 after revisions). Contribution highlights: designed experiments and framework, integrated explainability into iterative algorithms, wrote appendix and contributed to main text.
 
+- **[Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](https://arxiv.org/abs/2510.20513)** — third author. Under review. Released accompanying open dataset [ExpressiveSpeech](https://huggingface.co/datasets/FreedomIntelligence/ExpressiveSpeech) on Hugging Face. Project page: <https://freedomintelligence.github.io/ExpressiveSpeech/>.
+
+- **[Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning](https://arxiv.org/abs/2508.16949)** — sixth author. ICLR under review.
+
 ## In Progress
 
-- Enabling LLM to Ask — an end-to-end pipeline to enable LLMs to ask clarifying questions; includes askBench benchmark, training‑data construction methodology and dataset; trained via RLVR; collaboration with Prof. Lu Cheng (UIC).
+- **Enabling LLM to Ask** — first author. We analyze why LLMs answer incorrectly along three dimensions: (1) missing or ambiguous user intent, (2) overconfident user queries, and (3) the model forcing explanations when it does not know. We validate the effectiveness of targeted clarifications with controlled experiments and a new benchmark (askBench). Based on these dimensions, we design a data‑construction pipeline that teaches models to: clarify to elicit intent, clarify to correct user errors, and clarify to acknowledge/cope with limitations. Training via RLVR yields strong generalization and asking ability while maintaining base capabilities (with slight gains in some domains). Collaboration with Prof. Lu Cheng (UIC).
 
-## Working Notes & Directions
-
-- Agent-based LLMs for efficient complex problem solving
-- Self-evaluation → self-improvement via robust data flywheels
-- Human–LLM interaction: eliciting missing info and handling underspecification
-- Interpretability, controllability, and safety-through-analysis
-- “Dumber” benchmarks that better reflect real-world usage
-
-## Links
-
-- [GitHub](https://github.com/jialeuuz) — code experiments and supporting materials.
-- [Email](mailto:jialeuuz@gmail.com) — reach out if you’d like to collaborate.
+- **RubricsHub: Automatically Generating High-quality General Rubrics** — second author; internship work at Li Auto. Defines Meta‑Rubric criteria and an automated generation–evaluation–feedback pipeline to create high‑quality, domain‑general rubric data. Compiles rubrics into executable graders for calibrated scoring and feedback; applied to SFT filtering, DPO pair construction, and RL reward modeling.
