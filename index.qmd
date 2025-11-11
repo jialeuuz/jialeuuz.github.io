@@ -20,15 +20,16 @@ about:
 
 ::: {#hero-heading}
 
-Hi! I'm Jiale Zhao, a computer science graduate (B.Eng., 2025) from Chongqing University of Posts and Telecommunications. I currently work on rubric‑based RL for large language models during my internship at Li Auto.
+Hi! I'm Jiale Zhao, a computer science graduate (B.Eng., 2025) from Chongqing University of Posts and Telecommunications. I currently work on rubric‑based RLVR for large language models during my internship at Li Auto.
 
 I plan to begin a PhD in Fall 2026. My interests center on large language models and applied NLP, including:
 
-- Human–LLM interaction: clarifying questions, underspecification, and intent elicitation
+- Human-centered human–AI interaction (HCI)
 - Agent-based LLMs and multi-step reasoning
-- Rubric-based RL
-- Data flywheels and self-improving systems
+- Rubric-based RLVR
+- Self-evolving systems
 - Interpretability and controllability
+- End-to-end multimodal interactive systems (e.g., GPT-4o)
 
 ## Background
 
@@ -38,13 +39,13 @@ I plan to begin a PhD in Fall 2026. My interests center on large language models
 ## Publications
 
 - **[ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization](https://www.arxiv.org/abs/2510.12063)** — co-first author (equal contribution; not first-listed). Under review via ARR for AACL 2025 (ARR average score: 3.5; planning resubmission to ACL 2025 after revisions).
-- **[Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](https://arxiv.org/abs/2510.20513)** — third author; under review. Dataset: [ExpressiveSpeech](https://huggingface.co/datasets/FreedomIntelligence/ExpressiveSpeech) on Hugging Face.
+- **[Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](https://arxiv.org/abs/2510.20513)** — third author; ICASSP under review. Dataset: [ExpressiveSpeech](https://huggingface.co/datasets/FreedomIntelligence/ExpressiveSpeech) on Hugging Face.
 
 - **[Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning](https://arxiv.org/abs/2508.16949)** — sixth author. ICLR under review.
 
 ## Ongoing Work
 
-- **Enabling LLM to Ask** — first author; clarifying‑question capability across missing/ambiguous intent, overconfident user queries, and unknowns; validated on askBench; trained with RLVR; strong generalization. Ongoing collaboration with Prof. Lu Cheng (UIC).
+- **Enabling LLM to Ask** — first author; clarifying‑question capability across missing/ambiguous intent, overconfident user queries, and unknowns; validated on askBench; trained with RLVR. Ongoing collaboration with Prof. Lu Cheng (UIC).
 
 - **RubricsHub: Automatically Generating High-quality General Rubrics** — second author; internship work at Li Auto. Meta‑Rubric criteria and an automated pipeline to generate general rubrics compiled into executable graders; used across SFT filtering, DPO pair construction, and RL reward modeling.
 
