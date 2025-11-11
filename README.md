@@ -8,7 +8,16 @@ This repository powers my Quarto-based website at <https://jialeuuz.github.io>.
 2. 根据需要修改 `index.qmd`、`codes.qmd`、`publications.qmd`、`cv.qmd` 等文件中的个人信息。
 3. 运行 `quarto render`（或使用 GitHub Actions 自动渲染）以生成 `docs/` 目录。
 4. 将 `docs/` 目录部署到 GitHub Pages，即可上线个人主页。
-5. 若需导出 PDF 简历，可运行 `quarto render cv.qmd --to pdf`。
+
+### 本地预览
+
+- 安装 Quarto CLI 后，在项目根目录运行：
+
+  ```bash
+  quarto preview
+  ```
+
+- 浏览器会自动打开本地地址；编辑 `*.qmd` 或 `_quarto.yml` 将触发热更新。
 
 ### 目录结构
 
@@ -16,7 +25,7 @@ This repository powers my Quarto-based website at <https://jialeuuz.github.io>.
 ├── index.qmd          # 首页
 ├── codes.qmd          # 代码与项目
 ├── publications.qmd   # 学术成果 / 工作论文
-├── cv.qmd             # 简历页（Quarto 版本，可导出 PDF）
+├── cv.qmd             # 简历页
 ├── _quarto.yml        # 网站配置
 ├── styles.scss        # 自定义样式
 ├── docs/              # 渲染后的静态页面
