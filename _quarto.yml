@@ -19,13 +19,13 @@ website:
     search: true
     right: 
       - text: "Home"
-        href: index.qmd
+        href: cv.pdf
       - text: "Publications"
         href: publications.qmd
       - text: "Research Interests"
         href: interests.qmd
-      - text: "CV"
-        href: cv.qmd
+      - text: "CV (PDF)"
+        href: cv.pdf
 
 format:
   html:

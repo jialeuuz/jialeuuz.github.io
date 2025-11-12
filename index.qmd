@@ -15,7 +15,7 @@ about:
       href: https://github.com/jialeuuz
     - icon: file-earmark-pdf
       text: CV
-      href: cv.qmd
+      href: cv.pdf
 ---
 
 ::: {#hero-heading}
@@ -50,6 +50,8 @@ I plan to begin a PhD in Fall 2026. My interests center on large language models
 - **RubricsHub: Automatically Generating High-quality General Rubrics** — second author; internship work at Li Auto. Meta‑Rubric criteria and an automated pipeline to generate general rubrics compiled into executable graders; used across SFT filtering, DPO pair construction, and RL reward modeling.
 
 ## Selected Projects
+All three were production business deliverables I shipped during my Li Auto internship.
+
 - MindGPTo — an end-to-end multimodal app inspired by GPT‑4o with paralinguistic features; built from scratch with modular design and front/back separation — developed during my internship at Li Auto.
 - Multi-step Reasoning + Tool Invocation Agent — constructs SFT data for LLM Q&A, integrates API function calls, and solves complex tasks via multi-step planning — developed during my internship at Li Auto.
 - Data Flywheel for Code LLM — an iterative framework centered on evaluation to mass-produce high-quality training and test data (SFT → eval → data generation → filtering → back to SFT) — developed during my internship at Li Auto.
