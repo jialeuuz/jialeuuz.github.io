@@ -62,11 +62,12 @@ All three were production business deliverables I shipped during my Li Auto inte
 <div id="left-research" class="about-left-extra" style="display:none">
   <h3>Research Experience</h3>
   <ul>
-    <li><strong>Early stage:</strong> Self‑taught programming out of a strong passion for AI. In my first two weeks of college, I joined an NLP lab after selection and worked on traditional ML; limited advisor availability prompted me to seek a more hands‑on environment.</li>
-    <li><strong>After first year:</strong> Joined a CV lab with weekly group meetings and systematic research training. I deepened my understanding of deep learning, though compute limits kept me from transformer‑based work I was eager to pursue.</li>
-    <li><strong>2023 inflection:</strong> ChatGPT‑3.5 significantly accelerated my research and coding; I adopted it as a daily tool. I also helped build “digital humans,” deploying a 24/7 virtual‑avatar livestream on Bilibili.</li>
-    <li><strong>2023–2024 (Li Auto):</strong> Started an algorithm/LLM internship. First year focused on product/engineering with ample compute, delivering an SFT data flywheel, an agent for multi‑step reasoning and tool use, and MindGPTo (a GPT‑4o‑inspired multimodal app).</li>
-    <li><strong>2024–present:</strong> Gap year to focus on research. My role shifted to research‑driven; I explored multiple directions, contributed to several papers, and solidified a focus on rubric‑based RL/RLVR, agentic reasoning, and data‑centric improvement for LLMs.</li>
+    <li>⚡ <strong>Before college:</strong> I fell for AI and taught myself to code the summer before matriculation, so I arrived on campus already building small projects and craving research.</li>
+    <li>🎯 <strong>Freshman (first semester):</strong> Two weeks in, I earned a spot in an NLP lab after a selection process. I worked on traditional ML, but my advisor was rarely available, so I mostly pushed myself and learned by doing.</li>
+    <li>🚀 <strong>Freshman summer (2nd lab selection):</strong> I spent the summer in another competitive selection and joined a CV lab with weekly group meetings and structured training. That was my first real mentorship track and it gave me a rigorous deep‑learning foundation.</li>
+    <li>🔧 <strong>Sophomore fall:</strong> After reading transformer papers I was desperate to dive in, but compute limits meant I simply couldn’t run the transformer experiments I imagined. My advisor even sighed and told me, “Let’s drop the transformer idea—there’s no compute for you, just do classic CV.” I really didn’t want to pivot back, so for a while my “research” was just reading more papers and thinking through designs on paper, getting more obsessed but still unable to touch real experiments.</li>
+    <li>🤖 <strong>Sophomore spring:</strong> When ChatGPT‑3.5 launched, I used it daily to speed up coding and research. I switched labs to build “digital humans,” shipped a 24/7 virtual‑avatar livestream on Bilibili, and became one of the earliest to deploy that idea.</li>
+    <li>🧭 <strong>Junior → now:</strong> That digital‑human project led to a Li Auto algorithm/LLM internship. Junior year, with ample compute, I delivered an SFT data flywheel, a multi‑step tool‑use agent, and MindGPTo (a GPT‑4o‑style multimodal app). Senior year and onward, I moved into research mode, joined multiple papers, and focused on rubric‑driven RL/RLVR, agentic reasoning, and data‑centric LLM improvement.</li>
   </ul>
 </div>
 
