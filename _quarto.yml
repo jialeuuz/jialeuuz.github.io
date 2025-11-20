@@ -19,7 +19,7 @@ website:
     search: true
     right: 
       - text: "Home"
-        href: cv.pdf
+        href: index.qmd
       - text: "Publications"
         href: publications.qmd
       - text: "Research Interests"
