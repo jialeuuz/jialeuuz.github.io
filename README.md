@@ -19,6 +19,11 @@ This repository powers my Quarto-based website at <https://jialeuuz.github.io>.
 
 - 浏览器会自动打开本地地址；编辑 `*.qmd` 或 `_quarto.yml` 将触发热更新。
 
+### 渲染命令说明
+
+- 在项目根目录执行 `quarto render`（不带参数）会读取 `_quarto.yml` 并渲染站点中所有入口页面，结果输出到 `docs/`（或你在配置中指定的目录）。
+- 如果只需渲染单个页面（例如 `cv.qmd`），可运行 `quarto render cv.qmd`；命令完成后仅该页面及依赖资源会被更新。
+
 ### 目录结构
 
 ```

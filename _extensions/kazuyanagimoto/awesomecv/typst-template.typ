@@ -358,24 +358,6 @@
   set page(
     paper: "a4",
     margin: (left: 15mm, right: 15mm, top: 10mm, bottom: 10mm),
-    footer: context [
-      #set text(
-        fill: gray,
-        size: 8pt,
-      )
-      #__justify_align_3[
-        #smallcaps[#date]
-      ][
-        #smallcaps[
-          #author.firstname
-          #author.lastname
-          #sym.dot.c
-          CV
-        ]
-      ][
-        #counter(page).display()
-      ]
-    ],
   )
 
   // set paragraph spacing

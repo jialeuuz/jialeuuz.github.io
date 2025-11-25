@@ -31,7 +31,7 @@ brand:
     link: "#1F2937"
 ---
 
-## Summary
+## Personal Profile
 
 I am a Computer Science B.Eng. student (2025) at Chongqing Univ. of Posts and Telecommunications and an LLM algorithm intern at Li Auto. I currently work on rubric‑based RLVR and “Enabling LLM to Ask” with Prof. Lu Cheng (UIC).
 
@@ -40,16 +40,21 @@ My interests include **human‑centered HCI**, **agentic/multi‑step reasoning*
 ## Education
 
 ```{=typst}
-#resume-entry(title: [B.Eng., Computer Science],location: [Chongqing, China],date: [2021 – 2025],description: [Chongqing Univ. of Posts and Telecommunications],)
+#resume-entry(
+  title: [B.Eng., Computer Science],
+  location: [Chongqing, China],
+  description: [Chongqing Univ. of Posts and Telecommunications],
+  date: [2021 – 2025],
+)
 ```
 
 ## Publications (Under Review)
 
 ```{=typst}
 #resume-item[
-- **ThinkPilot: Steering Reasoning Models via Automated Think‑prefixes Optimization** (co‑first; AACL 2025 via ARR; ARR avg score: 3.5; planning ACL 2025 resubmission)
-- **Decoding the Ear: Objectifying Expressiveness from Human Preference Through Efficient Alignment** (third; ICASSP under review)
-- **Breaking the Exploration Bottleneck: Rubric‑Scaffolded RL for General LLM Reasoning** (sixth; ICLR under review)
+- *ThinkPilot: Steering Reasoning Models via Automated Think‑prefixes Optimization* (co‑first; AACL 2025 via ARR)
+- *Decoding the Ear: Objectifying Expressiveness from Human Preference Through Efficient Alignment* (third; ICASSP under review)
+- *Breaking the Exploration Bottleneck: Rubric‑Scaffolded RL for General LLM Reasoning* (sixth; ICLR under review)
 ]
 ```
 
@@ -57,8 +62,8 @@ My interests include **human‑centered HCI**, **agentic/multi‑step reasoning*
 
 ```{=typst}
 #resume-item[
-- **Enabling LLM to Ask** — first‑author work analyzing three failure modes (missing/ambiguous intent, overconfident queries, forced answers), building askBench, and training with RLVR to elicit clarifying questions while retaining base skills (with Prof. Lu Cheng, UIC)
-- **RubricsHub** — Meta‑Rubric criteria plus automated generate‑evaluate‑feedback loop to build high‑quality, domain‑general rubrics compiled into executable graders for SFT filtering, DPO pair building, and RL reward modeling (Li Auto)
+- *Enabling LLM to Ask* — first‑author work analyzing three failure modes (missing/ambiguous intent, overconfident queries, forced answers), building askBench, and training with RLVR to elicit clarifying questions while retaining base skills (with Prof. Lu Cheng, UIC)
+- *RubricsHub* — Meta‑Rubric criteria plus automated generate‑evaluate‑feedback loop to build high‑quality, domain‑general rubrics compiled into executable graders for SFT filtering, DPO pair building, and RL reward modeling (Li Auto)
 ]
 ```
 
@@ -66,16 +71,14 @@ My interests include **human‑centered HCI**, **agentic/multi‑step reasoning*
 
 ```{=typst}
 #resume-entry(title: [LLM Algorithm Intern],location: [Li Auto, Beijing],date: [Sep 2023 – present],description: [
-- Data Flywheel for Code LLM: Evaluation‑centered loop (SFT → eval → data → filtering → SFT) to mass‑produce high‑quality training/eval data.
-- Multi‑step Reasoning + Tool Invocation Agent: SFT data for LLM Q&A; API function‑call integration; complex task solving via planning.
-- MindGPTo: End‑to‑end multimodal app (GPT‑4o‑inspired) with paralinguistic features; modular FE/BE; large‑scale audio pipelines; SFT.
-],)
-#resume-entry(title: [Research Experience],location: [China],date: [Before college – present],description: [
-- Before college: self‑taught coding and built small projects before entering university.
-- Freshman year: joined my first NLP lab via selection; worked mostly independently due to limited advising.
-- Freshman summer: joined a second, CV‑focused lab with weekly meetings and structured deep‑learning training; gained a rigorous foundation.
-- Sophomore year: still in the CV lab; limited compute blocked transformer experiments, so I focused on reading papers and designing experiments on paper.
-- Sophomore spring: moved to a third lab to build “digital humans” and shipped a 24/7 virtual‑avatar livestream on Bilibili.
-- Junior to now: Li Auto LLM internship and multiple papers; focusing on rubric‑based RL/RLVR, agentic reasoning, and data‑centric LLM improvement.
+- #strong[Data Flywheel for Code LLM] — evaluation-centric loop (SFT → evaluate → data build → filtering → back to SFT) to continually raise coding capabilities.
+  - Evaluation-first: standardized harnesses and rubrics so harder tasks surface real capability instead of being bottlenecked by today’s noisy, underspecified eval.
+  - Linked loops: evaluation feedback drives tougher data construction; the same tooling filters/repairs low-quality samples before feeding them back into SFT.
+- #strong[Multi-step Reasoning + Tool Invocation Agent] — code-LLM agent that plans, writes code, and executes tool calls for precise answers.
+  - Multi-step reasoning: decomposes complex or debugging asks into structured plans so context is stitched into a single executable query.
+  - Tool grounding: integrates code execution and API/function calls for live data or environment actions when pretrained knowledge falls short.
+- #strong[MindGPTo (GPT-4o-style multimodal app)] — end-to-end audio + vision system with paralinguistic control, built from scratch with modular FE/BE interfaces.
+  - Mode coverage: supports audio→ASR→LLM→TTS, audio2text→TTS, audio2audio, and multimodal audio+image+video→text→TTS workflows.
+  - Paralinguistic SFT: audio data pipelines expand beyond laughter/pause to age, gender, compound emotions, emotional actions, and ambient sounds.
 ],)
 ```

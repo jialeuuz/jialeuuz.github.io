@@ -94,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./cv.pdf"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -128,6 +128,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#humanllm-interaction-under-underspecification" id="toc-humanllm-interaction-under-underspecification" class="nav-link active" data-scroll-target="#humanllm-interaction-under-underspecification">Human–LLM Interaction under Underspecification</a></li>
   <li><a href="#agent-based-llms-and-multi-step-reasoning" id="toc-agent-based-llms-and-multi-step-reasoning" class="nav-link" data-scroll-target="#agent-based-llms-and-multi-step-reasoning">Agent-based LLMs and Multi-step Reasoning</a></li>
   <li><a href="#data-flywheels-and-self-improving-systems" id="toc-data-flywheels-and-self-improving-systems" class="nav-link" data-scroll-target="#data-flywheels-and-self-improving-systems">Data Flywheels and Self-improving Systems</a></li>
+  <li><a href="#mindgpto-end-to-end-multimodal-interaction" id="toc-mindgpto-end-to-end-multimodal-interaction" class="nav-link" data-scroll-target="#mindgpto-end-to-end-multimodal-interaction">MindGPTo: End-to-end Multimodal Interaction</a></li>
   <li><a href="#interpretability-safety-and-controllability" id="toc-interpretability-safety-and-controllability" class="nav-link" data-scroll-target="#interpretability-safety-and-controllability">Interpretability, Safety, and Controllability</a></li>
   <li><a href="#evaluation-and-benchmarks-realistic-even-if-dumb" id="toc-evaluation-and-benchmarks-realistic-even-if-dumb" class="nav-link" data-scroll-target="#evaluation-and-benchmarks-realistic-even-if-dumb">Evaluation and Benchmarks (“Realistic, Even if ‘Dumb’”)</a></li>
   </ul>
@@ -167,17 +168,25 @@ ul.task-list li input[type="checkbox"] {
 <section id="agent-based-llms-and-multi-step-reasoning" class="level2">
 <h2 class="anchored" data-anchor-id="agent-based-llms-and-multi-step-reasoning">Agent-based LLMs and Multi-step Reasoning</h2>
 <ul>
-<li>Goal: Improve reliability and sample efficiency of tool-using, planning, and self-verifying agents.</li>
-<li>Methods: hierarchical plans, verifier/solver architectures, think-prefix optimization, selective self-reflection, and lightweight tree/graph-of-thought with early stopping.</li>
-<li>Evaluation: grounded tasks with objective end states (QA+tools, coding with tests, retrieval with citations), latency–cost–quality trade-off analysis.</li>
+<li>Goal: Build code-LLM agents that decompose complex tasks, generate executable plans, and call functions/APIs for real-world interaction.</li>
+<li>Methods: multi-step reasoning for code correction and long-context synthesis, hierarchical planners+critics, deliberate think-prefixes, and integration with execution sandboxes/function-calling APIs for precise grounding.</li>
+<li>Evaluation: QA with tools, coding tasks with unit tests, retrieval with citations, plus latency–cost–quality trade-offs and ablations on plan depth/tool latency.</li>
 </ul>
 </section>
 <section id="data-flywheels-and-self-improving-systems" class="level2">
 <h2 class="anchored" data-anchor-id="data-flywheels-and-self-improving-systems">Data Flywheels and Self-improving Systems</h2>
 <ul>
-<li>Goal: Close the loop from SFT → eval → generation → filtering → retraining to continuously improve models and tests.</li>
-<li>Methods: automatic curriculum building, difficulty-aware sampling, deduplication and contamination control, safety/PII gating, and feedback-driven rubric updates.</li>
-<li>Tooling: reproducible eval harnesses, dataset versioning, and dashboards tracking quality, cost, and drift.</li>
+<li>Goal: Close the loop from SFT → evaluate → data construct → filter → back to SFT so code LLMs improve with every iteration.</li>
+<li>Methods: evaluation-first mindset (harder specs, rubricized harnesses) to fix today’s noisy/too-easy code eval; evaluation, generation, and filtering share infra so feedback on difficulty directly shapes new data while filtering tools also repair poor samples.</li>
+<li>Tooling: reproducible eval/testbeds, rubric-driven graders for filtering, dataset versioning, and dashboards tracking difficulty, acceptance, and regression risk.</li>
+</ul>
+</section>
+<section id="mindgpto-end-to-end-multimodal-interaction" class="level2">
+<h2 class="anchored" data-anchor-id="mindgpto-end-to-end-multimodal-interaction">MindGPTo: End-to-end Multimodal Interaction</h2>
+<ul>
+<li>Goal: Deliver GPT-4o-like, audio-centric experiences with controllable paralinguistic traits plus multimodal perception.</li>
+<li>Architecture: Built MindGPTo from scratch with a modular front/back split; supports audio→ASR→LLM→TTS, a lean audio2text mainline, fully end-to-end audio2audio, and audio+image+video→text→TTS.</li>
+<li>Data &amp; SFT: Large-scale audio pipelines mass-produce supervision to boost conversationality and nuanced cues (age, gender, compound emotions, emotional actions, ambient noise), going beyond basic laughter/pause control.</li>
 </ul>
 </section>
 <section id="interpretability-safety-and-controllability" class="level2">

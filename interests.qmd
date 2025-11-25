@@ -12,15 +12,21 @@ My research centers on large language models (LLMs) and applied NLP. Below I exp
 
 ## Agent-based LLMs and Multi-step Reasoning
 
-- Goal: Improve reliability and sample efficiency of tool-using, planning, and self-verifying agents.
-- Methods: hierarchical plans, verifier/solver architectures, think-prefix optimization, selective self-reflection, and lightweight tree/graph-of-thought with early stopping.
-- Evaluation: grounded tasks with objective end states (QA+tools, coding with tests, retrieval with citations), latency–cost–quality trade-off analysis.
+- Goal: Build code-LLM agents that decompose complex tasks, generate executable plans, and call functions/APIs for real-world interaction.
+- Methods: multi-step reasoning for code correction and long-context synthesis, hierarchical planners+critics, deliberate think-prefixes, and integration with execution sandboxes/function-calling APIs for precise grounding.
+- Evaluation: QA with tools, coding tasks with unit tests, retrieval with citations, plus latency–cost–quality trade-offs and ablations on plan depth/tool latency.
 
 ## Data Flywheels and Self-improving Systems
 
-- Goal: Close the loop from SFT → eval → generation → filtering → retraining to continuously improve models and tests.
-- Methods: automatic curriculum building, difficulty-aware sampling, deduplication and contamination control, safety/PII gating, and feedback-driven rubric updates.
-- Tooling: reproducible eval harnesses, dataset versioning, and dashboards tracking quality, cost, and drift.
+- Goal: Close the loop from SFT → evaluate → data construct → filter → back to SFT so code LLMs improve with every iteration.
+- Methods: evaluation-first mindset (harder specs, rubricized harnesses) to fix today’s noisy/too-easy code eval; evaluation, generation, and filtering share infra so feedback on difficulty directly shapes new data while filtering tools also repair poor samples.
+- Tooling: reproducible eval/testbeds, rubric-driven graders for filtering, dataset versioning, and dashboards tracking difficulty, acceptance, and regression risk.
+
+## MindGPTo: End-to-end Multimodal Interaction
+
+- Goal: Deliver GPT-4o-like, audio-centric experiences with controllable paralinguistic traits plus multimodal perception.
+- Architecture: Built MindGPTo from scratch with a modular front/back split; supports audio→ASR→LLM→TTS, a lean audio2text mainline, fully end-to-end audio2audio, and audio+image+video→text→TTS.
+- Data & SFT: Large-scale audio pipelines mass-produce supervision to boost conversationality and nuanced cues (age, gender, compound emotions, emotional actions, ambient noise), going beyond basic laughter/pause control.
 
 
 

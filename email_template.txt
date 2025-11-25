@@ -1,0 +1,53 @@
+---
+
+## Subject 备选
+
+1. **Prospective PhD Student (Fall 2026) – Fit with Your Work on [X]**
+2. **PhD Application Inquiry (Fall 2026): Interest in [X]**
+3. **Potential PhD Supervision – [Your Name] + [Keyword from their paper]**
+4. **Research Match for PhD (Fall 2026): [Agent-based LLMs / HCI / RLVR]**
+
+---
+
+## Cold Email 主模板（英文）
+
+**Dear Prof. [Last Name],**
+
+My name is **Jiale Zhao**, a **B.Eng. graduate in Computer Science (2025)** from **Chongqing University of Posts and Telecommunications**, and I plan to apply for a **PhD starting Fall 2026**. My research interests focus on **HCI**, **Agent-based LLMs and multi-step reasoning**, and **rubric-based RLVR for LLM reasoning/alignment**.
+
+【可替换区 A：对方工作 + 你读过的论文】
+I have been following your work on **[prof’s theme]**, and I was particularly interested in your paper(s) **“[Paper 1 Title]” (Venue/Year)** and **“[Paper 2 Title]” (Venue/Year)**.
+
+* In **[Paper 1]**, your idea of **[specific contribution/technique/result]** stood out to me because **[why it matters / what gap it fills]**.
+* In **[Paper 2]**, I found **[specific method/finding]** especially relevant to **[target problem]**.
+
+【可替换区 B：你最贴的研究亮点（2–3 条）】
+Recently, I have been working on **[your subtopic closest to them]**. Some representative work includes:
+
+* **[Work/Paper/Project 1 Title]** – **[1 sentence: your role + key idea + result/impact]**.
+* **[Work/Paper/Project 2 Title]** – **[1 sentence]**.
+* **[Optional Work/Paper/Project 3]** – **[1 sentence]**.
+
+More details on my publications and research experience are available on my homepage: **[https://jialeuuz.github.io/](https://jialeuuz.github.io/)**.
+
+【可替换区 C：匹配 + 你想做的下一步】
+I believe my background in **[your theme]** aligns well with your group’s focus on **[their theme]**. Building on **[their paper/idea]**, I am excited about exploring **[1 concrete future direction/question]**, where **[your method/experience]** could contribute to **[their goal]**.
+
+My CV is available here for your reference: **[https://jialeuuz.github.io/cv.pdf](https://jialeuuz.github.io/cv.pdf)**.
+
+Thank you for your time and consideration.
+
+**Best regards,**
+**Jiale Zhao**
+[jialeuuz@gmail.com](mailto:jialeuuz@gmail.com)
+Homepage: [https://jialeuuz.github.io/](https://jialeuuz.github.io/)
+
+---
+
+## 你每封信只需要换的三块
+
+* **A 区**：2 篇左右对方论文，写清“你读懂的点 + 为什么重要”。
+* **B 区**：挑你最相关的 2–3 个成果（对他最有用的）。
+* **C 区**：一句“基于他什么工作 → 你能怎么推进的具体问题”。
+
+---
