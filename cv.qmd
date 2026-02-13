@@ -33,7 +33,7 @@ brand:
 
 ## Personal Profile
 
-I am a Computer Science B.Eng. student (2025) at Chongqing Univ. of Posts and Telecommunications and an LLM algorithm intern at Li Auto. I currently work on rubric‑based RLVR and “Enabling LLM to Ask” with Prof. Lu Cheng (UIC).
+I am a Computer Science B.Eng. student (2025) at Chongqing Univ. of Posts and Telecommunications and an LLM algorithm intern at Li Auto. I currently work on rubric‑based RLVR and LLM clarification (AskBench) with Prof. Lu Cheng (UIC).
 
 My interests include **human‑centered HCI**, **agentic/multi‑step reasoning**, **interpretability/controllability**, **self‑evolving systems**, and **multimodal pipelines**.
 
@@ -52,6 +52,8 @@ My interests include **human‑centered HCI**, **agentic/multi‑step reasoning*
 
 ```{=typst}
 #resume-item[
+- *When and What to Ask: AskBench and Rubric‑Guided RLVR for LLM Clarification* (first; under review, ACL; PDF: paper.pdf; code: https://github.com/jialeuuz/askbench)
+- *RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse‑to‑Fine Generation* (second; under review, ACL; PDF: rubrichub.pdf; arXiv: https://arxiv.org/abs/2601.08430)
 - *ThinkPilot: Steering Reasoning Models via Automated Think‑prefixes Optimization* (co‑first; AACL 2025 via ARR)
 - *Decoding the Ear: Objectifying Expressiveness from Human Preference Through Efficient Alignment* (third; ICASSP under review)
 - *Breaking the Exploration Bottleneck: Rubric‑Scaffolded RL for General LLM Reasoning* (sixth; ICLR under review)
@@ -62,8 +64,8 @@ My interests include **human‑centered HCI**, **agentic/multi‑step reasoning*
 
 ```{=typst}
 #resume-item[
-- *Enabling LLM to Ask* — first‑author work analyzing three failure modes (missing/ambiguous intent, overconfident queries, forced answers), building askBench, and training with RLVR to elicit clarifying questions while retaining base skills (with Prof. Lu Cheng, UIC)
-- *RubricsHub* — Meta‑Rubric criteria plus automated generate‑evaluate‑feedback loop to build high‑quality, domain‑general rubrics compiled into executable graders for SFT filtering, DPO pair building, and RL reward modeling (Li Auto)
+- *AskBench* — benchmark and training pipeline for teaching LLMs to ask targeted clarifying questions (https://github.com/jialeuuz/askbench)
+- *RubricHub* — automated coarse‑to‑fine rubric generation and compilation into executable graders for SFT filtering, DPO pair building, and RL reward modeling (Li Auto)
 ]
 ```
 

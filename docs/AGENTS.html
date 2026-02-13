@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Publications – Jiale Zhao（赵佳乐）</title>
+<title>agents – Jiale Zhao（赵佳乐）</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./publications.html" aria-current="page"> 
+    <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
@@ -123,43 +123,76 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#under-review" id="toc-under-review" class="nav-link active" data-scroll-target="#under-review">Under Review</a></li>
+  <li><a href="#repository-guidelines" id="toc-repository-guidelines" class="nav-link active" data-scroll-target="#repository-guidelines">Repository Guidelines</a>
+  <ul class="collapse">
+  <li><a href="#project-structure" id="toc-project-structure" class="nav-link" data-scroll-target="#project-structure">Project Structure</a></li>
+  <li><a href="#build-test-and-development-commands" id="toc-build-test-and-development-commands" class="nav-link" data-scroll-target="#build-test-and-development-commands">Build, Test, and Development Commands</a></li>
+  <li><a href="#coding-style-naming-conventions" id="toc-coding-style-naming-conventions" class="nav-link" data-scroll-target="#coding-style-naming-conventions">Coding Style &amp; Naming Conventions</a></li>
+  <li><a href="#commit-pull-request-guidelines" id="toc-commit-pull-request-guidelines" class="nav-link" data-scroll-target="#commit-pull-request-guidelines">Commit &amp; Pull Request Guidelines</a></li>
+  <li><a href="#agent-specific-instructions" id="toc-agent-specific-instructions" class="nav-link" data-scroll-target="#agent-specific-instructions">Agent-Specific Instructions</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/jialeuuz/jialeuuz.github.io/edit/main/publications.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jialeuuz/jialeuuz.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/jialeuuz/jialeuuz.github.io/edit/main/AGENTS.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jialeuuz/jialeuuz.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Publications</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="under-review" class="level2">
-<h2 class="anchored" data-anchor-id="under-review">Under Review</h2>
+<section id="repository-guidelines" class="level1">
+<h1>Repository Guidelines</h1>
+<section id="project-structure" class="level2">
+<h2 class="anchored" data-anchor-id="project-structure">Project Structure</h2>
+<p>This repository is a Quarto website (GitHub Pages).</p>
 <ul>
-<li><p><strong>When and What to Ask: AskBench and Rubric-Guided RLVR for LLM Clarification</strong> — first author. Under review (ACL). [<a href="paper.pdf">PDF</a>] [<a href="https://github.com/jialeuuz/askbench">Code</a>] (arXiv pending). We introduce AskBench, an interactive benchmark that converts standard QA pairs into multi-turn interactions with explicit checkpoints and a unified judge loop (grading final answers and simulating user responses only when explicitly asked). AskBench includes AskMind (intent-deficient queries) and AskOverconfidence (queries with injected false premises). We further propose rubric-guided RLVR with verifier-based rewards to improve both answer correctness and targeted clarification.</p></li>
-<li><p><strong>RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation</strong> — second author. Under review (ACL). [<a href="rubrichub.pdf">PDF</a>] [<a href="https://arxiv.org/abs/2601.08430">arXiv</a>]. We propose an automated Coarse-to-Fine Rubric Generation framework (principle-guided + response-grounded synthesis, multi-model aggregation, and difficulty evolution) to produce comprehensive, highly discriminative rubrics for open-ended generation. Based on it, we build RubricHub (∼110k, multi-domain) and validate it with a two-stage post-training pipeline: rubric-based rejection sampling fine-tuning (RuFT) and rubric-based reinforcement learning (RuRL).</p></li>
-<li><p><strong><a href="https://www.arxiv.org/abs/2510.12063">ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization</a></strong> — co-first author (equal contribution; not first-listed). AACL 2025 via ARR. Contribution highlights: designed experiments and framework, integrated explainability into iterative algorithms, wrote appendix and contributed to main text.</p></li>
-<li><p><strong><a href="https://arxiv.org/abs/2510.20513">Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment</a></strong> — third author. ICASSP under review. Released accompanying open dataset <a href="https://huggingface.co/datasets/FreedomIntelligence/ExpressiveSpeech">ExpressiveSpeech</a> on Hugging Face. Project page: <a href="https://freedomintelligence.github.io/ExpressiveSpeech/" class="uri">https://freedomintelligence.github.io/ExpressiveSpeech/</a>.</p></li>
-<li><p><strong><a href="https://arxiv.org/abs/2508.16949">Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning</a></strong> — sixth author. ICLR under review.</p></li>
+<li><code>*.qmd</code>: Source pages (e.g.&nbsp;<code>index.qmd</code>, <code>publications.qmd</code>, <code>cv.qmd</code>).</li>
+<li><code>_quarto.yml</code>: Site configuration (navbar, theme, output directory).</li>
+<li><code>styles.scss</code>, <code>custom.css</code>: Site styling overrides.</li>
+<li><code>images/</code>: Author-controlled image assets (favicon, profile, etc.).</li>
+<li><code>docs/</code>: Rendered static site output (HTML, <code>site_libs/</code>, PDFs). This is what GitHub Pages serves.</li>
+<li><code>_extensions/</code>, <code>webr/</code>: Quarto extensions and webR-related assets.</li>
 </ul>
+</section>
+<section id="build-test-and-development-commands" class="level2">
+<h2 class="anchored" data-anchor-id="build-test-and-development-commands">Build, Test, and Development Commands</h2>
+<p>Quarto CLI is required.</p>
+<ul>
+<li><code>quarto preview</code>: Run a local dev server with live reload.</li>
+<li><code>quarto render</code>: Build the full site into <code>docs/</code>.</li>
+<li><code>quarto render cv.qmd</code>: Rebuild a single page (faster for edits).</li>
+</ul>
+<p>There is no dedicated automated test suite in this repo; treat a clean <code>quarto render</code> plus a quick browser smoke-check as the main validation step.</p>
+</section>
+<section id="coding-style-naming-conventions" class="level2">
+<h2 class="anchored" data-anchor-id="coding-style-naming-conventions">Coding Style &amp; Naming Conventions</h2>
+<ul>
+<li>Prefer editing source files, not generated output: change <code>*.qmd</code> / <code>_quarto.yml</code> / <code>styles.scss</code> and re-run <code>quarto render</code> instead of hand-editing <code>docs/*.html</code>.</li>
+<li>YAML in <code>_quarto.yml</code>: 2-space indentation, keep keys grouped under <code>project:</code>, <code>website:</code>, <code>format:</code>.</li>
+<li>Filenames: lowercase, descriptive (<code>publications.qmd</code>, <code>interests.qmd</code>), and keep page <code>href:</code> values in <code>_quarto.yml</code> in sync.</li>
+</ul>
+</section>
+<section id="commit-pull-request-guidelines" class="level2">
+<h2 class="anchored" data-anchor-id="commit-pull-request-guidelines">Commit &amp; Pull Request Guidelines</h2>
+<p>Recent history uses very short, lowercase subjects (e.g.&nbsp;<code>update</code>, <code>init</code>). When contributing, prefer more descriptive, imperative subjects like:</p>
+<ul>
+<li><code>Update publications list</code></li>
+<li><code>Tweak navbar links</code></li>
+<li><code>Fix CV PDF build</code></li>
+</ul>
+<p>For PRs:</p>
+<ul>
+<li>Describe the change and which page(s) it affects.</li>
+<li>Include before/after screenshots for visible layout changes.</li>
+<li>Confirm you ran <code>quarto render</code> and that <code>docs/</code> is updated accordingly (since it is the deploy artifact).</li>
+</ul>
+</section>
+<section id="agent-specific-instructions" class="level2">
+<h2 class="anchored" data-anchor-id="agent-specific-instructions">Agent-Specific Instructions</h2>
+<p>If a change involves modifying concrete code, content data, or generated artifacts, ask for explicit approval before editing. Do not make unrequested changes directly (especially destructive or hard-to-reverse edits).</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -571,7 +604,7 @@ ul.task-list li input[type="checkbox"] {
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jialeuuz/jialeuuz.github.io/edit/main/publications.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jialeuuz/jialeuuz.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jialeuuz/jialeuuz.github.io/edit/main/AGENTS.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jialeuuz/jialeuuz.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Made with <a href="https://quarto.org/">Quarto</a><br></p>
 </div>

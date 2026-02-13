@@ -38,16 +38,12 @@ I plan to begin a PhD in Fall 2026. My interests center on large language models
 
 ## Publications
 
+- **When and What to Ask: AskBench and Rubric-Guided RLVR for LLM Clarification** — first author. Under review (ACL). [[PDF](paper.pdf)] [[Code](https://github.com/jialeuuz/askbench)].
+- **RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation** — second author. Under review (ACL). [[PDF](rubrichub.pdf)] [[arXiv](https://arxiv.org/abs/2601.08430)].
 - **[ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization](https://www.arxiv.org/abs/2510.12063)** — co-first author (equal contribution; not first-listed). Under review via ARR for AACL 2025.
 - **[Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](https://arxiv.org/abs/2510.20513)** — third author; ICASSP under review. Dataset: [ExpressiveSpeech](https://huggingface.co/datasets/FreedomIntelligence/ExpressiveSpeech) on Hugging Face.
 
 - **[Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning](https://arxiv.org/abs/2508.16949)** — sixth author. ICLR under review.
-
-## Ongoing Work
-
-- **Enabling LLM to Ask** — first author; clarifying‑question capability across missing/ambiguous intent, overconfident user queries, and unknowns; validated on askBench; trained with RLVR. Ongoing collaboration with Prof. Lu Cheng (UIC).
-
-- **RubricsHub: Automatically Generating High-quality General Rubrics** — second author; internship work at Li Auto. Meta‑Rubric criteria and an automated pipeline to generate general rubrics compiled into executable graders; used across SFT filtering, DPO pair construction, and RL reward modeling.
 
 ## Selected Projects
 All three were production business deliverables I shipped during my Li Auto internship.

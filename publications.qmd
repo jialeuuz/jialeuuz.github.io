@@ -7,14 +7,12 @@ editor:
 
 ## Under Review
 
+- **When and What to Ask: AskBench and Rubric-Guided RLVR for LLM Clarification** — first author. Under review (ACL). [[PDF](paper.pdf)] [[Code](https://github.com/jialeuuz/askbench)] (arXiv pending). We introduce AskBench, an interactive benchmark that converts standard QA pairs into multi-turn interactions with explicit checkpoints and a unified judge loop (grading final answers and simulating user responses only when explicitly asked). AskBench includes AskMind (intent-deficient queries) and AskOverconfidence (queries with injected false premises). We further propose rubric-guided RLVR with verifier-based rewards to improve both answer correctness and targeted clarification.
+
+- **RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation** — second author. Under review (ACL). [[PDF](rubrichub.pdf)] [[arXiv](https://arxiv.org/abs/2601.08430)]. We propose an automated Coarse-to-Fine Rubric Generation framework (principle-guided + response-grounded synthesis, multi-model aggregation, and difficulty evolution) to produce comprehensive, highly discriminative rubrics for open-ended generation. Based on it, we build RubricHub (∼110k, multi-domain) and validate it with a two-stage post-training pipeline: rubric-based rejection sampling fine-tuning (RuFT) and rubric-based reinforcement learning (RuRL).
+
 - **[ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization](https://www.arxiv.org/abs/2510.12063)** — co-first author (equal contribution; not first-listed). AACL 2025 via ARR. Contribution highlights: designed experiments and framework, integrated explainability into iterative algorithms, wrote appendix and contributed to main text.
 
 - **[Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](https://arxiv.org/abs/2510.20513)** — third author. ICASSP under review. Released accompanying open dataset [ExpressiveSpeech](https://huggingface.co/datasets/FreedomIntelligence/ExpressiveSpeech) on Hugging Face. Project page: <https://freedomintelligence.github.io/ExpressiveSpeech/>.
 
 - **[Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning](https://arxiv.org/abs/2508.16949)** — sixth author. ICLR under review.
-
-## In Progress
-
-- **Enabling LLM to Ask** — first author. We analyze why LLMs answer incorrectly along three dimensions: (1) missing or ambiguous user intent, (2) overconfident user queries, and (3) the model forcing explanations when it does not know. We validate the effectiveness of targeted clarifications with controlled experiments and a new benchmark (askBench). Based on these dimensions, we design a data‑construction pipeline that teaches models to: clarify to elicit intent, clarify to correct user errors, and clarify to acknowledge/cope with limitations. Training via RLVR yields asking ability while maintaining base capabilities (with slight gains in some domains). Collaboration with Prof. Lu Cheng (UIC).
-
-- **RubricsHub: Automatically Generating High-quality General Rubrics** — second author; internship work at Li Auto. Defines Meta‑Rubric criteria and an automated generation–evaluation–feedback pipeline to create high‑quality, domain‑general rubric data. Compiles rubrics into executable graders for calibrated scoring and feedback; applied to SFT filtering, DPO pair construction, and RL reward modeling.

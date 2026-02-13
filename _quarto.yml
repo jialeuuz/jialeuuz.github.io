@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - paper.pdf
+    - rubrichub.pdf
   
 website:
   page-navigation: true
