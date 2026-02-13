@@ -54,9 +54,6 @@ My interests include **human‑centered HCI**, **agentic/multi‑step reasoning*
 #resume-item[
 - *When and What to Ask: AskBench and Rubric‑Guided RLVR for LLM Clarification* (first; under review, ACL; PDF: paper.pdf; code: https://github.com/jialeuuz/askbench)
 - *RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse‑to‑Fine Generation* (second; under review, ACL; PDF: rubrichub.pdf; arXiv: https://arxiv.org/abs/2601.08430)
-- *ThinkPilot: Steering Reasoning Models via Automated Think‑prefixes Optimization* (co‑first; AACL 2025 via ARR)
-- *Decoding the Ear: Objectifying Expressiveness from Human Preference Through Efficient Alignment* (third; ICASSP under review)
-- *Breaking the Exploration Bottleneck: Rubric‑Scaffolded RL for General LLM Reasoning* (sixth; ICLR under review)
 ]
 ```
 
@@ -64,8 +61,8 @@ My interests include **human‑centered HCI**, **agentic/multi‑step reasoning*
 
 ```{=typst}
 #resume-item[
-- *AskBench* — benchmark and training pipeline for teaching LLMs to ask targeted clarifying questions (https://github.com/jialeuuz/askbench)
-- *RubricHub* — automated coarse‑to‑fine rubric generation and compilation into executable graders for SFT filtering, DPO pair building, and RL reward modeling (Li Auto)
+- *ProcessRubrics* (first; Li Auto) — a process-level rubric learning framework for improving structured reasoning quality through finer-grained supervision.
+- *Learning Persona as Behavior* (second; collaboration with Prof. Lu Cheng, UIC) — a behavior-oriented persona learning study aimed at improving persona consistency with robust cross-domain generalization.
 ]
 ```
 
@@ -83,4 +80,14 @@ My interests include **human‑centered HCI**, **agentic/multi‑step reasoning*
   - Mode coverage: supports audio→ASR→LLM→TTS, audio2text→TTS, audio2audio, and multimodal audio+image+video→text→TTS workflows.
   - Paralinguistic SFT: audio data pipelines expand beyond laughter/pause to age, gender, compound emotions, emotional actions, and ambient sounds.
 ],)
+```
+
+## Manuscripts for Resubmission
+
+```{=typst}
+#resume-item[
+- *ThinkPilot: Steering Reasoning Models via Automated Think‑prefixes Optimization* (co‑first; awaiting resubmission)
+- *Decoding the Ear: Objectifying Expressiveness from Human Preference Through Efficient Alignment* (third; awaiting resubmission)
+- *Breaking the Exploration Bottleneck: Rubric‑Scaffolded RL for General LLM Reasoning* (sixth; awaiting resubmission)
+]
 ```

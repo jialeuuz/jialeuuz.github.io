@@ -40,10 +40,11 @@ I plan to begin a PhD in Fall 2026. My interests center on large language models
 
 - **[When and What to Ask: AskBench and Rubric-Guided RLVR for LLM Clarification](paper.pdf)** — first author. Under review (ACL). Code: <https://github.com/jialeuuz/askbench>.
 - **[RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation](rubrichub.pdf)** — second author. Under review (ACL). arXiv: <https://arxiv.org/abs/2601.08430>.
-- **[ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization](https://www.arxiv.org/abs/2510.12063)** — co-first author (equal contribution; not first-listed). Under review via ARR for AACL 2025.
-- **[Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](https://arxiv.org/abs/2510.20513)** — third author; ICASSP under review. Dataset: [ExpressiveSpeech](https://huggingface.co/datasets/FreedomIntelligence/ExpressiveSpeech) on Hugging Face.
 
-- **[Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning](https://arxiv.org/abs/2508.16949)** — sixth author. ICLR under review.
+## Ongoing Work
+
+- **ProcessRubrics** — first-author work at Li Auto on process-level rubric learning for improving structured reasoning quality.
+- **Learning Persona as Behavior** — second-author collaboration with Prof. Lu Cheng (UIC) on behavior-oriented persona learning with stronger cross-domain stability.
 
 ## Selected Projects
 All three were production business deliverables I shipped during my Li Auto internship.
@@ -57,6 +58,12 @@ All three were production business deliverables I shipped during my Li Auto inte
 - **MindGPTo (GPT‑4o-style multimodal app)** — end-to-end audio + vision application with paralinguistic control, built from scratch with a modular FE/BE split.
   - *Mode coverage:* Ships traditional audio→ASR→LLM→TTS, production audio2text→TTS pipelines, end-to-end audio2audio, and multimodal audio+image+video→text→TTS workflows.
   - *Paralinguistic SFT:* Large-scale audio data pipelines boost colloquial speech and nuanced cues (beyond laughter/pauses) such as age, gender, compound emotions, emotional actions, and ambient sounds.
+
+## Manuscripts for Resubmission
+
+- **[ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization](https://www.arxiv.org/abs/2510.12063)** — co-first author; awaiting resubmission.
+- **[Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](https://arxiv.org/abs/2510.20513)** — third author; awaiting resubmission.
+- **[Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning](https://arxiv.org/abs/2508.16949)** — sixth author; awaiting resubmission.
 
 :::
 
