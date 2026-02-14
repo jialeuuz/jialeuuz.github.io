@@ -52,7 +52,7 @@ My interests include **human‑centered HCI**, **agentic/multi‑step reasoning*
 
 ```{=typst}
 #resume-item[
-- *When and What to Ask: AskBench and Rubric‑Guided RLVR for LLM Clarification* (first; under review, ACL; PDF: paper.pdf; code: https://github.com/jialeuuz/askbench)
+- *When and What to Ask: AskBench and Rubric‑Guided RLVR for LLM Clarification* (first; under review, ACL; PDF: https://arxiv.org/pdf/2602.11199v1; arXiv: https://arxiv.org/abs/2602.11199)
 - *RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse‑to‑Fine Generation* (second; under review, ACL; PDF: rubrichub.pdf; arXiv: https://arxiv.org/abs/2601.08430)
 ]
 ```

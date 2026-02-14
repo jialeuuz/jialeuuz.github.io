@@ -38,7 +38,7 @@ I plan to begin a PhD in Fall 2026. My interests center on large language models
 
 ## Publications
 
-- **[When and What to Ask: AskBench and Rubric-Guided RLVR for LLM Clarification](paper.pdf)** — first author. Under review (ACL). Code: <https://github.com/jialeuuz/askbench>.
+- **[When and What to Ask: AskBench and Rubric-Guided RLVR for LLM Clarification](https://arxiv.org/pdf/2602.11199v1)** — first author. Under review (ACL). arXiv: <https://arxiv.org/abs/2602.11199>.
 - **[RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation](rubrichub.pdf)** — second author. Under review (ACL). arXiv: <https://arxiv.org/abs/2601.08430>.
 
 ## Ongoing Work
