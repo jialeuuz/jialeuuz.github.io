@@ -40,6 +40,7 @@ I plan to begin a PhD in Fall 2026. My interests center on large language models
 
 - **[When and What to Ask: AskBench and Rubric-Guided RLVR for LLM Clarification](https://arxiv.org/pdf/2602.11199v1)** — first author. Under review (ACL). arXiv: <https://arxiv.org/abs/2602.11199>.
 - **[RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation](rubrichub.pdf)** — second author. Under review (ACL). arXiv: <https://arxiv.org/abs/2601.08430>.
+- **[ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization](https://www.arxiv.org/abs/2510.12063)** — co-first author. Findings of EACL 2026. arXiv: <https://arxiv.org/abs/2510.12063>.
 
 ## Ongoing Work
 
@@ -61,7 +62,6 @@ All three were production business deliverables I shipped during my Li Auto inte
 
 ## Manuscripts for Resubmission
 
-- **[ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization](https://www.arxiv.org/abs/2510.12063)** — co-first author; awaiting resubmission.
 - **[Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](https://arxiv.org/abs/2510.20513)** — third author; awaiting resubmission.
 - **[Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning](https://arxiv.org/abs/2508.16949)** — sixth author; awaiting resubmission.
 

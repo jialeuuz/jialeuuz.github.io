@@ -48,10 +48,11 @@ My interests include **human‑centered HCI**, **agentic/multi‑step reasoning*
 )
 ```
 
-## Publications (Under Review)
+## Publications
 
 ```{=typst}
 #resume-item[
+- *ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization* (co-first; Findings of EACL 2026; arXiv: https://arxiv.org/abs/2510.12063)
 - *When and What to Ask: AskBench and Rubric‑Guided RLVR for LLM Clarification* (first; under review, ACL; PDF: https://arxiv.org/pdf/2602.11199v1; arXiv: https://arxiv.org/abs/2602.11199)
 - *RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse‑to‑Fine Generation* (second; under review, ACL; PDF: rubrichub.pdf; arXiv: https://arxiv.org/abs/2601.08430)
 ]
@@ -86,7 +87,6 @@ My interests include **human‑centered HCI**, **agentic/multi‑step reasoning*
 
 ```{=typst}
 #resume-item[
-- *ThinkPilot: Steering Reasoning Models via Automated Think‑prefixes Optimization* (co‑first; awaiting resubmission)
 - *Decoding the Ear: Objectifying Expressiveness from Human Preference Through Efficient Alignment* (third; awaiting resubmission)
 - *Breaking the Exploration Bottleneck: Rubric‑Scaffolded RL for General LLM Reasoning* (sixth; awaiting resubmission)
 ]
