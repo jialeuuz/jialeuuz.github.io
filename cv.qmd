@@ -58,9 +58,9 @@ My interests include **human‑centered HCI**, **agentic/multi‑step reasoning*
 
 ```{=typst}
 #resume-item[
-- Sunzhu Li, Zhiyu Lin, Jiale Zhao, Shuling Yang, and Chen Wei. *ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization* (Findings of EACL 2026; paper: https://aclanthology.org/2026.findings-eacl.185/)
 - Jiale Zhao, Ke Fang, and Lu Cheng. *When and What to Ask: AskBench and Rubric‑Guided RLVR for LLM Clarification* (Findings of ACL 2026; arXiv: https://arxiv.org/abs/2602.11199)
 - Sunzhu Li, Jiale Zhao, Miteto Wei, Huimin Ren, Yang Zhou, Jingwen Yang, Shunyu Liu, Kaike Zhang, and Wei Chen. *RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse‑to‑Fine Generation* (ACL 2026 oral; arXiv: https://arxiv.org/abs/2601.08430)
+- Sunzhu Li, Zhiyu Lin, Jiale Zhao, Shuling Yang, and Chen Wei. *ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization* (Findings of EACL 2026; paper: https://aclanthology.org/2026.findings-eacl.185/)
 - Yang Zhou, Sunzhu Li, Shunyu Liu, Wenkai Fang, Kongcheng Zhang, Jiale Zhao, et al. *Breaking the Exploration Bottleneck: Rubric‑Scaffolded Reinforcement Learning for General LLM Reasoning* (under review, ICML 2026; arXiv: https://arxiv.org/abs/2508.16949)
 - Zhiyu Lin, Jingwen Yang, Jiale Zhao, Meng Liu, Sunzhu Li, and Benyou Wang. *Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment* (under review, Interspeech 2026; arXiv: https://arxiv.org/abs/2510.20513)
 ]

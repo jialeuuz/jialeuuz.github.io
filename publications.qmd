@@ -15,24 +15,6 @@ My name is in bold.
 ::: {.pub-list}
 ::: {.pub-entry}
 ::: {.pub-title}
-[ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization](https://aclanthology.org/2026.findings-eacl.185/)
-:::
-
-::: {.pub-authors}
-Sunzhu Li, Zhiyu Lin, **Jiale Zhao**, Shuling Yang, Chen Wei
-:::
-
-::: {.pub-meta}
-[Findings of EACL 2026]{.pub-badge .pub-badge-accepted} [Co-author]{.pub-role}
-:::
-
-::: {.pub-links}
-[Paper](https://aclanthology.org/2026.findings-eacl.185/) [·]{.pub-sep} [arXiv](https://arxiv.org/abs/2510.12063) [·]{.pub-sep} [Code](https://github.com/teqkilla/ThinkPilot)
-:::
-:::
-
-::: {.pub-entry}
-::: {.pub-title}
 [When and What to Ask: AskBench and Rubric-Guided RLVR for LLM Clarification](https://arxiv.org/abs/2602.11199)
 :::
 
@@ -64,6 +46,24 @@ Sunzhu Li, **Jiale Zhao**, Miteto Wei, Huimin Ren, Yang Zhou, Jingwen Yang, Shun
 
 ::: {.pub-links}
 [arXiv](https://arxiv.org/abs/2601.08430) [·]{.pub-sep} [PDF](rubrichub.pdf) [·]{.pub-sep} [Code](https://github.com/teqkilla/RubricHub)
+:::
+:::
+
+::: {.pub-entry}
+::: {.pub-title}
+[ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization](https://aclanthology.org/2026.findings-eacl.185/)
+:::
+
+::: {.pub-authors}
+Sunzhu Li, Zhiyu Lin, **Jiale Zhao**, Shuling Yang, Chen Wei
+:::
+
+::: {.pub-meta}
+[Findings of EACL 2026]{.pub-badge .pub-badge-accepted} [Co-author]{.pub-role}
+:::
+
+::: {.pub-links}
+[Paper](https://aclanthology.org/2026.findings-eacl.185/) [·]{.pub-sep} [arXiv](https://arxiv.org/abs/2510.12063) [·]{.pub-sep} [Code](https://github.com/teqkilla/ThinkPilot)
 :::
 :::
 :::
