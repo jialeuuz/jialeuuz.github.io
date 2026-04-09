@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
   resources:
     - paper.pdf
     - rubrichub.pdf
@@ -17,8 +19,8 @@ website:
     right: |
       Made with [Quarto](https://quarto.org/)<br>
     
-  navbar: 
-    background: "#ffffff"
+  navbar:
+    background: "#faf6f1"
     search: true
     right: 
       - text: "Home"
