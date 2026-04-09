@@ -1,5 +1,68 @@
 [
   {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "My name is in bold."
+  },
+  {
+    "objectID": "publications.html#accepted",
+    "href": "publications.html#accepted",
+    "title": "Publications",
+    "section": "Accepted",
+    "text": "Accepted\n\n\n\nThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization\n\n\nSunzhu Li, Zhiyu Lin, Jiale Zhao, Shuling Yang, Chen Wei\n\n\nFindings of EACL 2026 Co-author\n\n\nPaper · arXiv · Code\n\n\n\n\nWhen and What to Ask: AskBench and Rubric-Guided RLVR for LLM Clarification\n\n\nJiale Zhao, Ke Fang, Lu Cheng\n\n\nFindings of ACL 2026 First author\n\n\narXiv · PDF\n\n\n\n\nRubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation\n\n\nSunzhu Li, Jiale Zhao, Miteto Wei, Huimin Ren, Yang Zhou, Jingwen Yang, Shunyu Liu, Kaike Zhang, Wei Chen\n\n\nACL 2026 Oral Second author\n\n\narXiv · PDF · Code"
+  },
+  {
+    "objectID": "publications.html#under-review",
+    "href": "publications.html#under-review",
+    "title": "Publications",
+    "section": "Under Review",
+    "text": "Under Review\n\n\n\nBreaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning\n\n\nYang Zhou, Sunzhu Li, Shunyu Liu, Wenkai Fang, Kongcheng Zhang, Jiale Zhao, Jingwen Yang, Yihe Zhou, Jianwei Lv, Tongya Zheng, Hengtong Lu, Chen Wei, Xie Yan, Mingli Song\n\n\nICML 2026 Submission Sixth author\n\n\narXiv\n\n\n\n\nDecoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment\n\n\nZhiyu Lin, Jingwen Yang, Jiale Zhao, Meng Liu, Sunzhu Li, Benyou Wang\n\n\nInterspeech 2026 Submission Third author\n\n\narXiv · Code · Data"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jiale Zhao",
+    "section": "",
+    "text": "jialeuuz@gmail.com\n  \n  \n    \n     jialeuuz\n  \n  \n    \n     OpenReview\n  \n  \n    \n     ORCID\n  \n  \n    \n     CV\n  \n\n      \nHi! I’m Jiale Zhao, a computer science graduate (B.Eng., 2025) from Chongqing University of Posts and Telecommunications. I currently work on rubric‑based RLVR for large language models during my internship at Li Auto.\nI plan to begin a PhD in Fall 2026. My interests center on large language models and applied NLP, including:\n\nHuman-centered human–AI interaction (HCI)\nAgent-based LLMs and multi-step reasoning\nRubric-based RLVR\nSelf-evolving systems\nInterpretability and controllability\nEnd-to-end multimodal interactive systems (e.g., GPT-4o)\n\n\n\n\nFall 2026 (planned): PhD studies (applications in progress)\nSep 2021 – Jun 2025: B.Eng., Computer Science, Chongqing University of Posts and Telecommunications\n\n\n\n\n\nFor full links and the complete publication list, see the Publications page.\n\n\n\n\n\n\nThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization\n\n\nSunzhu Li, Zhiyu Lin, Jiale Zhao, Shuling Yang, Chen Wei\n\n\nFindings of EACL 2026 Co-author\n\n\n\n\nWhen and What to Ask: AskBench and Rubric-Guided RLVR for LLM Clarification\n\n\nJiale Zhao, Ke Fang, Lu Cheng\n\n\nFindings of ACL 2026 First author\n\n\n\n\nRubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation\n\n\nSunzhu Li, Jiale Zhao, Miteto Wei, Huimin Ren, Yang Zhou, Jingwen Yang, Shunyu Liu, Kaike Zhang, Wei Chen\n\n\nACL 2026 Oral Second author PDF\n\n\n\n\n\n\n\n\n\nBreaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning\n\n\nYang Zhou, Sunzhu Li, Shunyu Liu, Wenkai Fang, Kongcheng Zhang, Jiale Zhao, Jingwen Yang, Yihe Zhou, Jianwei Lv, Tongya Zheng, Hengtong Lu, Chen Wei, Xie Yan, Mingli Song\n\n\nICML 2026 Submission Sixth author\n\n\n\n\nDecoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment\n\n\nZhiyu Lin, Jingwen Yang, Jiale Zhao, Meng Liu, Sunzhu Li, Benyou Wang\n\n\nInterspeech 2026 Submission Third author\n\n\n\n\n\n\n\n\nProcessRubrics — second-author work at Li Auto on process-level rubric learning for improving structured reasoning quality.\nLearning Persona as Behavior — first-author collaboration with Prof. Lu Cheng (UIC) on behavior-oriented persona learning with stronger cross-domain stability.\n\n\n\n\nAll three were production business deliverables I shipped during my Li Auto internship.\n\n\n\nEvaluation-centric loop (SFT → evaluate → data build → filtering → back to SFT) to continually raise coding capabilities.\n\nEvaluation-first: Code-eval today is noisy—difficulty too low, specs ambiguous—so I standardized harnesses and rubrics to push harder tasks and capture real capability.\nLinked loops: Evaluation feedback drives harder data construction; the same tooling filters low-quality samples; filtered data re-enters the generation stack for repair and resurfacing.\n\n\n\n\nCode-LLM agent that plans, writes code, and executes tool calls for precise answers.\n\nMulti-step reasoning: Breaks complex or code-debugging tasks into structured plans so context can be stitched into a single executable query.\nTool grounding: Integrates function calls/code execution for real-time data, external APIs, and environment actions when model priors or knowledge bases fall short.\n\n\n\n\nEnd-to-end audio + vision application with paralinguistic control, built from scratch with a modular FE/BE split.\n\nMode coverage: Ships traditional audio→ASR→LLM→TTS, production audio2text→TTS pipelines, end-to-end audio2audio, and multimodal audio+image+video→text→TTS workflows.\nParalinguistic SFT: Large-scale audio data pipelines boost colloquial speech and nuanced cues (beyond laughter/pauses) such as age, gender, compound emotions, emotional actions, and ambient sounds."
+  },
+  {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "Jiale Zhao",
+    "section": "",
+    "text": "Fall 2026 (planned): PhD studies (applications in progress)\nSep 2021 – Jun 2025: B.Eng., Computer Science, Chongqing University of Posts and Telecommunications"
+  },
+  {
+    "objectID": "index.html#selected-publications",
+    "href": "index.html#selected-publications",
+    "title": "Jiale Zhao",
+    "section": "",
+    "text": "For full links and the complete publication list, see the Publications page.\n\n\n\n\n\n\nThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization\n\n\nSunzhu Li, Zhiyu Lin, Jiale Zhao, Shuling Yang, Chen Wei\n\n\nFindings of EACL 2026 Co-author\n\n\n\n\nWhen and What to Ask: AskBench and Rubric-Guided RLVR for LLM Clarification\n\n\nJiale Zhao, Ke Fang, Lu Cheng\n\n\nFindings of ACL 2026 First author\n\n\n\n\nRubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation\n\n\nSunzhu Li, Jiale Zhao, Miteto Wei, Huimin Ren, Yang Zhou, Jingwen Yang, Shunyu Liu, Kaike Zhang, Wei Chen\n\n\nACL 2026 Oral Second author PDF\n\n\n\n\n\n\n\n\n\nBreaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning\n\n\nYang Zhou, Sunzhu Li, Shunyu Liu, Wenkai Fang, Kongcheng Zhang, Jiale Zhao, Jingwen Yang, Yihe Zhou, Jianwei Lv, Tongya Zheng, Hengtong Lu, Chen Wei, Xie Yan, Mingli Song\n\n\nICML 2026 Submission Sixth author\n\n\n\n\nDecoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment\n\n\nZhiyu Lin, Jingwen Yang, Jiale Zhao, Meng Liu, Sunzhu Li, Benyou Wang\n\n\nInterspeech 2026 Submission Third author"
+  },
+  {
+    "objectID": "index.html#ongoing-work",
+    "href": "index.html#ongoing-work",
+    "title": "Jiale Zhao",
+    "section": "",
+    "text": "ProcessRubrics — second-author work at Li Auto on process-level rubric learning for improving structured reasoning quality.\nLearning Persona as Behavior — first-author collaboration with Prof. Lu Cheng (UIC) on behavior-oriented persona learning with stronger cross-domain stability."
+  },
+  {
+    "objectID": "index.html#selected-projects",
+    "href": "index.html#selected-projects",
+    "title": "Jiale Zhao",
+    "section": "",
+    "text": "All three were production business deliverables I shipped during my Li Auto internship.\n\n\n\nEvaluation-centric loop (SFT → evaluate → data build → filtering → back to SFT) to continually raise coding capabilities.\n\nEvaluation-first: Code-eval today is noisy—difficulty too low, specs ambiguous—so I standardized harnesses and rubrics to push harder tasks and capture real capability.\nLinked loops: Evaluation feedback drives harder data construction; the same tooling filters low-quality samples; filtered data re-enters the generation stack for repair and resurfacing.\n\n\n\n\nCode-LLM agent that plans, writes code, and executes tool calls for precise answers.\n\nMulti-step reasoning: Breaks complex or code-debugging tasks into structured plans so context can be stitched into a single executable query.\nTool grounding: Integrates function calls/code execution for real-time data, external APIs, and environment actions when model priors or knowledge bases fall short.\n\n\n\n\nEnd-to-end audio + vision application with paralinguistic control, built from scratch with a modular FE/BE split.\n\nMode coverage: Ships traditional audio→ASR→LLM→TTS, production audio2text→TTS pipelines, end-to-end audio2audio, and multimodal audio+image+video→text→TTS workflows.\nParalinguistic SFT: Large-scale audio data pipelines boost colloquial speech and nuanced cues (beyond laughter/pauses) such as age, gender, compound emotions, emotional actions, and ambient sounds."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "赵佳乐的个人主页"
+  },
+  {
     "objectID": "interests.html",
     "href": "interests.html",
     "title": "Research Interests",
@@ -47,194 +110,5 @@
     "title": "Research Interests",
     "section": "Evaluation and Benchmarks (“Realistic, Even if ‘Dumb’”)",
     "text": "Evaluation and Benchmarks (“Realistic, Even if ‘Dumb’”)\n\nGoal: Build evaluations that reflect messy real-world tasks rather than only cherry-picked leaderboards.\nMethods: coverage-driven test sets, prompt-variance robustness, out-of-distribution and adversarial stress tests, and verifiable pass/fail criteria.\nReporting: cost/latency alongside accuracy, provenance tracking, contamination checks, and transparent error taxonomies.\n\nIf you’re interested in collaborating, feel free to reach out: jialeuuz@gmail.com."
-  },
-  {
-    "objectID": "AGENTS.html",
-    "href": "AGENTS.html",
-    "title": "Repository Guidelines",
-    "section": "",
-    "text": "This repository is a Quarto website (GitHub Pages).\n\n*.qmd: Source pages (e.g. index.qmd, publications.qmd, cv.qmd).\n_quarto.yml: Site configuration (navbar, theme, output directory).\nstyles.scss, custom.css: Site styling overrides.\nimages/: Author-controlled image assets (favicon, profile, etc.).\ndocs/: Rendered static site output (HTML, site_libs/, PDFs). This is what GitHub Pages serves.\n_extensions/, webr/: Quarto extensions and webR-related assets.\n\n\n\n\nQuarto CLI is required.\n\nquarto preview: Run a local dev server with live reload.\nquarto render: Build the full site into docs/.\nquarto render cv.qmd: Rebuild a single page (faster for edits).\n\nThere is no dedicated automated test suite in this repo; treat a clean quarto render plus a quick browser smoke-check as the main validation step.\n\n\n\n\nPrefer editing source files, not generated output: change *.qmd / _quarto.yml / styles.scss and re-run quarto render instead of hand-editing docs/*.html.\nYAML in _quarto.yml: 2-space indentation, keep keys grouped under project:, website:, format:.\nFilenames: lowercase, descriptive (publications.qmd, interests.qmd), and keep page href: values in _quarto.yml in sync.\n\n\n\n\nRecent history uses very short, lowercase subjects (e.g. update, init). When contributing, prefer more descriptive, imperative subjects like:\n\nUpdate publications list\nTweak navbar links\nFix CV PDF build\n\nFor PRs:\n\nDescribe the change and which page(s) it affects.\nInclude before/after screenshots for visible layout changes.\nConfirm you ran quarto render and that docs/ is updated accordingly (since it is the deploy artifact).\n\n\n\n\nIf a change involves modifying concrete code, content data, or generated artifacts, ask for explicit approval before editing. Do not make unrequested changes directly (especially destructive or hard-to-reverse edits)."
-  },
-  {
-    "objectID": "AGENTS.html#project-structure",
-    "href": "AGENTS.html#project-structure",
-    "title": "Repository Guidelines",
-    "section": "",
-    "text": "This repository is a Quarto website (GitHub Pages).\n\n*.qmd: Source pages (e.g. index.qmd, publications.qmd, cv.qmd).\n_quarto.yml: Site configuration (navbar, theme, output directory).\nstyles.scss, custom.css: Site styling overrides.\nimages/: Author-controlled image assets (favicon, profile, etc.).\ndocs/: Rendered static site output (HTML, site_libs/, PDFs). This is what GitHub Pages serves.\n_extensions/, webr/: Quarto extensions and webR-related assets."
-  },
-  {
-    "objectID": "AGENTS.html#build-test-and-development-commands",
-    "href": "AGENTS.html#build-test-and-development-commands",
-    "title": "Repository Guidelines",
-    "section": "",
-    "text": "Quarto CLI is required.\n\nquarto preview: Run a local dev server with live reload.\nquarto render: Build the full site into docs/.\nquarto render cv.qmd: Rebuild a single page (faster for edits).\n\nThere is no dedicated automated test suite in this repo; treat a clean quarto render plus a quick browser smoke-check as the main validation step."
-  },
-  {
-    "objectID": "AGENTS.html#coding-style-naming-conventions",
-    "href": "AGENTS.html#coding-style-naming-conventions",
-    "title": "Repository Guidelines",
-    "section": "",
-    "text": "Prefer editing source files, not generated output: change *.qmd / _quarto.yml / styles.scss and re-run quarto render instead of hand-editing docs/*.html.\nYAML in _quarto.yml: 2-space indentation, keep keys grouped under project:, website:, format:.\nFilenames: lowercase, descriptive (publications.qmd, interests.qmd), and keep page href: values in _quarto.yml in sync."
-  },
-  {
-    "objectID": "AGENTS.html#commit-pull-request-guidelines",
-    "href": "AGENTS.html#commit-pull-request-guidelines",
-    "title": "Repository Guidelines",
-    "section": "",
-    "text": "Recent history uses very short, lowercase subjects (e.g. update, init). When contributing, prefer more descriptive, imperative subjects like:\n\nUpdate publications list\nTweak navbar links\nFix CV PDF build\n\nFor PRs:\n\nDescribe the change and which page(s) it affects.\nInclude before/after screenshots for visible layout changes.\nConfirm you ran quarto render and that docs/ is updated accordingly (since it is the deploy artifact)."
-  },
-  {
-    "objectID": "AGENTS.html#agent-specific-instructions",
-    "href": "AGENTS.html#agent-specific-instructions",
-    "title": "Repository Guidelines",
-    "section": "",
-    "text": "If a change involves modifying concrete code, content data, or generated artifacts, ask for explicit approval before editing. Do not make unrequested changes directly (especially destructive or hard-to-reverse edits)."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "赵佳乐的个人主页"
-  },
-  {
-    "objectID": "readme_for_ai.html",
-    "href": "readme_for_ai.html",
-    "title": "readme_for_ai",
-    "section": "",
-    "text": "本文件的目标是：后续 AI 只要先读这一份，就能快速理解这个仓库的整体架构、页面与样式的分层关系、各模块对应的代码路径，以及“一个需求通常应该改哪些文件”，而不需要重新大范围扫仓库。\n\n\n这是一个基于 Quarto 的个人学术主页仓库，部署目标是 GitHub Pages。\n真实渲染链路如下：\n源文件（*.qmd / 少量 *.md / 静态资源） -&gt; _quarto.yml -&gt; quarto render -&gt; docs/ -&gt; GitHub Pages\n最重要的原则：\n\n优先改源文件，不手改 docs/ 下的生成产物。\n页面内容主要在 *.qmd。\n全站配置在 _quarto.yml。\n全站主题基线在 styles.scss，局部覆盖与页面修补在 custom.css。\ndocs/ 是部署产物，不是事实上的源码。\n\n\n\n\n\n\n\n_quarto.yml\n\nQuarto 站点总入口。\n定义站点类型、输出目录 docs/、navbar、footer、favicon、repo actions、HTML 主题、TOC、额外资源复制规则。\n如果需求涉及“站点级行为”，优先看这里。\n\n\n\n\n\n\nindex.qmd\n\n首页。\n使用 Quarto about: template: trestles 生成 hero/profile 区块。\n同时承载个人简介、背景、精选论文、ongoing work、selected projects、resubmission manuscripts。\n还包含一个内联 HTML 区块 #left-research 和一段内联脚本，用来把额外内容插入到 about links 下方。\n\npublications.qmd\n\n论文列表页。\n当前结构很简单，核心内容集中在 ## Under Review 下。\n\ninterests.qmd\n\nResearch Interests 页面。\n每个研究方向是一个单独二级标题区块，适合按主题增删。\n\ncv.qmd\n\nCV 源文件。\n不走普通 HTML 页面，而是通过 awesomecv-typst 格式生成 PDF。\n输出目标是 docs/cv.pdf，navbar 里直接链接 cv.pdf。\n\nabout.qmd\n\n一个非常简短的占位页，目前未在 navbar 中暴露。\n仍会被 Quarto 渲染为 docs/about.html。\n\n\n\n\n\n\nstyles.scss\n\n全站主题基线。\n负责颜色变量、字体、正文/标题样式、链接样式、导航栏样式、首页 hero 的基础视觉。\n在 Quarto 配置中作为 theme 链的一部分加载：[cosmo, styles.scss]。\n\ncustom.css\n\n后置覆盖层。\n当前主要用于：\n\n修正首页头像在 trestles 模板中的裁剪/背景问题。\n设置首页左栏额外内容 .about-left-extra。\n调整 CV 页面 HTML 容器布局相关样式。\n\n如果某个视觉问题“全站主题里有，但只想定点修补”，优先看这里。\n\n\n\n\n\n\nimages/site-logo.png\n\n当前 favicon。\n\nimage.png\n\n首页 index.qmd front matter 中声明的主头像/主图。\n\nimages/profile.png\n\n当前仓库内存在，但在现有源码里未发现被引用；大概率是备用头像资源。\n\nrubrichub.pdf\n\n被首页、论文页、CV 页面引用。\n也是 _quarto.yml 中声明的资源之一，渲染时会复制到 docs/。\n\npaper.pdf\n\n被 _quarto.yml 声明为资源，会复制到 docs/。\n在当前主页面源码中未发现直接引用，属于可用静态附件。\n\nrobots.txt\n\n搜索引擎抓取配置，渲染时会复制到 docs/robots.txt。\n\n\n\n\n\n\n_extensions/kazuyanagimoto/awesomecv/\n\ncv.qmd 所依赖的 Quarto 扩展。\n如果 CV 的 PDF 版式或 Typst 模板能力需要深改，优先从这里查：\n\n_extensions/kazuyanagimoto/awesomecv/_extension.yml\n_extensions/kazuyanagimoto/awesomecv/typst-template.typ\n_extensions/kazuyanagimoto/awesomecv/typst-show.typ\n_extensions/kazuyanagimoto/awesomecv/input-yaml.lua\n\n\nwebr/\n\n仓库中存在 webR 扩展。\n当前页面源码没有发现实际使用该扩展的页面或代码块。\n现阶段可视为“预留能力”，除非需求明确要加 webR 交互内容，否则通常不用动。\n\n\n\n\n\n\ndocs/\n\nGitHub Pages 实际服务目录。\n所有 HTML/PDF/搜索索引/站点 JS/CSS 库都在这里。\n原则上不手工编辑，统一由 quarto render 生成。\n\n\n\n\n\n\n当前主映射关系：\n\nindex.qmd -&gt; docs/index.html\npublications.qmd -&gt; docs/publications.html\ninterests.qmd -&gt; docs/interests.html\nabout.qmd -&gt; docs/about.html\ncv.qmd -&gt; docs/cv.pdf\nAGENTS.md -&gt; docs/AGENTS.html\ntest.md -&gt; docs/test.html\n\n额外注意：\n\n根目录下并非只有 *.qmd 会参与渲染，部分 *.md 也会进入站点输出。\nREADME.md 当前没有被渲染到 docs/，但 AGENTS.md 和 test.md 会。\n这意味着新建在根目录的 readme_for_ai.md 在未来执行完整 quarto render 时，大概率也会被渲染为公开页面，通常会对应 docs/readme_for_ai.html。\n如果未来不希望它出现在站点产物中，需要在 _quarto.yml 里显式排除。\n\n\n\n\n\n\n当前主要负责：\n\nproject.type: website\nproject.output-dir: docs\nproject.resources\n\n当前包含 paper.pdf 和 rubrichub.pdf\n\nwebsite.title\nwebsite.site-url\nwebsite.favicon\nwebsite.repo-url\nwebsite.repo-actions\nwebsite.page-footer\nwebsite.navbar\nformat.html.theme\nformat.html.css\nformat.html.toc\n\n因此，凡是下面这类需求，优先定位 _quarto.yml：\n\n改 navbar 项目\n改网站标题\n改 footer\n改 repo edit / issue 按钮\n改 favicon\n改输出目录\n增加需要被复制到 docs/ 的静态资源\n调整全站 HTML 格式设置（主题、TOC 等）\n\n\n\n\n关键结构：\n\nfront matter\n\ntitle\nimage\nabout\n\ntemplate: trestles\nimage-width\nimage-shape\nlinks\n\n\n正文区块\n\n## Background\n## Publications\n## Ongoing Work\n## Selected Projects\n## Manuscripts for Resubmission\n\n内联 HTML\n\n&lt;div id=\"left-research\" class=\"about-left-extra\"&gt;\n\n内联脚本\n\nDOMContentLoaded 后把 #left-research 挂到 .about-links 后面\n\n\n因此，凡是下面这类需求，优先定位 index.qmd：\n\n改首页自我介绍\n改首页 hero 区链接（邮箱/GitHub/CV）\n改首页头像引用文件\n改首页背景/经历/ongoing work/selected projects/manuscripts 文案\n改首页左栏 “Research Experience” 内容\n改首页插入逻辑或 about 区块结构\n\n\n\n\n关键结构很集中：\n\nfront matter: title\n主区块：## Under Review\n\n适合处理：\n\n增删正式论文条目\n调整论文描述长文案\n做完整 publication list 的维护\n\n注意同步：\n\n如果一篇论文同时出现在首页摘要或 CV 里，通常还需要同步改：\n\nindex.qmd\ncv.qmd\n\n\n\n\n\n当前每个方向一个二级标题：\n\n## Human–LLM Interaction under Underspecification\n## Agent-based LLMs and Multi-step Reasoning\n## Data Flywheels and Self-improving Systems\n## MindGPTo: End-to-end Multimodal Interaction\n## Interpretability, Safety, and Controllability\n## Evaluation and Benchmarks (“Realistic, Even if ‘Dumb’”)\n\n适合处理：\n\n新增/删除/重写研究方向\n调整每个方向下的 Goal / Methods / Evaluation / Data 等子段落\n\n\n\n\n关键结构：\n\nfront matter\n\ntitle\nauthor\nformat: awesomecv-typst\nbrand.typography\nbrand.color\n\n内容区块\n\n## Personal Profile\n## Education\n## Publications (Under Review)\n## Ongoing Work\n## Experience\n## Manuscripts for Resubmission\n\n多个 ```{=typst} 代码块\n\n使用 Typst 宏输出条目与列表\n\n\n适合处理：\n\n改 CV 文案\n改联系方式\n改 CV 中的论文/经历条目\n改 PDF 主题色、字体\n\n深度改版时的定位规则：\n\n只是内容变化 -&gt; 改 cv.qmd\n只是品牌色/字体 -&gt; 优先改 cv.qmd front matter 的 brand\n需要改 PDF 结构模板/宏行为 -&gt; 查 _extensions/kazuyanagimoto/awesomecv/\n\n\n\n\n当前职责分两层：\n\ndefaults 层\n\n颜色变量\n字体变量\nBootstrap/Quarto 主题变量\n\nrules 层\n\n正文字体与行距\n标题样式\n链接样式\n首页 trestles hero 基础视觉\n导航栏样式\n\n\n适合处理：\n\n改全站主色\n改标题/正文/链接基线风格\n改 navbar 默认风格\n改首页 hero 的主视觉基线\n\n\n\n\n这是当前最明显的“补丁层”文件，主要处理：\n\n首页头像的显示策略\n\n取消/覆盖 trestles 默认圆形裁剪副作用\n去除背景伪元素、阴影与灰底\n\n首页左侧附加内容 .about-left-extra\nCV 相关样式\n\nbody.page-cv\n.cv\n.cv-section\n.cv-item\n\n\n适合处理：\n\n某个页面局部显示异常\n不想动主题基线，只想做后置覆盖\n修 trestles 模板与自定义图片之间的冲突\n\n\n\n\n\n下面这张表是后续最常用的部分。\n\n\n\n\n\n\n\n\n需求类型\n优先修改文件\n说明\n\n\n\n\n改站点标题、navbar、footer、favicon、repo actions、TOC\n_quarto.yml\n站点级配置都在这里\n\n\n改首页文案、主页链接、主页头像引用、项目列表\nindex.qmd\n首页内容主入口\n\n\n改首页左栏额外 Research Experience\nindex.qmd, custom.css\n内容在 index.qmd，样式在 custom.css\n\n\n改论文完整列表\npublications.qmd\n如首页/CV也展示同一论文，需要同步\n\n\n改首页论文摘要区\nindex.qmd\n这里只放首页版本\n\n\n改研究方向页\ninterests.qmd\n每个方向是一个独立二级标题\n\n\n改 CV 内容\ncv.qmd\n输出是 PDF，不是 HTML\n\n\n改 CV PDF 的模板结构\n_extensions/kazuyanagimoto/awesomecv/\n模板/宏级别修改\n\n\n改全站配色、字体、hero 基线样式\nstyles.scss\n全站主题层\n\n\n改局部样式补丁、头像裁剪、CV 局部 CSS\ncustom.css\n后置覆盖层\n\n\n更换首页头像图片\nimage.png 或 index.qmd 中的 image:\n如果换文件名，记得同步 front matter\n\n\n更换 favicon\nimages/site-logo.png, _quarto.yml\n资源文件和引用都要看\n\n\n新增可下载 PDF/附件\n根目录资源文件, _quarto.yml, 对应页面源码\nproject.resources 负责复制到 docs/\n\n\n新增页面并加入导航\n新建 *.qmd, 修改 _quarto.yml\n然后执行 render\n\n\n不想让某个根目录文档被公开渲染\n_quarto.yml\n需要显式排除渲染\n\n\n改抓取/索引相关基础设置\nrobots.txt, _quarto.yml\nsearch.json 不应手动作为主编辑入口\n\n\n\n\n\n\n某些内容在多个页面重复出现，不是单点数据源。常见同步规则如下：\n\n论文信息更新\n\n通常至少检查：\n\npublications.qmd\nindex.qmd\ncv.qmd\n\n如果有对应 PDF，也要确认：\n\nrubrichub.pdf\n_quarto.yml 的 project.resources\n\n\n个人简介/研究方向变化\n\n通常至少检查：\n\nindex.qmd\ninterests.qmd\ncv.qmd\nemail_template.txt（如果对外联络模板也需要同步）\n\n\n联系方式或主页链接变化\n\n通常至少检查：\n\nindex.qmd\ncv.qmd\nemail_template.txt\n\n\n\n\n\n\n这些是后续 AI 很容易忽略、但实际上非常关键的点：\n\ndocs/ 中的内容是生成产物，不应作为主要编辑目标。\ncv.qmd 产出的是 cv.pdf，不是常规 cv.html。\nindex.qmd 不是纯 Markdown 页面，里面带有内联 HTML 和内联脚本。\n首页头像相关样式同时在 styles.scss 和 custom.css 里出现；如果出现显示冲突，最终以后置的 custom.css 为准。\n根目录 AGENTS.md 和 test.md 当前会被渲染进站点，即使它们不在 navbar 中。\nabout.qmd 当前未在导航中显示，但仍然是有效页面。\n新建根目录 readme_for_ai.md 后，未来完整 render 时大概率也会公开生成一个 HTML 页面；如果不想公开，需要额外改 _quarto.yml。\nwebr/ 扩展当前存在但未被实际页面使用，除非明确做 webR 功能，否则可以忽略。\n根目录 search.json 看起来像手工或历史文件；当前站点实际使用的是渲染产物 docs/search.json，通常不应把根目录这个文件当成主修改目标。\ntmp_gallery.html、notes.txt、email_template.txt 更像辅助/草稿/运营材料，不属于站点主渲染链路。\n\n\n\n\n如果后续有新需求，建议按下面顺序处理：\n\n先读本文件，判断需求属于“站点配置 / 页面内容 / 样式 / 静态资源 / CV 模板”哪一类。\n只打开对应的 1 到 3 个核心文件，不要先全仓库扫描。\n修改源文件，不手改 docs/。\n如果改的是站点对外可见内容，执行 quarto render 或按页面定向 render。\n如果本次修改改变了架构、页面职责、文件映射或同步规则，顺手更新本文件。\n\n\n\n\n对后续 AI 来说，这个仓库最重要的定位规则可以压缩成下面几句：\n\n站点级改动先看 _quarto.yml。\n首页相关需求先看 index.qmd。\n论文页看 publications.qmd。\n研究方向页看 interests.qmd。\nCV 内容看 cv.qmd，CV 模板深改看 _extensions/kazuyanagimoto/awesomecv/。\n全站视觉基线看 styles.scss，页面级补丁看 custom.css。\n静态部署产物在 docs/，不要直接改。\n\n如果后续需求会改变上述任一映射关系，必须同步更新本文件。"
-  },
-  {
-    "objectID": "readme_for_ai.html#项目一句话",
-    "href": "readme_for_ai.html#项目一句话",
-    "title": "readme_for_ai",
-    "section": "",
-    "text": "这是一个基于 Quarto 的个人学术主页仓库，部署目标是 GitHub Pages。\n真实渲染链路如下：\n源文件（*.qmd / 少量 *.md / 静态资源） -&gt; _quarto.yml -&gt; quarto render -&gt; docs/ -&gt; GitHub Pages\n最重要的原则：\n\n优先改源文件，不手改 docs/ 下的生成产物。\n页面内容主要在 *.qmd。\n全站配置在 _quarto.yml。\n全站主题基线在 styles.scss，局部覆盖与页面修补在 custom.css。\ndocs/ 是部署产物，不是事实上的源码。"
-  },
-  {
-    "objectID": "readme_for_ai.html#核心架构总览",
-    "href": "readme_for_ai.html#核心架构总览",
-    "title": "readme_for_ai",
-    "section": "",
-    "text": "_quarto.yml\n\nQuarto 站点总入口。\n定义站点类型、输出目录 docs/、navbar、footer、favicon、repo actions、HTML 主题、TOC、额外资源复制规则。\n如果需求涉及“站点级行为”，优先看这里。\n\n\n\n\n\n\nindex.qmd\n\n首页。\n使用 Quarto about: template: trestles 生成 hero/profile 区块。\n同时承载个人简介、背景、精选论文、ongoing work、selected projects、resubmission manuscripts。\n还包含一个内联 HTML 区块 #left-research 和一段内联脚本，用来把额外内容插入到 about links 下方。\n\npublications.qmd\n\n论文列表页。\n当前结构很简单，核心内容集中在 ## Under Review 下。\n\ninterests.qmd\n\nResearch Interests 页面。\n每个研究方向是一个单独二级标题区块，适合按主题增删。\n\ncv.qmd\n\nCV 源文件。\n不走普通 HTML 页面，而是通过 awesomecv-typst 格式生成 PDF。\n输出目标是 docs/cv.pdf，navbar 里直接链接 cv.pdf。\n\nabout.qmd\n\n一个非常简短的占位页，目前未在 navbar 中暴露。\n仍会被 Quarto 渲染为 docs/about.html。\n\n\n\n\n\n\nstyles.scss\n\n全站主题基线。\n负责颜色变量、字体、正文/标题样式、链接样式、导航栏样式、首页 hero 的基础视觉。\n在 Quarto 配置中作为 theme 链的一部分加载：[cosmo, styles.scss]。\n\ncustom.css\n\n后置覆盖层。\n当前主要用于：\n\n修正首页头像在 trestles 模板中的裁剪/背景问题。\n设置首页左栏额外内容 .about-left-extra。\n调整 CV 页面 HTML 容器布局相关样式。\n\n如果某个视觉问题“全站主题里有，但只想定点修补”，优先看这里。\n\n\n\n\n\n\nimages/site-logo.png\n\n当前 favicon。\n\nimage.png\n\n首页 index.qmd front matter 中声明的主头像/主图。\n\nimages/profile.png\n\n当前仓库内存在，但在现有源码里未发现被引用；大概率是备用头像资源。\n\nrubrichub.pdf\n\n被首页、论文页、CV 页面引用。\n也是 _quarto.yml 中声明的资源之一，渲染时会复制到 docs/。\n\npaper.pdf\n\n被 _quarto.yml 声明为资源，会复制到 docs/。\n在当前主页面源码中未发现直接引用，属于可用静态附件。\n\nrobots.txt\n\n搜索引擎抓取配置，渲染时会复制到 docs/robots.txt。\n\n\n\n\n\n\n_extensions/kazuyanagimoto/awesomecv/\n\ncv.qmd 所依赖的 Quarto 扩展。\n如果 CV 的 PDF 版式或 Typst 模板能力需要深改，优先从这里查：\n\n_extensions/kazuyanagimoto/awesomecv/_extension.yml\n_extensions/kazuyanagimoto/awesomecv/typst-template.typ\n_extensions/kazuyanagimoto/awesomecv/typst-show.typ\n_extensions/kazuyanagimoto/awesomecv/input-yaml.lua\n\n\nwebr/\n\n仓库中存在 webR 扩展。\n当前页面源码没有发现实际使用该扩展的页面或代码块。\n现阶段可视为“预留能力”，除非需求明确要加 webR 交互内容，否则通常不用动。\n\n\n\n\n\n\ndocs/\n\nGitHub Pages 实际服务目录。\n所有 HTML/PDF/搜索索引/站点 JS/CSS 库都在这里。\n原则上不手工编辑，统一由 quarto render 生成。"
-  },
-  {
-    "objectID": "readme_for_ai.html#源文件到输出文件的映射",
-    "href": "readme_for_ai.html#源文件到输出文件的映射",
-    "title": "readme_for_ai",
-    "section": "",
-    "text": "当前主映射关系：\n\nindex.qmd -&gt; docs/index.html\npublications.qmd -&gt; docs/publications.html\ninterests.qmd -&gt; docs/interests.html\nabout.qmd -&gt; docs/about.html\ncv.qmd -&gt; docs/cv.pdf\nAGENTS.md -&gt; docs/AGENTS.html\ntest.md -&gt; docs/test.html\n\n额外注意：\n\n根目录下并非只有 *.qmd 会参与渲染，部分 *.md 也会进入站点输出。\nREADME.md 当前没有被渲染到 docs/，但 AGENTS.md 和 test.md 会。\n这意味着新建在根目录的 readme_for_ai.md 在未来执行完整 quarto render 时，大概率也会被渲染为公开页面，通常会对应 docs/readme_for_ai.html。\n如果未来不希望它出现在站点产物中，需要在 _quarto.yml 里显式排除。"
-  },
-  {
-    "objectID": "readme_for_ai.html#关键文件内部结构",
-    "href": "readme_for_ai.html#关键文件内部结构",
-    "title": "readme_for_ai",
-    "section": "",
-    "text": "当前主要负责：\n\nproject.type: website\nproject.output-dir: docs\nproject.resources\n\n当前包含 paper.pdf 和 rubrichub.pdf\n\nwebsite.title\nwebsite.site-url\nwebsite.favicon\nwebsite.repo-url\nwebsite.repo-actions\nwebsite.page-footer\nwebsite.navbar\nformat.html.theme\nformat.html.css\nformat.html.toc\n\n因此，凡是下面这类需求，优先定位 _quarto.yml：\n\n改 navbar 项目\n改网站标题\n改 footer\n改 repo edit / issue 按钮\n改 favicon\n改输出目录\n增加需要被复制到 docs/ 的静态资源\n调整全站 HTML 格式设置（主题、TOC 等）\n\n\n\n\n关键结构：\n\nfront matter\n\ntitle\nimage\nabout\n\ntemplate: trestles\nimage-width\nimage-shape\nlinks\n\n\n正文区块\n\n## Background\n## Publications\n## Ongoing Work\n## Selected Projects\n## Manuscripts for Resubmission\n\n内联 HTML\n\n&lt;div id=\"left-research\" class=\"about-left-extra\"&gt;\n\n内联脚本\n\nDOMContentLoaded 后把 #left-research 挂到 .about-links 后面\n\n\n因此，凡是下面这类需求，优先定位 index.qmd：\n\n改首页自我介绍\n改首页 hero 区链接（邮箱/GitHub/CV）\n改首页头像引用文件\n改首页背景/经历/ongoing work/selected projects/manuscripts 文案\n改首页左栏 “Research Experience” 内容\n改首页插入逻辑或 about 区块结构\n\n\n\n\n关键结构很集中：\n\nfront matter: title\n主区块：## Under Review\n\n适合处理：\n\n增删正式论文条目\n调整论文描述长文案\n做完整 publication list 的维护\n\n注意同步：\n\n如果一篇论文同时出现在首页摘要或 CV 里，通常还需要同步改：\n\nindex.qmd\ncv.qmd\n\n\n\n\n\n当前每个方向一个二级标题：\n\n## Human–LLM Interaction under Underspecification\n## Agent-based LLMs and Multi-step Reasoning\n## Data Flywheels and Self-improving Systems\n## MindGPTo: End-to-end Multimodal Interaction\n## Interpretability, Safety, and Controllability\n## Evaluation and Benchmarks (“Realistic, Even if ‘Dumb’”)\n\n适合处理：\n\n新增/删除/重写研究方向\n调整每个方向下的 Goal / Methods / Evaluation / Data 等子段落\n\n\n\n\n关键结构：\n\nfront matter\n\ntitle\nauthor\nformat: awesomecv-typst\nbrand.typography\nbrand.color\n\n内容区块\n\n## Personal Profile\n## Education\n## Publications (Under Review)\n## Ongoing Work\n## Experience\n## Manuscripts for Resubmission\n\n多个 ```{=typst} 代码块\n\n使用 Typst 宏输出条目与列表\n\n\n适合处理：\n\n改 CV 文案\n改联系方式\n改 CV 中的论文/经历条目\n改 PDF 主题色、字体\n\n深度改版时的定位规则：\n\n只是内容变化 -&gt; 改 cv.qmd\n只是品牌色/字体 -&gt; 优先改 cv.qmd front matter 的 brand\n需要改 PDF 结构模板/宏行为 -&gt; 查 _extensions/kazuyanagimoto/awesomecv/\n\n\n\n\n当前职责分两层：\n\ndefaults 层\n\n颜色变量\n字体变量\nBootstrap/Quarto 主题变量\n\nrules 层\n\n正文字体与行距\n标题样式\n链接样式\n首页 trestles hero 基础视觉\n导航栏样式\n\n\n适合处理：\n\n改全站主色\n改标题/正文/链接基线风格\n改 navbar 默认风格\n改首页 hero 的主视觉基线\n\n\n\n\n这是当前最明显的“补丁层”文件，主要处理：\n\n首页头像的显示策略\n\n取消/覆盖 trestles 默认圆形裁剪副作用\n去除背景伪元素、阴影与灰底\n\n首页左侧附加内容 .about-left-extra\nCV 相关样式\n\nbody.page-cv\n.cv\n.cv-section\n.cv-item\n\n\n适合处理：\n\n某个页面局部显示异常\n不想动主题基线，只想做后置覆盖\n修 trestles 模板与自定义图片之间的冲突"
-  },
-  {
-    "objectID": "readme_for_ai.html#需求定位速查表",
-    "href": "readme_for_ai.html#需求定位速查表",
-    "title": "readme_for_ai",
-    "section": "",
-    "text": "下面这张表是后续最常用的部分。\n\n\n\n\n\n\n\n\n需求类型\n优先修改文件\n说明\n\n\n\n\n改站点标题、navbar、footer、favicon、repo actions、TOC\n_quarto.yml\n站点级配置都在这里\n\n\n改首页文案、主页链接、主页头像引用、项目列表\nindex.qmd\n首页内容主入口\n\n\n改首页左栏额外 Research Experience\nindex.qmd, custom.css\n内容在 index.qmd，样式在 custom.css\n\n\n改论文完整列表\npublications.qmd\n如首页/CV也展示同一论文，需要同步\n\n\n改首页论文摘要区\nindex.qmd\n这里只放首页版本\n\n\n改研究方向页\ninterests.qmd\n每个方向是一个独立二级标题\n\n\n改 CV 内容\ncv.qmd\n输出是 PDF，不是 HTML\n\n\n改 CV PDF 的模板结构\n_extensions/kazuyanagimoto/awesomecv/\n模板/宏级别修改\n\n\n改全站配色、字体、hero 基线样式\nstyles.scss\n全站主题层\n\n\n改局部样式补丁、头像裁剪、CV 局部 CSS\ncustom.css\n后置覆盖层\n\n\n更换首页头像图片\nimage.png 或 index.qmd 中的 image:\n如果换文件名，记得同步 front matter\n\n\n更换 favicon\nimages/site-logo.png, _quarto.yml\n资源文件和引用都要看\n\n\n新增可下载 PDF/附件\n根目录资源文件, _quarto.yml, 对应页面源码\nproject.resources 负责复制到 docs/\n\n\n新增页面并加入导航\n新建 *.qmd, 修改 _quarto.yml\n然后执行 render\n\n\n不想让某个根目录文档被公开渲染\n_quarto.yml\n需要显式排除渲染\n\n\n改抓取/索引相关基础设置\nrobots.txt, _quarto.yml\nsearch.json 不应手动作为主编辑入口"
-  },
-  {
-    "objectID": "readme_for_ai.html#同步修改规则",
-    "href": "readme_for_ai.html#同步修改规则",
-    "title": "readme_for_ai",
-    "section": "",
-    "text": "某些内容在多个页面重复出现，不是单点数据源。常见同步规则如下：\n\n论文信息更新\n\n通常至少检查：\n\npublications.qmd\nindex.qmd\ncv.qmd\n\n如果有对应 PDF，也要确认：\n\nrubrichub.pdf\n_quarto.yml 的 project.resources\n\n\n个人简介/研究方向变化\n\n通常至少检查：\n\nindex.qmd\ninterests.qmd\ncv.qmd\nemail_template.txt（如果对外联络模板也需要同步）\n\n\n联系方式或主页链接变化\n\n通常至少检查：\n\nindex.qmd\ncv.qmd\nemail_template.txt"
-  },
-  {
-    "objectID": "readme_for_ai.html#当前仓库里的隐式行为和坑点",
-    "href": "readme_for_ai.html#当前仓库里的隐式行为和坑点",
-    "title": "readme_for_ai",
-    "section": "",
-    "text": "这些是后续 AI 很容易忽略、但实际上非常关键的点：\n\ndocs/ 中的内容是生成产物，不应作为主要编辑目标。\ncv.qmd 产出的是 cv.pdf，不是常规 cv.html。\nindex.qmd 不是纯 Markdown 页面，里面带有内联 HTML 和内联脚本。\n首页头像相关样式同时在 styles.scss 和 custom.css 里出现；如果出现显示冲突，最终以后置的 custom.css 为准。\n根目录 AGENTS.md 和 test.md 当前会被渲染进站点，即使它们不在 navbar 中。\nabout.qmd 当前未在导航中显示，但仍然是有效页面。\n新建根目录 readme_for_ai.md 后，未来完整 render 时大概率也会公开生成一个 HTML 页面；如果不想公开，需要额外改 _quarto.yml。\nwebr/ 扩展当前存在但未被实际页面使用，除非明确做 webR 功能，否则可以忽略。\n根目录 search.json 看起来像手工或历史文件；当前站点实际使用的是渲染产物 docs/search.json，通常不应把根目录这个文件当成主修改目标。\ntmp_gallery.html、notes.txt、email_template.txt 更像辅助/草稿/运营材料，不属于站点主渲染链路。"
-  },
-  {
-    "objectID": "readme_for_ai.html#推荐的后续维护流程",
-    "href": "readme_for_ai.html#推荐的后续维护流程",
-    "title": "readme_for_ai",
-    "section": "",
-    "text": "如果后续有新需求，建议按下面顺序处理：\n\n先读本文件，判断需求属于“站点配置 / 页面内容 / 样式 / 静态资源 / CV 模板”哪一类。\n只打开对应的 1 到 3 个核心文件，不要先全仓库扫描。\n修改源文件，不手改 docs/。\n如果改的是站点对外可见内容，执行 quarto render 或按页面定向 render。\n如果本次修改改变了架构、页面职责、文件映射或同步规则，顺手更新本文件。"
-  },
-  {
-    "objectID": "readme_for_ai.html#快速结论",
-    "href": "readme_for_ai.html#快速结论",
-    "title": "readme_for_ai",
-    "section": "",
-    "text": "对后续 AI 来说，这个仓库最重要的定位规则可以压缩成下面几句：\n\n站点级改动先看 _quarto.yml。\n首页相关需求先看 index.qmd。\n论文页看 publications.qmd。\n研究方向页看 interests.qmd。\nCV 内容看 cv.qmd，CV 模板深改看 _extensions/kazuyanagimoto/awesomecv/。\n全站视觉基线看 styles.scss，页面级补丁看 custom.css。\n静态部署产物在 docs/，不要直接改。\n\n如果后续需求会改变上述任一映射关系，必须同步更新本文件。"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Jiale Zhao",
-    "section": "",
-    "text": "jialeuuz@gmail.com\n  \n  \n    \n     jialeuuz\n  \n  \n    \n     CV\n  \n\n  \n  \nHi! I’m Jiale Zhao, a computer science graduate (B.Eng., 2025) from Chongqing University of Posts and Telecommunications. I currently work on rubric‑based RLVR for large language models during my internship at Li Auto.\nI plan to begin a PhD in Fall 2026. My interests center on large language models and applied NLP, including:\n\nHuman-centered human–AI interaction (HCI)\nAgent-based LLMs and multi-step reasoning\nRubric-based RLVR\nSelf-evolving systems\nInterpretability and controllability\nEnd-to-end multimodal interactive systems (e.g., GPT-4o)\n\n\n\n\nFall 2026 (planned): PhD studies (applications in progress)\nSep 2021 – Jun 2025: B.Eng., Computer Science, Chongqing University of Posts and Telecommunications\n\n\n\n\n\nWhen and What to Ask: AskBench and Rubric-Guided RLVR for LLM Clarification — first author. Under review (ACL). arXiv: https://arxiv.org/abs/2602.11199.\nRubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation — second author. Under review (ACL). arXiv: https://arxiv.org/abs/2601.08430.\nThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization — co-first author. Findings of EACL 2026. arXiv: https://arxiv.org/abs/2510.12063.\n\n\n\n\n\nProcessRubrics — first-author work at Li Auto on process-level rubric learning for improving structured reasoning quality.\nLearning Persona as Behavior — second-author collaboration with Prof. Lu Cheng (UIC) on behavior-oriented persona learning with stronger cross-domain stability.\n\n\n\n\nAll three were production business deliverables I shipped during my Li Auto internship.\n\nData Flywheel for Code LLM — evaluation-centric loop (SFT → evaluate → data build → filtering → back to SFT) to continually raise coding capabilities.\n\nEvaluation-first: Code-eval today is noisy—difficulty too low, specs ambiguous—so I standardized harnesses and rubrics to push harder tasks and capture real capability.\nLinked loops: Evaluation feedback drives harder data construction; the same tooling filters low-quality samples; filtered data re-enters the generation stack for repair and resurfacing.\n\nMulti-step Reasoning + Tool Invocation Agent — code-LLM agent that plans, writes code, and executes tool calls for precise answers.\n\nMulti-step reasoning: Breaks complex or code-debugging tasks into structured plans so context can be stitched into a single executable query.\nTool grounding: Integrates function calls/code execution for real-time data, external APIs, and environment actions when model priors or knowledge bases fall short.\n\nMindGPTo (GPT‑4o-style multimodal app) — end-to-end audio + vision application with paralinguistic control, built from scratch with a modular FE/BE split.\n\nMode coverage: Ships traditional audio→ASR→LLM→TTS, production audio2text→TTS pipelines, end-to-end audio2audio, and multimodal audio+image+video→text→TTS workflows.\nParalinguistic SFT: Large-scale audio data pipelines boost colloquial speech and nuanced cues (beyond laughter/pauses) such as age, gender, compound emotions, emotional actions, and ambient sounds.\n\n\n\n\n\n\nDecoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment — third author; awaiting resubmission.\nBreaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning — sixth author; awaiting resubmission."
-  },
-  {
-    "objectID": "index.html#background",
-    "href": "index.html#background",
-    "title": "Jiale Zhao",
-    "section": "",
-    "text": "Fall 2026 (planned): PhD studies (applications in progress)\nSep 2021 – Jun 2025: B.Eng., Computer Science, Chongqing University of Posts and Telecommunications"
-  },
-  {
-    "objectID": "index.html#publications",
-    "href": "index.html#publications",
-    "title": "Jiale Zhao",
-    "section": "",
-    "text": "When and What to Ask: AskBench and Rubric-Guided RLVR for LLM Clarification — first author. Under review (ACL). arXiv: https://arxiv.org/abs/2602.11199.\nRubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation — second author. Under review (ACL). arXiv: https://arxiv.org/abs/2601.08430.\nThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization — co-first author. Findings of EACL 2026. arXiv: https://arxiv.org/abs/2510.12063."
-  },
-  {
-    "objectID": "index.html#ongoing-work",
-    "href": "index.html#ongoing-work",
-    "title": "Jiale Zhao",
-    "section": "",
-    "text": "ProcessRubrics — first-author work at Li Auto on process-level rubric learning for improving structured reasoning quality.\nLearning Persona as Behavior — second-author collaboration with Prof. Lu Cheng (UIC) on behavior-oriented persona learning with stronger cross-domain stability."
-  },
-  {
-    "objectID": "index.html#selected-projects",
-    "href": "index.html#selected-projects",
-    "title": "Jiale Zhao",
-    "section": "",
-    "text": "All three were production business deliverables I shipped during my Li Auto internship.\n\nData Flywheel for Code LLM — evaluation-centric loop (SFT → evaluate → data build → filtering → back to SFT) to continually raise coding capabilities.\n\nEvaluation-first: Code-eval today is noisy—difficulty too low, specs ambiguous—so I standardized harnesses and rubrics to push harder tasks and capture real capability.\nLinked loops: Evaluation feedback drives harder data construction; the same tooling filters low-quality samples; filtered data re-enters the generation stack for repair and resurfacing.\n\nMulti-step Reasoning + Tool Invocation Agent — code-LLM agent that plans, writes code, and executes tool calls for precise answers.\n\nMulti-step reasoning: Breaks complex or code-debugging tasks into structured plans so context can be stitched into a single executable query.\nTool grounding: Integrates function calls/code execution for real-time data, external APIs, and environment actions when model priors or knowledge bases fall short.\n\nMindGPTo (GPT‑4o-style multimodal app) — end-to-end audio + vision application with paralinguistic control, built from scratch with a modular FE/BE split.\n\nMode coverage: Ships traditional audio→ASR→LLM→TTS, production audio2text→TTS pipelines, end-to-end audio2audio, and multimodal audio+image+video→text→TTS workflows.\nParalinguistic SFT: Large-scale audio data pipelines boost colloquial speech and nuanced cues (beyond laughter/pauses) such as age, gender, compound emotions, emotional actions, and ambient sounds."
-  },
-  {
-    "objectID": "index.html#manuscripts-for-resubmission",
-    "href": "index.html#manuscripts-for-resubmission",
-    "title": "Jiale Zhao",
-    "section": "",
-    "text": "Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment — third author; awaiting resubmission.\nBreaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning — sixth author; awaiting resubmission."
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization — co-first author (equal contribution; not first-listed). Findings of EACL 2026. Contribution highlights: designed experiments and framework, integrated explainability into iterative algorithms, wrote appendix and contributed to main text."
-  },
-  {
-    "objectID": "publications.html#accepted",
-    "href": "publications.html#accepted",
-    "title": "Publications",
-    "section": "",
-    "text": "ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization — co-first author (equal contribution; not first-listed). Findings of EACL 2026. Contribution highlights: designed experiments and framework, integrated explainability into iterative algorithms, wrote appendix and contributed to main text."
-  },
-  {
-    "objectID": "publications.html#under-review",
-    "href": "publications.html#under-review",
-    "title": "Publications",
-    "section": "Under Review",
-    "text": "Under Review\n\nWhen and What to Ask: AskBench and Rubric-Guided RLVR for LLM Clarification — first author. Under review (ACL). arXiv: https://arxiv.org/abs/2602.11199. We introduce AskBench, an interactive benchmark that converts standard QA pairs into multi-turn interactions with explicit checkpoints and a unified judge loop (grading final answers and simulating user responses only when explicitly asked). AskBench includes AskMind (intent-deficient queries) and AskOverconfidence (queries with injected false premises). We further propose rubric-guided RLVR with verifier-based rewards to improve both answer correctness and targeted clarification.\nRubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation — second author. Under review (ACL). arXiv: https://arxiv.org/abs/2601.08430. We propose an automated Coarse-to-Fine Rubric Generation framework (principle-guided + response-grounded synthesis, multi-model aggregation, and difficulty evolution) to produce comprehensive, highly discriminative rubrics for open-ended generation. Based on it, we build RubricHub (∼110k, multi-domain) and validate it with a two-stage post-training pipeline: rubric-based rejection sampling fine-tuning (RuFT) and rubric-based reinforcement learning (RuRL).\nDecoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment — third author. ICASSP under review. Released accompanying open dataset ExpressiveSpeech on Hugging Face. Project page: https://freedomintelligence.github.io/ExpressiveSpeech/.\nBreaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning — sixth author. ICLR under review."
-  },
-  {
-    "objectID": "test.html",
-    "href": "test.html",
-    "title": "Jiale Zhao（赵佳乐）",
-    "section": "",
-    "text": "codex –model gpt-5.3-codex\n一月份的acl在投： rubrics二作工作：https://arxiv.org/abs/2601.08430 ask一作工作：https://arxiv.org/pdf/2602.11199v1\n我需要在根目录下创建一个readme_for_ai.md，以记录项目的架构信息，要求是下一次你读取readme_for_ai.md之后就知道项目整体架构以及各个模块对应的代码路径，关键代码文件的功能和结构信息等，要做到只要读取readme_for_ai.md之后提供需求，就可以直接精准定位到实现需求需要到哪些代码文件中去改，而不是访问大量程序分析和寻找。\n你先阅读一下根目录的readme_for_ai.md来了解项目架构，方便后续修改，另外功能改动也别忘了及时更新相关readme 个人偏好（必须要遵守）： 如果需要改动具体代码数据等，需要先询问我，得到允许后才可以修改，不得擅自直接修改以免造成不可逆损失。 下面是具体需求："
   }
 ]

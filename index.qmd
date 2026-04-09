@@ -1,11 +1,12 @@
 ---
 title: "Jiale Zhao"
+page-layout: full
 image: image.png
 about:
   id: hero-heading
-  template: trestles
+  template: solana
   image-width: 12em
-  image-shape: round
+  image-shape: rounded
   links:
     - icon: mailbox
       text: jialeuuz@gmail.com
@@ -13,6 +14,12 @@ about:
     - icon: github
       text: jialeuuz
       href: https://github.com/jialeuuz
+    - icon: journal-text
+      text: OpenReview
+      href: https://openreview.net/profile?id=~Jiale_Zhao5
+    - icon: person-vcard
+      text: ORCID
+      href: https://orcid.org/0009-0008-4229-1690
     - icon: file-earmark-pdf
       text: CV
       href: cv.pdf
@@ -36,57 +43,129 @@ I plan to begin a PhD in Fall 2026. My interests center on large language models
 - Fall 2026 (planned): PhD studies (applications in progress)
 - Sep 2021 – Jun 2025: B.Eng., Computer Science, Chongqing University of Posts and Telecommunications
 
-## Publications
+## Selected Publications
 
-- **[When and What to Ask: AskBench and Rubric-Guided RLVR for LLM Clarification](https://arxiv.org/pdf/2602.11199v1)** — first author. Under review (ACL). arXiv: <https://arxiv.org/abs/2602.11199>.
-- **[RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation](rubrichub.pdf)** — second author. Under review (ACL). arXiv: <https://arxiv.org/abs/2601.08430>.
-- **[ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization](https://www.arxiv.org/abs/2510.12063)** — co-first author. Findings of EACL 2026. arXiv: <https://arxiv.org/abs/2510.12063>.
+::: {.pub-note}
+For full links and the complete publication list, see the
+[Publications](publications.qmd) page.
+:::
+
+### Accepted
+
+::: {.pub-list .pub-list-compact}
+::: {.pub-entry .pub-entry-compact}
+::: {.pub-title}
+[ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization](https://aclanthology.org/2026.findings-eacl.185/)
+:::
+
+::: {.pub-authors}
+Sunzhu Li, Zhiyu Lin, **Jiale Zhao**, Shuling Yang, Chen Wei
+:::
+
+::: {.pub-meta}
+[Findings of EACL 2026]{.pub-badge .pub-badge-accepted} [Co-author]{.pub-role}
+:::
+:::
+
+::: {.pub-entry .pub-entry-compact}
+::: {.pub-title}
+[When and What to Ask: AskBench and Rubric-Guided RLVR for LLM Clarification](https://arxiv.org/abs/2602.11199)
+:::
+
+::: {.pub-authors}
+**Jiale Zhao**, Ke Fang, Lu Cheng
+:::
+
+::: {.pub-meta}
+[Findings of ACL 2026]{.pub-badge .pub-badge-accepted} [First author]{.pub-role}
+:::
+:::
+
+::: {.pub-entry .pub-entry-compact}
+::: {.pub-title}
+[RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation](https://arxiv.org/abs/2601.08430)
+:::
+
+::: {.pub-authors}
+Sunzhu Li, **Jiale Zhao**, Miteto Wei, Huimin Ren, Yang Zhou, Jingwen Yang, Shunyu Liu, Kaike Zhang, Wei Chen
+:::
+
+::: {.pub-meta}
+[ACL 2026 Oral]{.pub-badge .pub-badge-accepted} [Second author]{.pub-role} [PDF](rubrichub.pdf){.pub-inline-link}
+:::
+:::
+:::
+
+### Under Review
+
+::: {.pub-list .pub-list-compact}
+::: {.pub-entry .pub-entry-compact}
+::: {.pub-title}
+[Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning](https://arxiv.org/abs/2508.16949)
+:::
+
+::: {.pub-authors}
+Yang Zhou, Sunzhu Li, Shunyu Liu, Wenkai Fang, Kongcheng Zhang, **Jiale Zhao**, Jingwen Yang, Yihe Zhou, Jianwei Lv, Tongya Zheng, Hengtong Lu, Chen Wei, Xie Yan, Mingli Song
+:::
+
+::: {.pub-meta}
+[ICML 2026 Submission]{.pub-badge .pub-badge-review} [Sixth author]{.pub-role}
+:::
+:::
+
+::: {.pub-entry .pub-entry-compact}
+::: {.pub-title}
+[Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](https://arxiv.org/abs/2510.20513)
+:::
+
+::: {.pub-authors}
+Zhiyu Lin, Jingwen Yang, **Jiale Zhao**, Meng Liu, Sunzhu Li, Benyou Wang
+:::
+
+::: {.pub-meta}
+[Interspeech 2026 Submission]{.pub-badge .pub-badge-review} [Third author]{.pub-role}
+:::
+:::
+:::
 
 ## Ongoing Work
 
-- **ProcessRubrics** — first-author work at Li Auto on process-level rubric learning for improving structured reasoning quality.
-- **Learning Persona as Behavior** — second-author collaboration with Prof. Lu Cheng (UIC) on behavior-oriented persona learning with stronger cross-domain stability.
+- **ProcessRubrics** — second-author work at Li Auto on
+  process-level rubric learning for improving structured reasoning
+  quality.
+- **Learning Persona as Behavior** — first-author collaboration
+  with Prof. Lu Cheng (UIC) on behavior-oriented persona learning
+  with stronger cross-domain stability.
 
 ## Selected Projects
 All three were production business deliverables I shipped during my Li Auto internship.
 
-- **Data Flywheel for Code LLM** — evaluation-centric loop (SFT → evaluate → data build → filtering → back to SFT) to continually raise coding capabilities.
-  - *Evaluation-first:* Code-eval today is noisy—difficulty too low, specs ambiguous—so I standardized harnesses and rubrics to push harder tasks and capture real capability.
-  - *Linked loops:* Evaluation feedback drives harder data construction; the same tooling filters low-quality samples; filtered data re-enters the generation stack for repair and resurfacing.
-- **Multi-step Reasoning + Tool Invocation Agent** — code-LLM agent that plans, writes code, and executes tool calls for precise answers.
-  - *Multi-step reasoning:* Breaks complex or code-debugging tasks into structured plans so context can be stitched into a single executable query.
-  - *Tool grounding:* Integrates function calls/code execution for real-time data, external APIs, and environment actions when model priors or knowledge bases fall short.
-- **MindGPTo (GPT‑4o-style multimodal app)** — end-to-end audio + vision application with paralinguistic control, built from scratch with a modular FE/BE split.
-  - *Mode coverage:* Ships traditional audio→ASR→LLM→TTS, production audio2text→TTS pipelines, end-to-end audio2audio, and multimodal audio+image+video→text→TTS workflows.
-  - *Paralinguistic SFT:* Large-scale audio data pipelines boost colloquial speech and nuanced cues (beyond laughter/pauses) such as age, gender, compound emotions, emotional actions, and ambient sounds.
+::: {.project-grid}
 
-## Manuscripts for Resubmission
+::: {.project-card}
+#### Data Flywheel for Code LLM
+Evaluation-centric loop (SFT → evaluate → data build → filtering → back to SFT) to continually raise coding capabilities.
 
-- **[Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](https://arxiv.org/abs/2510.20513)** — third author; awaiting resubmission.
-- **[Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning](https://arxiv.org/abs/2508.16949)** — sixth author; awaiting resubmission.
+- *Evaluation-first:* Code-eval today is noisy—difficulty too low, specs ambiguous—so I standardized harnesses and rubrics to push harder tasks and capture real capability.
+- *Linked loops:* Evaluation feedback drives harder data construction; the same tooling filters low-quality samples; filtered data re-enters the generation stack for repair and resurfacing.
+:::
+
+::: {.project-card}
+#### Multi-step Reasoning + Tool Invocation Agent
+Code-LLM agent that plans, writes code, and executes tool calls for precise answers.
+
+- *Multi-step reasoning:* Breaks complex or code-debugging tasks into structured plans so context can be stitched into a single executable query.
+- *Tool grounding:* Integrates function calls/code execution for real-time data, external APIs, and environment actions when model priors or knowledge bases fall short.
+:::
+
+::: {.project-card}
+#### MindGPTo (GPT‑4o-style multimodal app)
+End-to-end audio + vision application with paralinguistic control, built from scratch with a modular FE/BE split.
+
+- *Mode coverage:* Ships traditional audio→ASR→LLM→TTS, production audio2text→TTS pipelines, end-to-end audio2audio, and multimodal audio+image+video→text→TTS workflows.
+- *Paralinguistic SFT:* Large-scale audio data pipelines boost colloquial speech and nuanced cues (beyond laughter/pauses) such as age, gender, compound emotions, emotional actions, and ambient sounds.
+:::
 
 :::
 
-<!-- Extra content for the left column under the links -->
-<div id="left-research" class="about-left-extra" style="display:none">
-  <h3>Research Experience</h3>
-  <ul>
-    <li>⚡ <strong>Before college:</strong> I fell for AI and taught myself to code the summer before matriculation, so I arrived on campus already building small projects and craving research.</li>
-    <li>🎯 <strong>Freshman (first semester):</strong> Two weeks in, I earned a spot in an NLP lab after a selection process. I worked on traditional ML, but my advisor was rarely available, so I mostly pushed myself and learned by doing.</li>
-    <li>🚀 <strong>Freshman summer (2nd lab selection):</strong> I spent the summer in another competitive selection and joined a CV lab with weekly group meetings and structured training. That was my first real mentorship track and it gave me a rigorous deep‑learning foundation.</li>
-    <li>🔧 <strong>Sophomore fall:</strong> After reading transformer papers I was desperate to dive in, but compute limits meant I simply couldn’t run the transformer experiments I imagined. My advisor even sighed and told me, “Let’s drop the transformer idea—there’s no compute for you, just do classic CV.” I really didn’t want to pivot back, so for a while my “research” was just reading more papers and thinking through designs on paper, getting more obsessed but still unable to touch real experiments.</li>
-    <li>🤖 <strong>Sophomore spring:</strong> When ChatGPT‑3.5 launched, I used it daily to speed up coding and research. I switched labs to build “digital humans,” shipped a 24/7 virtual‑avatar livestream on Bilibili, and became one of the earliest to deploy that idea.</li>
-    <li>🧭 <strong>Junior → now:</strong> That digital‑human project led to a Li Auto algorithm/LLM internship. Junior year, with ample compute, I delivered an SFT data flywheel, a multi‑step tool‑use agent, and MindGPTo (a GPT‑4o‑style multimodal app). Senior year and onward, I moved into research mode, joined multiple papers, and focused on rubric‑driven RL/RLVR, agentic reasoning, and data‑centric LLM improvement.</li>
-  </ul>
-</div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const extra = document.getElementById('left-research');
-    const links = document.querySelector('.quarto-about-trestles .about-entity .about-links');
-    if (extra && links) {
-      extra.style.display = '';
-      links.insertAdjacentElement('afterend', extra);
-    }
-  });
-  </script>
+:::
