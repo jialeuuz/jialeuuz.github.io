@@ -1,6 +1,5 @@
 ---
 title: "Research Interests"
-page-layout: full
 ---
 
 My research centers on large language models (LLMs) and applied NLP. Below I expand on the potential research topics from my CV and the concrete questions/methods I’m pursuing.

@@ -38,6 +38,4 @@ format:
   html:
     theme: [cosmo, styles.scss]
     css: custom.css
-    toc: true            # 启用目录
-    toc-position: right  # 将目录放置在页面的右侧
-    toc-depth: 3         # 设置目录的深度，数字越大，目录越详细
+    toc: false

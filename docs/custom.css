@@ -318,15 +318,41 @@ body.page-cv .quarto-title-block { margin-bottom: 0.25rem !important; }
   margin: 0.4rem 0 0;
 }
 
-/* Desktop: side-by-side image + text */
+/* Photo gallery grid inside travel card */
+.travel-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.travel-gallery p {
+  margin: 0;
+}
+
+.travel-gallery img {
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 0;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.travel-gallery img:hover {
+  transform: scale(1.03);
+}
+
+/* Desktop: side-by-side image + text (for single-image cards) */
 @media (min-width: 768px) {
-  .travel-card {
+  .travel-card:not(:has(.travel-gallery)) {
     display: flex;
     gap: 1.5rem;
     align-items: flex-start;
   }
 
-  .travel-card img {
+  .travel-card:not(:has(.travel-gallery)) img {
     max-width: 340px;
     flex-shrink: 0;
     margin-bottom: 0;

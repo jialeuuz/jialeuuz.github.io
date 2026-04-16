@@ -1,45 +1,81 @@
 ---
 title: "Travel"
-toc: true
-toc-depth: 2
 ---
 
 A collection of places I've visited. Newest trips first.
 
 <!-- 添加新旅行时，复制下面的模板并填入真实信息，放在最上面 -->
 
-## 2025.01 — Chongqing（重庆）
+## 2025.04 — Yalong Bay（亚龙湾）
 
 :::: {.travel-card}
 
-<!-- ![Chongqing](images/travel/chongqing-1.jpg) -->
-
 ::: {.travel-date}
-January 2025
+April 26, 2025
 :::
 
 ::: {.travel-location}
-Chongqing, China
+Yalong Bay, Sanya, China
 :::
 
-*Placeholder — replace with your travel notes and photos.*
+Went scuba diving at Yalong Bay — crystal-clear water and colorful coral reefs beneath the surface.
+
+::: {.travel-gallery}
+![Scuba diving at Yalong Bay](images/travel/sanya-yalong-1.jpg)
+
+![Resting spot after diving](images/travel/sanya-yalong-2.jpg)
+:::
 
 ::::
 
-## 2024.08 — Example City
+## 2025.04 — West Island（西岛）
 
 :::: {.travel-card}
 
-<!-- ![Example](images/travel/example-1.jpg) -->
-
 ::: {.travel-date}
-August 2024
+April 20–21, 2025
 :::
 
 ::: {.travel-location}
-Example City, Country
+West Island (Xidao), Sanya, China
 :::
 
-*Placeholder — replace with your travel notes and photos.*
+Spent two days on West Island — sandy beaches, swaying coconut palms, and turquoise sea. Tried beachcombing at low tide and even caught a tropical fish by hand.
+
+::: {.travel-gallery}
+![Sandy beach](images/travel/sanya-xidao-1.jpg)
+
+![Coconut palms](images/travel/sanya-xidao-2.jpg)
+
+![Fisherman on the island](images/travel/sanya-xidao-3.jpg)
+
+![Seafood noodles](images/travel/sanya-xidao-4.jpg)
+
+![The sea around West Island](images/travel/sanya-xidao-5.jpg)
+
+![Tropical fish caught while beachcombing](images/travel/sanya-xidao-6.jpg)
+:::
+
+::::
+
+## 2025.04 — Tianya Town（天涯小镇）
+
+:::: {.travel-card}
+
+::: {.travel-date}
+April 19–20, 2025
+:::
+
+::: {.travel-location}
+Tianya Town, Sanya, China
+:::
+
+First stop in Sanya — the cozy Tianya Town with an ocean-view room overlooking the South China Sea. Forecast said cloudy, but turned out bright and sunny.
+
+::: {.travel-gallery}
+![Tianya Town](images/travel/sanya-tianya-1.jpg)
+
+![Ocean-view room](images/travel/sanya-tianya-2.jpg)
+:::
 
 ::::
