@@ -17,6 +17,9 @@ about:
     - icon: journal-text
       text: OpenReview
       href: https://openreview.net/profile?id=~Jiale_Zhao5
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jiale-zhao-038662309
     - icon: person-vcard
       text: ORCID
       href: https://orcid.org/0009-0008-4229-1690
@@ -77,7 +80,7 @@ Sunzhu Li, **Jiale Zhao**, Miteto Wei, Huimin Ren, Yang Zhou, Jingwen Yang, Shun
 :::
 
 ::: {.pub-meta}
-[ACL 2026 Oral]{.pub-badge .pub-badge-accepted} [Second author]{.pub-role} [PDF](rubrichub.pdf){.pub-inline-link}
+[ACL 2026 Oral]{.pub-badge .pub-badge-accepted} [Second author]{.pub-role}
 :::
 :::
 
@@ -130,9 +133,9 @@ Zhiyu Lin, Jingwen Yang, **Jiale Zhao**, Meng Liu, Sunzhu Li, Benyou Wang
 
 ## Ongoing Work
 
-- **ProcessRubrics** — second-author work at Li Auto on
-  process-level rubric learning for improving structured reasoning
-  quality.
+- **ProcessRubrics** — second-author collaboration with Ke Fang and
+  Prof. Lu Cheng (UIC) on process-level rubric learning for improving
+  structured reasoning quality.
 - **Learning Persona as Behavior** — first-author collaboration
   with Prof. Lu Cheng (UIC) on behavior-oriented persona learning
   with stronger cross-domain stability.

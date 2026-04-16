@@ -14,6 +14,9 @@ author:
     - icon: fa book-open
       text: OpenReview
       url: https://openreview.net/profile?id=~Jiale_Zhao5
+    - icon: fa brands linkedin
+      text: LinkedIn
+      url: https://www.linkedin.com/in/jiale-zhao-038662309
     - icon: fa brands orcid
       text: ORCID
       url: https://orcid.org/0009-0008-4229-1690
@@ -70,7 +73,7 @@ My interests include **human‑centered HCI**, **agentic/multi‑step reasoning*
 
 ```{=typst}
 #resume-item[
-- *ProcessRubrics* (second; Li Auto) — a process-level rubric learning framework for improving structured reasoning quality through finer-grained supervision.
+- *ProcessRubrics* (second; collaboration with Ke Fang and Prof. Lu Cheng, UIC) — a process-level rubric learning framework for improving structured reasoning quality through finer-grained supervision.
 - *Learning Persona as Behavior* (first; collaboration with Prof. Lu Cheng, UIC) — a behavior-oriented persona learning study aimed at improving persona consistency with robust cross-domain generalization.
 ]
 ```
