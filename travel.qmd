@@ -1,0 +1,45 @@
+---
+title: "Travel"
+toc: true
+toc-depth: 2
+---
+
+A collection of places I've visited. Newest trips first.
+
+<!-- 添加新旅行时，复制下面的模板并填入真实信息，放在最上面 -->
+
+## 2025.01 — Chongqing（重庆）
+
+:::: {.travel-card}
+
+<!-- ![Chongqing](images/travel/chongqing-1.jpg) -->
+
+::: {.travel-date}
+January 2025
+:::
+
+::: {.travel-location}
+Chongqing, China
+:::
+
+*Placeholder — replace with your travel notes and photos.*
+
+::::
+
+## 2024.08 — Example City
+
+:::: {.travel-card}
+
+<!-- ![Example](images/travel/example-1.jpg) -->
+
+::: {.travel-date}
+August 2024
+:::
+
+::: {.travel-location}
+Example City, Country
+:::
+
+*Placeholder — replace with your travel notes and photos.*
+
+::::

@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jialeuuz.github.io/publications.html</loc>
-    <lastmod>2026-04-09T13:53:32.534Z</lastmod>
+    <loc>https://jialeuuz.github.io/travel.html</loc>
+    <lastmod>2026-04-16T11:58:49.458Z</lastmod>
   </url>
   <url>
-    <loc>https://jialeuuz.github.io/index.html</loc>
-    <lastmod>2026-04-16T07:36:40.010Z</lastmod>
+    <loc>https://jialeuuz.github.io/interests.html</loc>
+    <lastmod>2026-04-09T07:37:34.144Z</lastmod>
   </url>
   <url>
     <loc>https://jialeuuz.github.io/about.html</loc>
     <lastmod>2026-02-13T05:47:39.320Z</lastmod>
   </url>
   <url>
-    <loc>https://jialeuuz.github.io/interests.html</loc>
-    <lastmod>2026-04-09T07:37:34.144Z</lastmod>
+    <loc>https://jialeuuz.github.io/index.html</loc>
+    <lastmod>2026-04-16T07:36:40.010Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jialeuuz.github.io/publications.html</loc>
+    <lastmod>2026-04-09T13:53:32.534Z</lastmod>
   </url>
 </urlset>

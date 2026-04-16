@@ -32,7 +32,9 @@
 ├── styles.scss          # 全站主题基线
 ├── custom.css           # 局部样式覆盖/补丁
 ├── image.png            # 首页主头像
+├── travel.qmd           # 旅行轨迹页（按时间倒序的旅行卡片）
 ├── images/              # favicon (site-logo.png)、备用头像
+│   └── travel/          # 旅行照片（命名：地点-序号.jpg）
 ├── paper.pdf            # 静态附件
 ├── rubrichub.pdf        # 论文 PDF 附件
 ├── _extensions/         # Quarto 扩展（awesomecv）
@@ -54,6 +56,7 @@
 | `publications.qmd` | `docs/publications.html` |
 | `interests.qmd` | `docs/interests.html` |
 | `cv.qmd` | `docs/cv.pdf`（注意：PDF 不是 HTML） |
+| `travel.qmd` | `docs/travel.html` |
 | `about.qmd` | `docs/about.html` |
 
 注意：当前 `_quarto.yml` 的 `project.render` 只渲染根目录 `*.qmd`，根目录的 `*.md` 文件默认作为内部文档/草稿保留，不会生成公开页面。
@@ -74,6 +77,7 @@
 | `publications.qmd` | 论文列表 | 分组 + 结构化论文条目（title / authors / status / links） |
 | `interests.qmd` | 研究方向 | 每个方向一个 `##` 区块 |
 | `cv.qmd` | CV（PDF输出） | front matter `format: awesomecv-typst` + Typst 代码块 |
+| `travel.qmd` | 旅行轨迹 | 按时间倒序排列的 `.travel-card` 卡片（图片 + 日期 + 地点 + 描述） |
 | `about.qmd` | 占位页 | 极简，未导航 |
 
 ### 5.3 样式层
@@ -124,6 +128,7 @@
 | CV 模板/宏 | `_extensions/kazuyanagimoto/awesomecv/` |
 | 全站配色/字体 | `styles.scss` |
 | 局部样式补丁 | `custom.css` |
+| 旅行记录 | `travel.qmd`（新增卡片放最上面） + `images/travel/` 放照片 |
 | 新增页面 | 新建 `*.qmd` + `_quarto.yml` navbar |
 | 排除文件被渲染 | `_quarto.yml` |
 | 新增可下载附件 | 根目录文件 + `_quarto.yml` resources + 页面链接 |

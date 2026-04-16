@@ -276,6 +276,63 @@ body.page-cv .quarto-title-block { margin-bottom: 0.25rem !important; }
   line-height: 1.5;
 }
 
+/* ===== Travel 旅行卡片 ===== */
+.travel-card {
+  background: #ffffff;
+  border: 1px solid rgba(192, 124, 86, 0.18);
+  border-radius: 14px;
+  padding: 1.5rem 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.travel-card:hover {
+  box-shadow: 0 4px 18px rgba(192, 124, 86, 0.14);
+}
+
+.travel-card img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0.75rem;
+}
+
+.travel-date {
+  font-size: 0.88rem;
+  color: #9a8279;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.2rem;
+}
+
+.travel-location {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #3e2723;
+  margin-bottom: 0.5rem;
+}
+
+.travel-card > p {
+  color: #5d4e47;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0.4rem 0 0;
+}
+
+/* Desktop: side-by-side image + text */
+@media (min-width: 768px) {
+  .travel-card {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+
+  .travel-card img {
+    max-width: 340px;
+    flex-shrink: 0;
+    margin-bottom: 0;
+  }
+}
+
 /* ===== Footer 暖色融合 ===== */
 .nav-footer {
   background-color: #faf6f1 !important;
