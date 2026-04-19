@@ -13,7 +13,7 @@
 
 **Dear Prof. [Last Name],**
 
-My name is **Jiale Zhao**, a **B.Eng. graduate in Computer Science (2025)** from **Chongqing University of Posts and Telecommunications**, and I plan to apply for a **PhD starting Fall 2026**. My research interests focus on **HCI**, **Agent-based LLMs and multi-step reasoning**, and **rubric-based RLVR for LLM reasoning/alignment**.
+My name is **Jiale Zhao**, a **B.Eng. graduate in Computer Science (2026)** from **Chongqing University of Posts and Telecommunications** and an incoming **CS Ph.D. student at Penn State (Fall 2026)**. My research interests focus on **HCI**, **Agent-based LLMs and multi-step reasoning**, and **rubric-based RLVR for LLM reasoning/alignment**.
 
 【可替换区 A：对方工作 + 你读过的论文】
 I have been following your work on **[prof’s theme]**, and I was particularly interested in your paper(s) **“[Paper 1 Title]” (Venue/Year)** and **“[Paper 2 Title]” (Venue/Year)**.

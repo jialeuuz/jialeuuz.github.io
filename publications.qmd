@@ -41,7 +41,7 @@ Sunzhu Li, **Jiale Zhao**, Miteto Wei, Huimin Ren, Yang Zhou, Jingwen Yang, Shun
 :::
 
 ::: {.pub-meta}
-[ACL 2026 Oral]{.pub-badge .pub-badge-accepted} [Second author]{.pub-role}
+[ACL 2026 Main]{.pub-badge .pub-badge-accepted} [Second author]{.pub-role}
 :::
 
 ::: {.pub-links}

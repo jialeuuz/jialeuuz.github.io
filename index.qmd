@@ -30,9 +30,9 @@ about:
 
 ::: {#hero-heading}
 
-Hi! I'm Jiale Zhao, a computer science graduate (B.Eng., 2025) from Chongqing University of Posts and Telecommunications. I currently work on rubric‑based RLVR for large language models during my internship at Li Auto.
+Hi! I'm Jiale Zhao, a computer science graduate (B.Eng., 2026) from Chongqing University of Posts and Telecommunications and an LLM algorithm intern at Li Auto. I will join Penn State as a CS Ph.D. student in Fall 2026. I currently work on co‑evolving documentation for coding agents (CoEvoDoc) and behavior‑oriented persona learning.
 
-I plan to begin a PhD in Fall 2026. My interests center on large language models and applied NLP, including:
+My interests center on large language models and applied NLP, including:
 
 - Human-centered human–AI interaction (HCI)
 - Agent-based LLMs and multi-step reasoning
@@ -43,8 +43,8 @@ I plan to begin a PhD in Fall 2026. My interests center on large language models
 
 ## Background
 
-- Fall 2026 (planned): PhD studies (applications in progress)
-- Sep 2021 – Jun 2025: B.Eng., Computer Science, Chongqing University of Posts and Telecommunications
+- Fall 2026: Ph.D. in Computer Science, Penn State University
+- Sep 2021 – Jun 2026: B.Eng., Computer Science, Chongqing University of Posts and Telecommunications
 
 ## Selected Publications
 
@@ -80,7 +80,7 @@ Sunzhu Li, **Jiale Zhao**, Miteto Wei, Huimin Ren, Yang Zhou, Jingwen Yang, Shun
 :::
 
 ::: {.pub-meta}
-[ACL 2026 Oral]{.pub-badge .pub-badge-accepted} [Second author]{.pub-role}
+[ACL 2026 Main]{.pub-badge .pub-badge-accepted} [Second author]{.pub-role}
 :::
 :::
 
@@ -133,6 +133,9 @@ Zhiyu Lin, Jingwen Yang, **Jiale Zhao**, Meng Liu, Sunzhu Li, Benyou Wang
 
 ## Ongoing Work
 
+- **CoEvoDoc** — first-author collaboration with Prof. Lu Cheng (UIC)
+  on a co‑evolving repository documentation system for coding agents
+  that adapts structure complexity to project change magnitude.
 - **ProcessRubrics** — second-author collaboration with Ke Fang and
   Prof. Lu Cheng (UIC) on process-level rubric learning for improving
   structured reasoning quality.
@@ -141,9 +144,14 @@ Zhiyu Lin, Jingwen Yang, **Jiale Zhao**, Meng Liu, Sunzhu Li, Benyou Wang
   with stronger cross-domain stability.
 
 ## Selected Projects
-All three were production business deliverables I shipped during my Li Auto internship.
+Production business deliverables I shipped during my Li Auto internship.
 
 ::: {.project-grid}
+
+::: {.project-card}
+#### Deep Search
+Building high-quality search trajectories on a customized Codex framework to boost agent deep search capabilities.
+:::
 
 ::: {.project-card}
 #### Data Flywheel for Code LLM

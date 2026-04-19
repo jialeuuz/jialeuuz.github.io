@@ -42,7 +42,7 @@ brand:
 
 ## Personal Profile
 
-I am a Computer Science B.Eng. student (2025) at Chongqing Univ. of Posts and Telecommunications and an LLM algorithm intern at Li Auto. I currently work on rubric‑based RLVR and LLM clarification (AskBench) with Prof. Lu Cheng (UIC).
+I am a Computer Science B.Eng. student (2026) at Chongqing Univ. of Posts and Telecommunications and an LLM algorithm intern at Li Auto. I will join Penn State as a CS Ph.D. student in Fall 2026. I currently work on co‑evolving documentation for coding agents (CoEvoDoc) and behavior‑oriented persona learning with Prof. Lu Cheng (UIC).
 
 My interests include **human‑centered HCI**, **agentic/multi‑step reasoning**, **interpretability/controllability**, **self‑evolving systems**, and **multimodal pipelines**.
 
@@ -50,10 +50,16 @@ My interests include **human‑centered HCI**, **agentic/multi‑step reasoning*
 
 ```{=typst}
 #resume-entry(
+  title: [Ph.D., Computer Science],
+  location: [University Park, PA],
+  description: [Penn State University],
+  date: [Fall 2026 –],
+)
+#resume-entry(
   title: [B.Eng., Computer Science],
   location: [Chongqing, China],
   description: [Chongqing Univ. of Posts and Telecommunications],
-  date: [2021 – 2025],
+  date: [2021 – 2026],
 )
 ```
 
@@ -61,11 +67,18 @@ My interests include **human‑centered HCI**, **agentic/multi‑step reasoning*
 
 ```{=typst}
 #resume-item[
-- Jiale Zhao, Ke Fang, and Lu Cheng. *When and What to Ask: AskBench and Rubric‑Guided RLVR for LLM Clarification* (Findings of ACL 2026; arXiv: https://arxiv.org/abs/2602.11199)
-- Sunzhu Li, Jiale Zhao, Miteto Wei, Huimin Ren, Yang Zhou, Jingwen Yang, Shunyu Liu, Kaike Zhang, and Wei Chen. *RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse‑to‑Fine Generation* (ACL 2026 oral; arXiv: https://arxiv.org/abs/2601.08430)
-- Sunzhu Li, Zhiyu Lin, Jiale Zhao, Shuling Yang, and Chen Wei. *ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization* (Findings of EACL 2026; paper: https://aclanthology.org/2026.findings-eacl.185/)
-- Yang Zhou, Sunzhu Li, Shunyu Liu, Wenkai Fang, Kongcheng Zhang, Jiale Zhao, et al. *Breaking the Exploration Bottleneck: Rubric‑Scaffolded Reinforcement Learning for General LLM Reasoning* (under review, ICML 2026; arXiv: https://arxiv.org/abs/2508.16949)
-- Zhiyu Lin, Jingwen Yang, Jiale Zhao, Meng Liu, Sunzhu Li, and Benyou Wang. *Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment* (under review, Interspeech 2026; arXiv: https://arxiv.org/abs/2510.20513)
+- #strong[Jiale Zhao], Ke Fang, and Lu Cheng. *When and What to Ask: AskBench and Rubric‑Guided RLVR for LLM Clarification* (Findings of ACL 2026; arXiv: https://arxiv.org/abs/2602.11199)
+- Sunzhu Li, #strong[Jiale Zhao], Miteto Wei, Huimin Ren, Yang Zhou, Jingwen Yang, Shunyu Liu, Kaike Zhang, and Wei Chen. *RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse‑to‑Fine Generation* (ACL 2026 main; arXiv: https://arxiv.org/abs/2601.08430)
+- Sunzhu Li, Zhiyu Lin, #strong[Jiale Zhao], Shuling Yang, and Chen Wei. *ThinkPilot: Steering Reasoning Models via Automated Think-prefixes Optimization* (Findings of EACL 2026; paper: https://aclanthology.org/2026.findings-eacl.185/)
+]
+```
+
+## Under Review
+
+```{=typst}
+#resume-item[
+- Yang Zhou, Sunzhu Li, Shunyu Liu, Wenkai Fang, Kongcheng Zhang, #strong[Jiale Zhao], et al. *Breaking the Exploration Bottleneck: Rubric‑Scaffolded Reinforcement Learning for General LLM Reasoning* (ICML 2026; arXiv: https://arxiv.org/abs/2508.16949)
+- Zhiyu Lin, Jingwen Yang, #strong[Jiale Zhao], Meng Liu, Sunzhu Li, and Benyou Wang. *Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment* (Interspeech 2026; arXiv: https://arxiv.org/abs/2510.20513)
 ]
 ```
 
@@ -73,6 +86,7 @@ My interests include **human‑centered HCI**, **agentic/multi‑step reasoning*
 
 ```{=typst}
 #resume-item[
+- *CoEvoDoc* (first; collaboration with Prof. Lu Cheng, UIC) — a co‑evolving repository documentation system for coding agents that adapts document structure complexity based on project change magnitude, maintaining higher localization stability, modification correctness, and doc–code consistency during long‑term repo evolution.
 - *ProcessRubrics* (second; collaboration with Ke Fang and Prof. Lu Cheng, UIC) — a process-level rubric learning framework for improving structured reasoning quality through finer-grained supervision.
 - *Learning Persona as Behavior* (first; collaboration with Prof. Lu Cheng, UIC) — a behavior-oriented persona learning study aimed at improving persona consistency with robust cross-domain generalization.
 ]
@@ -81,7 +95,10 @@ My interests include **human‑centered HCI**, **agentic/multi‑step reasoning*
 ## Experience
 
 ```{=typst}
+#pagebreak()
+
 #resume-entry(title: [LLM Algorithm Intern],location: [Li Auto, Beijing],date: [Sep 2023 – present],description: [
+- #strong[Deep Search] — building high-quality search trajectories on a customized Codex framework to boost agent deep search capabilities.
 - #strong[Data Flywheel for Code LLM] — evaluation-centric loop (SFT → evaluate → data build → filtering → back to SFT) to continually raise coding capabilities.
   - Evaluation-first: standardized harnesses and rubrics so harder tasks surface real capability instead of being bottlenecked by today’s noisy, underspecified eval.
   - Linked loops: evaluation feedback drives tougher data construction; the same tooling filters/repairs low-quality samples before feeding them back into SFT.
