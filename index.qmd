@@ -97,11 +97,7 @@ Sunzhu Li, Zhiyu Lin, **Jiale Zhao**, Shuling Yang, Chen Wei
 [Findings of EACL 2026]{.pub-badge .pub-badge-accepted} [Co-author]{.pub-role}
 :::
 :::
-:::
 
-### Under Review
-
-::: {.pub-list .pub-list-compact}
 ::: {.pub-entry .pub-entry-compact}
 ::: {.pub-title}
 [Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning](https://arxiv.org/abs/2508.16949)
@@ -112,10 +108,14 @@ Yang Zhou, Sunzhu Li, Shunyu Liu, Wenkai Fang, Kongcheng Zhang, **Jiale Zhao**, 
 :::
 
 ::: {.pub-meta}
-[ICML 2026 Submission]{.pub-badge .pub-badge-review} [Sixth author]{.pub-role}
+[ICML 2026 Main]{.pub-badge .pub-badge-accepted} [Sixth author]{.pub-role}
+:::
 :::
 :::
 
+### Under Review
+
+::: {.pub-list .pub-list-compact}
 ::: {.pub-entry .pub-entry-compact}
 ::: {.pub-title}
 [Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](https://arxiv.org/abs/2510.20513)
