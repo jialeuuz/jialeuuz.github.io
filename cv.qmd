@@ -42,7 +42,7 @@ brand:
 
 ## Personal Profile
 
-I am a Computer Science B.Eng. student (2026) at Chongqing Univ. of Posts and Telecommunications and an LLM algorithm intern at Li Auto. I will join Penn State as a CS Ph.D. student in Fall 2026. I currently work on co‑evolving documentation for coding agents (CoEvoDoc) and behavior‑oriented persona learning with Prof. Lu Cheng (UIC).
+I am a Computer Science B.Eng. student (2026) at Chongqing Univ. of Posts and Telecommunications and an LLM algorithm intern at Li Auto. I will join University of Illinois Chicago (UIC) as a CS Ph.D. student in Fall 2026. I currently work on co‑evolving documentation for coding agents (CoEvoDoc) and behavior‑oriented persona learning with Prof. Lu Cheng (UIC).
 
 My interests include **human‑centered HCI**, **agentic/multi‑step reasoning**, **interpretability/controllability**, **self‑evolving systems**, and **multimodal pipelines**.
 
@@ -51,8 +51,8 @@ My interests include **human‑centered HCI**, **agentic/multi‑step reasoning*
 ```{=typst}
 #resume-entry(
   title: [Ph.D., Computer Science],
-  location: [University Park, PA],
-  description: [Penn State University],
+  location: [Chicago, IL],
+  description: [University of Illinois Chicago],
   date: [Fall 2026 –],
 )
 #resume-entry(

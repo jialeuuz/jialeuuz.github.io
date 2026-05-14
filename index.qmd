@@ -30,7 +30,7 @@ about:
 
 ::: {#hero-heading}
 
-Hi! I'm Jiale Zhao, a computer science graduate (B.Eng., 2026) from Chongqing University of Posts and Telecommunications and an LLM algorithm intern at Li Auto. I will join Penn State as a CS Ph.D. student in Fall 2026. I currently work on co‑evolving documentation for coding agents (CoEvoDoc) and behavior‑oriented persona learning.
+Hi! I'm Jiale Zhao, a computer science graduate (B.Eng., 2026) from Chongqing University of Posts and Telecommunications and an LLM algorithm intern at Li Auto. I will join University of Illinois Chicago (UIC) as a CS Ph.D. student in Fall 2026. I currently work on co‑evolving documentation for coding agents (CoEvoDoc) and behavior‑oriented persona learning.
 
 My interests center on large language models and applied NLP, including:
 
@@ -43,7 +43,7 @@ My interests center on large language models and applied NLP, including:
 
 ## Background
 
-- Fall 2026: Ph.D. in Computer Science, Penn State University
+- Fall 2026: Ph.D. in Computer Science, University of Illinois Chicago (UIC)
 - Sep 2021 – Jun 2026: B.Eng., Computer Science, Chongqing University of Posts and Telecommunications
 
 ## Selected Publications
