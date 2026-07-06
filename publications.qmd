@@ -69,6 +69,24 @@ Sunzhu Li, Zhiyu Lin, **Jiale Zhao**, Shuling Yang, Chen Wei
 
 ::: {.pub-entry}
 ::: {.pub-title}
+[Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](https://arxiv.org/abs/2510.20513)
+:::
+
+::: {.pub-authors}
+Zhiyu Lin, Jingwen Yang, **Jiale Zhao**, Meng Liu, Sunzhu Li, Benyou Wang
+:::
+
+::: {.pub-meta}
+[Interspeech 2026]{.pub-badge .pub-badge-accepted} [Third author]{.pub-role}
+:::
+
+::: {.pub-links}
+[arXiv](https://arxiv.org/abs/2510.20513) [·]{.pub-sep} [Code](https://github.com/FreedomIntelligence/ExpressiveSpeech) [·]{.pub-sep} [Data](https://huggingface.co/datasets/FreedomIntelligence/ExpressiveSpeech)
+:::
+:::
+
+::: {.pub-entry}
+::: {.pub-title}
 [Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning](https://arxiv.org/abs/2508.16949)
 :::
 
@@ -91,19 +109,21 @@ Yang Zhou, Sunzhu Li, Shunyu Liu, Wenkai Fang, Kongcheng Zhang, **Jiale Zhao**, 
 ::: {.pub-list}
 ::: {.pub-entry}
 ::: {.pub-title}
-[Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](https://arxiv.org/abs/2510.20513)
-:::
-
-::: {.pub-authors}
-Zhiyu Lin, Jingwen Yang, **Jiale Zhao**, Meng Liu, Sunzhu Li, Benyou Wang
+Beyond Outcome Rubrics: Process Rewards for Non-Verifiable Tasks
 :::
 
 ::: {.pub-meta}
-[Interspeech 2026 Submission]{.pub-badge .pub-badge-review} [Third author]{.pub-role}
+[Under Review]{.pub-badge .pub-badge-review}
+:::
 :::
 
-::: {.pub-links}
-[arXiv](https://arxiv.org/abs/2510.20513) [·]{.pub-sep} [Code](https://github.com/FreedomIntelligence/ExpressiveSpeech) [·]{.pub-sep} [Data](https://huggingface.co/datasets/FreedomIntelligence/ExpressiveSpeech)
+::: {.pub-entry}
+::: {.pub-title}
+Not All Correct Responses Are Equal: Behavior Matters in Synthetic Data Generation for Post-Training
+:::
+
+::: {.pub-meta}
+[Under Review]{.pub-badge .pub-badge-review}
 :::
 :::
 :::

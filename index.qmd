@@ -30,7 +30,7 @@ about:
 
 ::: {#hero-heading}
 
-Hi! I'm Jiale Zhao, a computer science graduate (B.Eng., 2026) from Chongqing University of Posts and Telecommunications and an LLM algorithm intern at Li Auto. I will join University of Illinois Chicago (UIC) as a CS Ph.D. student in Fall 2026. I currently work on co‑evolving documentation for coding agents (CoEvoDoc) and behavior‑oriented persona learning.
+Hi! I'm Jiale Zhao, a computer science graduate (B.Eng., 2026) from Chongqing University of Posts and Telecommunications and an LLM algorithm intern at Li Auto. I will join Penn State University (PSU) as a CS Ph.D. student in Fall 2026. I currently work on co‑evolving documentation for coding agents (CoEvoDoc) and behavior‑oriented persona learning.
 
 My interests center on large language models and applied NLP, including:
 
@@ -43,7 +43,7 @@ My interests center on large language models and applied NLP, including:
 
 ## Background
 
-- Fall 2026: Ph.D. in Computer Science, University of Illinois Chicago (UIC)
+- Fall 2026: Ph.D. in Computer Science, Penn State University (PSU)
 - Sep 2021 – Jun 2026: B.Eng., Computer Science, Chongqing University of Posts and Telecommunications
 
 ## Selected Publications
@@ -100,6 +100,20 @@ Sunzhu Li, Zhiyu Lin, **Jiale Zhao**, Shuling Yang, Chen Wei
 
 ::: {.pub-entry .pub-entry-compact}
 ::: {.pub-title}
+[Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](https://arxiv.org/abs/2510.20513)
+:::
+
+::: {.pub-authors}
+Zhiyu Lin, Jingwen Yang, **Jiale Zhao**, Meng Liu, Sunzhu Li, Benyou Wang
+:::
+
+::: {.pub-meta}
+[Interspeech 2026]{.pub-badge .pub-badge-accepted} [Third author]{.pub-role}
+:::
+:::
+
+::: {.pub-entry .pub-entry-compact}
+::: {.pub-title}
 [Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning](https://arxiv.org/abs/2508.16949)
 :::
 
@@ -118,30 +132,30 @@ Yang Zhou, Sunzhu Li, Shunyu Liu, Wenkai Fang, Kongcheng Zhang, **Jiale Zhao**, 
 ::: {.pub-list .pub-list-compact}
 ::: {.pub-entry .pub-entry-compact}
 ::: {.pub-title}
-[Decoding the Ear: A Framework for Objectifying Expressiveness from Human Preference Through Efficient Alignment](https://arxiv.org/abs/2510.20513)
-:::
-
-::: {.pub-authors}
-Zhiyu Lin, Jingwen Yang, **Jiale Zhao**, Meng Liu, Sunzhu Li, Benyou Wang
+Beyond Outcome Rubrics: Process Rewards for Non-Verifiable Tasks
 :::
 
 ::: {.pub-meta}
-[Interspeech 2026 Submission]{.pub-badge .pub-badge-review} [Third author]{.pub-role}
+[Under Review]{.pub-badge .pub-badge-review}
+:::
+:::
+
+::: {.pub-entry .pub-entry-compact}
+::: {.pub-title}
+Not All Correct Responses Are Equal: Behavior Matters in Synthetic Data Generation for Post-Training
+:::
+
+::: {.pub-meta}
+[Under Review]{.pub-badge .pub-badge-review}
 :::
 :::
 :::
 
 ## Ongoing Work
 
-- **CoEvoDoc** — first-author collaboration with Prof. Lu Cheng (UIC)
+- **CoEvoDoc** — first-author collaboration with Prof. Lu Cheng (PSU)
   on a co‑evolving repository documentation system for coding agents
   that adapts structure complexity to project change magnitude.
-- **ProcessRubrics** — second-author collaboration with Ke Fang and
-  Prof. Lu Cheng (UIC) on process-level rubric learning for improving
-  structured reasoning quality.
-- **Learning Persona as Behavior** — first-author collaboration
-  with Prof. Lu Cheng (UIC) on behavior-oriented persona learning
-  with stronger cross-domain stability.
 
 ## Selected Projects
 Production business deliverables I shipped during my Li Auto internship.

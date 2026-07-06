@@ -29,8 +29,6 @@ website:
         href: publications.qmd
       - text: "Research Interests"
         href: interests.qmd
-      - text: "Travel"
-        href: travel.qmd
       - text: "CV (PDF)"
         href: cv.pdf
 
