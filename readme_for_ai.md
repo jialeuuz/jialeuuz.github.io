@@ -81,7 +81,7 @@
 | 文件 | 职责 | 优先改动场景 |
 |---|---|---|
 | `styles.scss` | 全站主题基线（颜色变量、字体、hero、navbar） | 全站配色/字体/视觉基线 |
-| `custom.css` | 后置覆盖补丁（hero 装饰层、卡片化、CV 页面布局） | 局部显示异常/定点修补 |
+| `custom.css` | 后置覆盖补丁（hero 装饰层、卡片化、论文 badge、CV 页面布局） | 局部显示异常/定点修补 |
 
 加载顺序：`cosmo → styles.scss → custom.css`，后者优先级最高。
 
@@ -106,7 +106,7 @@
 
 | 变更类型 | 需同步检查的文件 |
 |---|---|
-| 论文信息更新 | `publications.qmd`, `index.qmd`, `cv.qmd`（完整列表 / 首页精简分组版 / CV 压缩版） |
+| 论文信息更新（标题、作者、venue/status、presentation type、链接） | `publications.qmd`, `index.qmd`, `cv.qmd`（完整列表 / 首页精简分组版 / CV 压缩版） |
 | 个人简介/研究方向 | `index.qmd`, `interests.qmd`, `cv.qmd`, `email_template.txt` |
 | 联系方式/链接 | `index.qmd`, `cv.qmd`, `email_template.txt` |
 | 新增 PDF 附件 | 根目录放文件 + `_quarto.yml` resources + 页面引用 |

@@ -77,7 +77,7 @@ Zhiyu Lin, Jingwen Yang, **Jiale Zhao**, Meng Liu, Sunzhu Li, Benyou Wang
 :::
 
 ::: {.pub-meta}
-[Interspeech 2026]{.pub-badge .pub-badge-accepted} [Third author]{.pub-role}
+[Interspeech 2026]{.pub-badge .pub-badge-accepted} [Oral]{.pub-badge .pub-badge-oral} [Third author]{.pub-role}
 :::
 
 ::: {.pub-links}

@@ -169,6 +169,11 @@ main.content section.level2 {
   color: #2f5d34;
 }
 
+.pub-badge-oral {
+  background: #e7eef8;
+  color: #31577c;
+}
+
 .pub-badge-review {
   background: #f6e8da;
   color: #8a4c18;
