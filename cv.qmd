@@ -3,7 +3,7 @@ title: "Jiale Zhao — CV"
 author:
   firstname: Jiale
   lastname: Zhao
-  position: "LLM Algorithm Intern"
+  position: "Research Assistant, Tsinghua University"
   contacts:
     - icon: fa envelope
       text: jialeuuz@gmail.com
@@ -42,18 +42,18 @@ brand:
 
 ## Personal Profile
 
-I am a Computer Science B.Eng. student (2026) at Chongqing Univ. of Posts and Telecommunications and an LLM algorithm intern at Li Auto. I will join Penn State University (PSU) as a CS Ph.D. student in Fall 2026. I currently work on co‑evolving documentation for coding agents (CoEvoDoc) and behavior‑oriented persona learning with Prof. Lu Cheng (PSU).
+I am a research assistant at Tsinghua University, working on AI for Science at the intersection of genomics and large language models (LLMs), with a focus on studying gene evolution. I earned a B.Eng. in Computer Science from Chongqing Univ. of Posts and Telecommunications in 2026 and will begin a CS Ph.D. at Penn State University (PSU) in Spring 2027. Previously, I was an LLM algorithm intern at Li Auto. I also work on co‑evolving documentation for coding agents (CoEvoDoc) and behavior‑oriented persona learning with Prof. Lu Cheng (PSU).
 
-My interests include **human‑centered HCI**, **agentic/multi‑step reasoning**, **interpretability/controllability**, **self‑evolving systems**, and **multimodal pipelines**.
+My interests include **AI for Science and genomics**, **human‑centered HCI**, **agentic/multi‑step reasoning**, **interpretability/controllability**, **self‑evolving systems**, and **multimodal pipelines**.
 
 ## Education
 
 ```{=typst}
 #resume-entry(
-  title: [Ph.D., Computer Science],
+  title: [Incoming Ph.D., Computer Science],
   location: [University Park, PA],
   description: [Penn State University],
-  date: [Fall 2026 –],
+  date: [Starting Spring 2027],
 )
 #resume-entry(
   title: [B.Eng., Computer Science],
@@ -92,21 +92,27 @@ My interests include **human‑centered HCI**, **agentic/multi‑step reasoning*
 ]
 ```
 
+```{=typst}
+#pagebreak()
+```
+
 ## Experience
 
 ```{=typst}
-#pagebreak()
+#resume-entry(title: [Research Assistant],location: [Tsinghua University, Beijing],date: [Sep 2026 – present],description: [
+- #strong[AI for Science] — investigating gene evolution by combining genomics and large language models.
+],)
 
-#resume-entry(title: [LLM Algorithm Intern],location: [Li Auto, Beijing],date: [Sep 2023 – present],description: [
-- #strong[Deep Search] — building high-quality search trajectories on a customized Codex framework to boost agent deep search capabilities.
-- #strong[Data Flywheel for Code LLM] — evaluation-centric loop (SFT → evaluate → data build → filtering → back to SFT) to continually raise coding capabilities.
+#resume-entry(title: [LLM Algorithm Intern],location: [Li Auto, Beijing],date: [Sep 2023 – Jul 2026],description: [
+- #strong[Deep Search] — built high-quality search trajectories on a customized Codex framework to boost agent deep search capabilities.
+- #strong[Data Flywheel for Code LLM] — developed an evaluation-centric loop (SFT → evaluate → data build → filtering → back to SFT) to raise coding capabilities.
   - Evaluation-first: standardized harnesses and rubrics so harder tasks surface real capability instead of being bottlenecked by today’s noisy, underspecified eval.
-  - Linked loops: evaluation feedback drives tougher data construction; the same tooling filters/repairs low-quality samples before feeding them back into SFT.
-- #strong[Multi-step Reasoning + Tool Invocation Agent] — code-LLM agent that plans, writes code, and executes tool calls for precise answers.
-  - Multi-step reasoning: decomposes complex or debugging asks into structured plans so context is stitched into a single executable query.
-  - Tool grounding: integrates code execution and API/function calls for live data or environment actions when pretrained knowledge falls short.
+  - Linked loops: evaluation feedback drove tougher data construction; the same tooling filtered/repaired low-quality samples before feeding them back into SFT.
+- #strong[Multi-step Reasoning + Tool Invocation Agent] — developed a code-LLM agent that plans, writes code, and executes tool calls for precise answers.
+  - Multi-step reasoning: decomposed complex or debugging asks into structured plans so context could be stitched into a single executable query.
+  - Tool grounding: integrated code execution and API/function calls for live data or environment actions when pretrained knowledge fell short.
 - #strong[MindGPTo (GPT-4o-style multimodal app)] — end-to-end audio + vision system with paralinguistic control, built from scratch with modular FE/BE interfaces.
-  - Mode coverage: supports audio→ASR→LLM→TTS, audio2text→TTS, audio2audio, and multimodal audio+image+video→text→TTS workflows.
-  - Paralinguistic SFT: audio data pipelines expand beyond laughter/pause to age, gender, compound emotions, emotional actions, and ambient sounds.
+  - Mode coverage: supported audio→ASR→LLM→TTS, audio2text→TTS, audio2audio, and multimodal audio+image+video→text→TTS workflows.
+  - Paralinguistic SFT: audio data pipelines expanded beyond laughter/pause to age, gender, compound emotions, emotional actions, and ambient sounds.
 ],)
 ```

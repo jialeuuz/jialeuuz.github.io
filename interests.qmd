@@ -2,7 +2,11 @@
 title: "Research Interests"
 ---
 
-My research centers on large language models (LLMs) and applied NLP. Below I expand on the potential research topics from my CV and the concrete questions/methods I’m pursuing.
+My current research focuses on AI for Science at the intersection of genomics and large language models (LLMs). I also study LLM reasoning, human–AI interaction, and self-improving systems.
+
+## AI for Science: Gene Evolution and LLMs
+
+As a research assistant at Tsinghua University, I am exploring how LLMs can help investigate gene evolution. This work brings language-model approaches together with questions from genomics.
 
 ## Human–LLM Interaction under Underspecification
 

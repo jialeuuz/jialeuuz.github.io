@@ -30,10 +30,11 @@ about:
 
 ::: {#hero-heading}
 
-Hi! I'm Jiale Zhao, a computer science graduate (B.Eng., 2026) from Chongqing University of Posts and Telecommunications and an LLM algorithm intern at Li Auto. I will join Penn State University (PSU) as a CS Ph.D. student in Fall 2026. I currently work on co‑evolving documentation for coding agents (CoEvoDoc) and behavior‑oriented persona learning.
+Hi! I'm Jiale Zhao, a research assistant at Tsinghua University working on AI for Science. My current research combines genomics and large language models (LLMs) to study gene evolution. I earned a B.Eng. in Computer Science from Chongqing University of Posts and Telecommunications in 2026 and will begin a CS Ph.D. at Penn State University (PSU) in Spring 2027. I also work on co‑evolving documentation for coding agents (CoEvoDoc) and behavior‑oriented persona learning.
 
-My interests center on large language models and applied NLP, including:
+My research interests center on AI for Science and large language models, including:
 
+- AI for Science: genomics, LLMs, and gene evolution
 - Human-centered human–AI interaction (HCI)
 - Agent-based LLMs and multi-step reasoning
 - Rubric-based RLVR
@@ -41,9 +42,11 @@ My interests center on large language models and applied NLP, including:
 - Interpretability and controllability
 - End-to-end multimodal interactive systems (e.g., GPT-4o)
 
-## Background
+## Experience and Education
 
-- Fall 2026: Ph.D. in Computer Science, Penn State University (PSU)
+- Sep 2026 – present: Research Assistant, Tsinghua University (AI for Science)
+- Spring 2027: Incoming Ph.D. student in Computer Science, Penn State University (PSU)
+- Sep 2023 – Jul 2026: LLM Algorithm Intern, Li Auto
 - Sep 2021 – Jun 2026: B.Eng., Computer Science, Chongqing University of Posts and Telecommunications
 
 ## Selected Publications
@@ -158,37 +161,37 @@ Not All Correct Responses Are Equal: Behavior Matters in Synthetic Data Generati
   that adapts structure complexity to project change magnitude.
 
 ## Selected Projects
-Production business deliverables I shipped during my Li Auto internship.
+Projects from my Li Auto internship (Sep 2023 – Jul 2026).
 
 ::: {.project-grid}
 
 ::: {.project-card}
 #### Deep Search
-Building high-quality search trajectories on a customized Codex framework to boost agent deep search capabilities.
+Built high-quality search trajectories on a customized Codex framework to boost agent deep search capabilities.
 :::
 
 ::: {.project-card}
 #### Data Flywheel for Code LLM
-Evaluation-centric loop (SFT → evaluate → data build → filtering → back to SFT) to continually raise coding capabilities.
+Developed an evaluation-centric loop (SFT → evaluate → data build → filtering → back to SFT) to raise coding capabilities.
 
-- *Evaluation-first:* Code-eval today is noisy—difficulty too low, specs ambiguous—so I standardized harnesses and rubrics to push harder tasks and capture real capability.
-- *Linked loops:* Evaluation feedback drives harder data construction; the same tooling filters low-quality samples; filtered data re-enters the generation stack for repair and resurfacing.
+- *Evaluation-first:* Standardized harnesses and rubrics to make harder coding tasks and underspecified requirements visible in evaluation.
+- *Linked loops:* Used evaluation feedback to guide harder data construction and filtering; filtered data re-entered the generation stack for repair and reuse.
 :::
 
 ::: {.project-card}
 #### Multi-step Reasoning + Tool Invocation Agent
-Code-LLM agent that plans, writes code, and executes tool calls for precise answers.
+Developed a code-LLM agent that plans, writes code, and executes tool calls for precise answers.
 
-- *Multi-step reasoning:* Breaks complex or code-debugging tasks into structured plans so context can be stitched into a single executable query.
-- *Tool grounding:* Integrates function calls/code execution for real-time data, external APIs, and environment actions when model priors or knowledge bases fall short.
+- *Multi-step reasoning:* Broke complex or code-debugging tasks into structured plans so context could be stitched into a single executable query.
+- *Tool grounding:* Integrated function calls and code execution for real-time data, external APIs, and environment actions when model priors or knowledge bases fell short.
 :::
 
 ::: {.project-card}
 #### MindGPTo (GPT‑4o-style multimodal app)
-End-to-end audio + vision application with paralinguistic control, built from scratch with a modular FE/BE split.
+Built an end-to-end audio + vision application with paralinguistic control and a modular FE/BE split.
 
-- *Mode coverage:* Ships traditional audio→ASR→LLM→TTS, production audio2text→TTS pipelines, end-to-end audio2audio, and multimodal audio+image+video→text→TTS workflows.
-- *Paralinguistic SFT:* Large-scale audio data pipelines boost colloquial speech and nuanced cues (beyond laughter/pauses) such as age, gender, compound emotions, emotional actions, and ambient sounds.
+- *Mode coverage:* Supported audio→ASR→LLM→TTS, audio2text→TTS, end-to-end audio2audio, and multimodal audio+image+video→text→TTS workflows.
+- *Paralinguistic SFT:* Built large-scale audio data pipelines for colloquial speech and nuanced cues (beyond laughter/pauses) such as age, gender, compound emotions, emotional actions, and ambient sounds.
 :::
 
 :::

@@ -2,10 +2,10 @@
 
 ## Subject 备选
 
-1. **Prospective PhD Student (Fall 2026) – Fit with Your Work on [X]**
-2. **PhD Application Inquiry (Fall 2026): Interest in [X]**
-3. **Potential PhD Supervision – [Your Name] + [Keyword from their paper]**
-4. **Research Match for PhD (Fall 2026): [Agent-based LLMs / HCI / RLVR]**
+1. **Research Collaboration: AI for Science and [X]**
+2. **Research Match: LLMs for Gene Evolution and [X]**
+3. **Potential Collaboration – Jiale Zhao + [Keyword from their paper]**
+4. **Research Interest: [AI for Science / Agent-based LLMs / HCI / RLVR]**
 
 ---
 
@@ -13,7 +13,7 @@
 
 **Dear Prof. [Last Name],**
 
-My name is **Jiale Zhao**, a **B.Eng. graduate in Computer Science (2026)** from **Chongqing University of Posts and Telecommunications** and an incoming **CS Ph.D. student at Penn State (Fall 2026)**. My research interests focus on **HCI**, **Agent-based LLMs and multi-step reasoning**, and **rubric-based RLVR for LLM reasoning/alignment**.
+My name is **Jiale Zhao**, a **research assistant at Tsinghua University** working on **AI for Science at the intersection of genomics and LLMs**, particularly the use of LLMs to study **gene evolution**. I earned a **B.Eng. in Computer Science (2026)** from **Chongqing University of Posts and Telecommunications** and will begin a **CS Ph.D. at Penn State in Spring 2027**. My other research interests include **HCI**, **agent-based LLMs and multi-step reasoning**, and **rubric-based RLVR for LLM reasoning/alignment**.
 
 【可替换区 A：对方工作 + 你读过的论文】
 I have been following your work on **[prof’s theme]**, and I was particularly interested in your paper(s) **“[Paper 1 Title]” (Venue/Year)** and **“[Paper 2 Title]” (Venue/Year)**.

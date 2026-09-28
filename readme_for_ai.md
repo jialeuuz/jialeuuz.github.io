@@ -70,10 +70,10 @@
 
 | 文件 | 职责 | 关键结构 |
 |---|---|---|
-| `index.qmd` | 首页 | solana hero + 紧凑论文卡片（按 Accepted / Under Review 分组） |
+| `index.qmd` | 首页 | solana hero（现职、教育时间线）+ 紧凑论文卡片（按 Accepted / Under Review 分组） |
 | `publications.qmd` | 论文列表 | 分组 + 结构化论文条目（title / authors / status / links） |
-| `interests.qmd` | 研究方向 | 每个方向一个 `##` 区块 |
-| `cv.qmd` | CV（PDF输出） | front matter `format: awesomecv-typst` + Typst 代码块 |
+| `interests.qmd` | 研究方向 | 当前 AI for Science 方向及其他方向，每个方向一个 `##` 区块 |
+| `cv.qmd` | CV（PDF输出） | front matter `format: awesomecv-typst` + Typst 代码块；教育与任职时间线 |
 | `about.qmd` | 占位页 | 极简，未导航 |
 
 ### 5.3 样式层
@@ -108,6 +108,7 @@
 |---|---|
 | 论文信息更新（标题、作者、venue/status、presentation type、链接） | `publications.qmd`, `index.qmd`, `cv.qmd`（完整列表 / 首页精简分组版 / CV 压缩版） |
 | 个人简介/研究方向 | `index.qmd`, `interests.qmd`, `cv.qmd`, `email_template.txt` |
+| 任职经历/教育状态与时间 | `cv.qmd`, `index.qmd`, `email_template.txt`；研究方向变化时同步检查 `interests.qmd` |
 | 联系方式/链接 | `index.qmd`, `cv.qmd`, `email_template.txt` |
 | 新增 PDF 附件 | 根目录放文件 + `_quarto.yml` resources + 页面引用 |
 
